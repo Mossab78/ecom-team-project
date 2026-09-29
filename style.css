@@ -1,26 +1,26 @@
 .carousel-indicators button {
-    background-color: #333;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    opacity: 0.5;
+  background-color: #333;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  opacity: 0.5;
 }
 
 .carousel-indicators button.active {
-    background-color: #000;
-    opacity: 1;
+  background-color: #000;
+  opacity: 1;
 }
 
-/* إطار متقطع للبطاقة الرئيسية */
+/* Dashed border for the main product card */
 .border-dashed {
   border: 2px dashed #e0e0e0;
   border-radius: 12px;
   background-color: #fff;
 }
 
-/* مربعات العداد التنازلي */
+/* Countdown timer boxes */
 .countdown-box {
-  background-color: #f27052; /* اللون البرتقالي في الصورة */
+  background-color: #f27052; /* Orange color from the design */
   color: white;
   padding: 8px 12px;
   border-radius: 6px;
@@ -40,14 +40,14 @@
   text-transform: capitalize;
 }
 
-/* النقطتان الرأسيتان بين المربعات */
+/* Colons between the countdown boxes */
 .colon {
   font-weight: bold;
   font-size: 1.2rem;
   color: #f27052;
 }
 
-/* عنوان المنتج والسعر */
+/* Product title and price */
 .product-title {
   color: #2b3e51;
   font-size: 1.2rem;
@@ -62,7 +62,7 @@
   font-size: 1.1rem;
 }
 
-/* إخفاء حاوية الأيقونات افتراضياً ونقلها قليلاً لليمين */
+/* Hide the action buttons by default and move them slightly to the right */
 .product-actions-wrapper {
   opacity: 0;
   transform: translateX(10px);
@@ -70,17 +70,18 @@
   z-index: 10;
 }
 
-/* إظهار الأيقونات وسحبها لمكانها الطبيعي عند الـ Hover على الكرت */
+/* Show the action buttons when hovering over the product card */
 .product-card:hover .product-actions-wrapper {
   opacity: 1;
   transform: translateX(0);
 }
+
 .long-product:hover .product-actions-wrapper {
-    opacity: 1;
-    transform: translateX(0);
+  opacity: 1;
+  transform: translateX(0);
 }
 
-/* تنسيق أزرار الأيقونات الصغيرة */
+/* Style the action buttons */
 .action-btn {
   width: 36px;
   height: 36px;
@@ -90,10 +91,9 @@
   transition: all 0.2s ease;
 }
 
-/* تغيير لون الأيقونة عند التحويم عليها هي بالذات */
+/* Change the icon color and background when hovering over the button */
 .action-btn:hover {
-  background-color: #0d6efd !important; /* لون بوتستراب الأزرق الأساسي */
+  background-color: #0d6efd !important; /* Bootstrap primary blue */
   color: #fff !important;
   border-color: #0d6efd;
 }
-
