@@ -1,0 +1,245 @@
+<!-- SECTION 1 START |  Mossab | Header: top bar, logo, search, account, wishlist, cart -->
+    <header class="site-header">
+      <!-- Top information bar -->
+      <div class="top-bar d-none d-lg-block">
+        <div
+          class="container-fluid header-container d-flex justify-content-between align-items-center h-100"
+        >
+          <div class="top-links">
+            <a href="#about">About Us</a>
+            <a href="#careers">Careers</a>
+            <a href="#shop">Open a shop</a>
+          </div>
+          <p class="m-0">
+            Free shipping for all orders over <strong>$75.00</strong>
+          </p>
+          <p class="m-0">
+            Need help? Call Us: <strong>+1800 900</strong> &nbsp; 🇬🇧 English ▾
+            &nbsp; USD ▾
+          </p>
+        </div>
+      </div>
+
+      <!-- Main header row -->
+      <div class="container-fluid header-container">
+        <div class="main-header d-flex flex-wrap align-items-center">
+          <a class="logo" href="index.html" aria-label="Ecom homepage">
+            <img src="assets/logo.svg" alt="Ecom logo" />
+          </a>
+
+          <!-- Search becomes functional when product cards are added in section 5. -->
+          <form class="search-form d-flex" role="search" id="search-form">
+            <label class="visually-hidden" for="search-category"
+              >Category</label
+            >
+            <select id="search-category" aria-label="Select a category">
+              <option value="all">All categories</option>
+              <option value="computer">Computers</option>
+              <option value="phone">Cell Phones</option>
+              <option value="audio">Headphones</option>
+            </select>
+            <label class="visually-hidden" for="search-input"
+              >Search for items</label
+            >
+            <input
+              id="search-input"
+              type="search"
+              placeholder="Search for items"
+            />
+            <button type="submit" aria-label="Search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+
+          <!-- Counters will be connected to JavaScript after product cards exist. -->
+          <div class="header-actions d-flex align-items-center ms-auto">
+            <button
+              type="button"
+              class="action"
+              aria-label="Account"
+              title="Account"
+            >
+              <i class="fa-regular fa-user"></i>
+            </button>
+            <button
+              type="button"
+              class="action"
+              aria-label="Wishlist"
+              title="Wishlist"
+            >
+              <i class="fa-regular fa-heart"></i
+              ><span class="count" id="wishlist-count">5</span>
+            </button>
+            <button type="button" class="action" aria-label="Cart" title="Cart">
+              <i class="fa-solid fa-cart-shopping"></i
+              ><span class="count" id="cart-count">2</span>
+            </button>
+            <button
+              type="button"
+              class="action"
+              aria-label="Compare"
+              title="Compare"
+            >
+              <i class="fa-solid fa-arrows-rotate"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- SECTION 1 END |  Mossab -->
+
+    <!-- SECTION 2 START |  Mossab | Main navigation -->
+    <nav class="main-navigation" aria-label="Main navigation">
+      <div class="container-fluid header-container nav-links">
+        <a href="index.html">Home <span>⌄</span></a>
+        <a href="#best-sellers">Shop <span>⌄</span></a>
+        <a href="#top-selling">Vendors <span>⌄</span></a>
+        <a href="#features">Pages <span>⌄</span></a>
+        <a href="#news">Blog <span>⌄</span></a>
+        <a href="#footer">Contact Us</a>
+      </div>
+    </nav>
+    <!-- SECTION 2 END |  Mossab -->
+
+
+     <!-- SECTION 5 START: Best Sellers |  Mossab -->
+      <section
+        class="container-fluid page-container section-space"
+        id="best-sellers"
+      >
+        <div class="section-heading">
+          <div>
+            <h2>Best Sellers</h2>
+            <p>Special products in this month.</p>
+          </div>
+          <div class="product-tabs" data-target="best-grid">
+            <button class="active" type="button" data-filter="all">All</button
+            ><button type="button" data-filter="best">Best seller</button
+            ><button type="button" data-filter="viewed">Most viewed</button
+            ><button type="button" data-filter="brands">Top Brands</button>
+          </div>
+        </div>
+        <div class="product-grid" id="best-grid">
+          <article
+            class="product-card"
+            data-category="computer"
+            data-group="best"
+          >
+            <span class="sale-badge">-17%</span
+            ><button
+              class="heart"
+              type="button"
+              aria-label="Add iMac to wishlist"
+            >
+              ♡</button
+            ><img src="assets/imgsp3.png" alt="Apple iMac" /><small
+              >Apple</small
+            >
+            <h3>2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</h3>
+            <div class="stars">★★★★★ <span>(65)</span></div>
+            <p class="price">$2856.3 <del>$3225.6</del></p>
+            <button class="cart-button" type="button">Add To Cart</button>
+            <ul>
+              <li>27-inch Retina 5K display</li>
+              <li>Intel Core i5 processor</li>
+            </ul>
+          </article>
+          <article
+            class="product-card"
+            data-category="audio"
+            data-group="viewed"
+          >
+            <span class="sale-badge">-17%</span
+            ><button
+              class="heart"
+              type="button"
+              aria-label="Add headphones to wishlist"
+            >
+              ♡</button
+            ><img src="assets/imgsp4.png" alt="Philips headphones" /><small
+              >Philips</small
+            >
+            <h3>Philips H4205 On-Ear Wireless Headphones with 32mm</h3>
+            <div class="stars">★★★★★ <span>(65)</span></div>
+            <p class="price">$154.0 <del>$162.5</del></p>
+            <button class="cart-button" type="button">Add To Cart</button>
+            <ul>
+              <li>Wireless on-ear design</li>
+              <li>Comfortable fit</li>
+            </ul>
+          </article>
+          <article
+            class="product-card"
+            data-category="computer"
+            data-group="best"
+          >
+            <span class="sale-badge">-17%</span
+            ><button
+              class="heart"
+              type="button"
+              aria-label="Add MacBook to wishlist"
+            >
+              ♡</button
+            ><img src="assets/imgsp5.png" alt="MacBook Air" /><small
+              >Apple</small
+            >
+            <h3>2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</h3>
+            <div class="stars">★★★★★ <span>(65)</span></div>
+            <p class="price">$2325.3 <del>$2525.6</del></p>
+            <button class="cart-button" type="button">Add To Cart</button>
+            <ul>
+              <li>Apple M1 Chip</li>
+              <li>13-inch display</li>
+            </ul>
+          </article>
+          <article
+            class="product-card"
+            data-category="phone"
+            data-group="brands"
+          >
+            <span class="sale-badge">-17%</span
+            ><button
+              class="heart"
+              type="button"
+              aria-label="Add Apple Watch to wishlist"
+            >
+              ♡</button
+            ><img src="assets/imgsp6.png" alt="Apple Watch" /><small
+              >Apple</small
+            >
+            <h3>Apple Watch Series 8 [GPS 45mm] Smart Watch</h3>
+            <div class="stars">★★★★★ <span>(65)</span></div>
+            <p class="price">$530.3 <del>$560.6</del></p>
+            <button class="cart-button" type="button">Add To Cart</button>
+            <ul>
+              <li>GPS 45mm</li>
+              <li>Health tracking</li>
+            </ul>
+          </article>
+          <article
+            class="product-card"
+            data-category="phone"
+            data-group="viewed"
+          >
+            <span class="sale-badge">-17%</span
+            ><button
+              class="heart"
+              type="button"
+              aria-label="Add security camera to wishlist"
+            >
+              ♡</button
+            ><img src="assets/imgsp7.png" alt="Security camera" /><small
+              >Kami Tech</small
+            >
+            <h3>Kami by YI 4pc 1080p Home Security Cameras</h3>
+            <div class="stars">★★★★★ <span>(65)</span></div>
+            <p class="price">$156.3 <del>$250.6</del></p>
+            <button class="cart-button" type="button">Add To Cart</button>
+            <ul>
+              <li>1080p video quality</li>
+              <li>Pack of four cameras</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <!-- SECTION 5 END: Best Sellers | Mossab -->
