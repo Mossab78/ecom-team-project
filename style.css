@@ -1,0 +1,99 @@
+.carousel-indicators button {
+    background-color: #333;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.carousel-indicators button.active {
+    background-color: #000;
+    opacity: 1;
+}
+
+/* إطار متقطع للبطاقة الرئيسية */
+.border-dashed {
+  border: 2px dashed #e0e0e0;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+/* مربعات العداد التنازلي */
+.countdown-box {
+  background-color: #f27052; /* اللون البرتقالي في الصورة */
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  min-width: 55px;
+  text-align: center;
+}
+
+.countdown-box .num {
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.countdown-box .label {
+  font-size: 0.65rem;
+  color: #ffe5e0;
+  text-transform: capitalize;
+}
+
+/* النقطتان الرأسيتان بين المربعات */
+.colon {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #f27052;
+}
+
+/* عنوان المنتج والسعر */
+.product-title {
+  color: #2b3e51;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.price-current {
+  font-size: 1.6rem;
+}
+
+.price-old {
+  font-size: 1.1rem;
+}
+
+/* إخفاء حاوية الأيقونات افتراضياً ونقلها قليلاً لليمين */
+.product-actions-wrapper {
+  opacity: 0;
+  transform: translateX(10px);
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+}
+
+/* إظهار الأيقونات وسحبها لمكانها الطبيعي عند الـ Hover على الكرت */
+.product-card:hover .product-actions-wrapper {
+  opacity: 1;
+  transform: translateX(0);
+}
+.long-product:hover .product-actions-wrapper {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* تنسيق أزرار الأيقونات الصغيرة */
+.action-btn {
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  color: #6c757d;
+  border: 1px solid #f0f0f0;
+  transition: all 0.2s ease;
+}
+
+/* تغيير لون الأيقونة عند التحويم عليها هي بالذات */
+.action-btn:hover {
+  background-color: #0d6efd !important; /* لون بوتستراب الأزرق الأساسي */
+  color: #fff !important;
+  border-color: #0d6efd;
+}
+
