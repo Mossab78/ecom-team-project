@@ -73,17 +73,26 @@
             </div>
           </div>
         </div>
+        <hr />
+
         <!-- ================= PRODUCTS ================= -->
 
-        <div class="row g-3">
+        <div class="row g-3 mt-3">
           <!-- =================================================
-         PRODUCT 1 - LONG
-    ================================================== -->
+       PRODUCT 1 - LONG
+  ================================================== -->
 
-          <div class="col-12 col-lg-3">
-            <div class="card long-product h-100 border position-relative">
+          <div class="col-lg-4">
+            <div
+              class="card long-product h-100 border position-relative overflow-hidden"
+            >
+              <!-- =================  Hurry Up================= -->
+              <div class="ribbon-wrapper">
+                <div class="ribbon-red">Hurry Up!</div>
+              </div>
+              <!-- ====================================================== -->
+
               <!-- Carousel -->
-
               <div
                 id="mainProductCarousel"
                 class="carousel slide"
@@ -142,8 +151,11 @@
                   </div>
                 </div>
               </div>
+
+              <!-- Action Buttons -->
               <div
                 class="product-actions-wrapper position-absolute end-0 top-0 mt-3 me-3 d-flex flex-column gap-2"
+                style="z-index: 15"
               >
                 <button
                   type="button"
@@ -175,8 +187,8 @@
                   <i class="bi bi-eye"></i>
                 </button>
               </div>
-              <!-- Product Information -->
 
+              <!-- Product Information -->
               <div class="card-body">
                 <h5 class="text-secondary fw-bold mb-1">Special Offer</h5>
                 <p class="text-muted small mb-3">
@@ -207,8 +219,8 @@
                     <span class="label">Sec</span>
                   </div>
                 </div>
-
-                <!-- product detalies-->
+                <hr />
+                <!-- product details-->
                 <div class="text-start px-2">
                   <span class="text-uppercase text-muted d-block small mb-1"
                     >Apple</span
@@ -250,10 +262,40 @@
                     ></div>
                   </div>
 
-                  <!-- stores detalies-->
+                  <!-- stores details-->
                   <div class="d-flex justify-content-between text-muted small">
                     <span>Available: <b>568</b></span>
                     <span>Sold: <b>289</b></span>
+                  </div>
+                  <hr />
+                  <div
+                    class="card border-0 bg-white p-3"
+                    style="max-width: 500px"
+                  >
+                    <ul
+                      class="list-unstyled border-top border-bottom border-secondary-subtle py-3 my-0"
+                    >
+                      <li
+                        class="d-flex align-items-start text-secondary mb-2 fs-6"
+                      >
+                        <span class="me-2">•</span>
+                        <span>27-inch (diagonal) Retina 5K display</span>
+                      </li>
+
+                      <li
+                        class="d-flex align-items-start text-secondary mb-2 fs-6"
+                      >
+                        <span class="me-2">•</span>
+                        <span
+                          >3.6GHz 10-core 10th-generation Intel Core i9</span
+                        >
+                      </li>
+
+                      <li class="d-flex align-items-start text-secondary fs-6">
+                        <span class="me-2">•</span>
+                        <span>AMD Radeon Pro 5700 XT graphics</span>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -264,13 +306,13 @@
          PRODUCTS 2 - 7
     ================================================== -->
 
-          <div class="col-12 col-lg-9">
+          <div class="col-lg-8">
             <div class="row g-3">
               <!-- =================================================
                  PRODUCT 2
             ================================================== -->
 
-              <div class="col-12 col-sm-6 col-lg-4">
+              <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="card product-card h-100">
                   <div class="product-image">
                     <span
@@ -347,6 +389,17 @@
                       Add To Cart
                     </button>
                   </div>
+                   <hr />
+              <div class="card border-0 bg-white p-3" style="max-width: 500px">
+                <ul
+                  class="list-unstyled border-top border-bottom border-secondary-subtle py-3 my-0"
+                >
+                  <li class="d-flex align-items-start text-secondary mb-2 fs-6">
+                    <span class="me-2">•</span>
+                    <span>27-inch (diagonal) Retina 5K display</span>
+                  </li>
+                </ul>
+              </div>
                 </div>
               </div>
 
@@ -354,7 +407,7 @@
                  PRODUCT 3
             ================================================== -->
 
-              <div class="col-12 col-sm-6 col-lg-4">
+              <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="card product-card h-100">
                   <div class="product-image">
                     <span
@@ -428,6 +481,17 @@
                       Add To Cart
                     </button>
                   </div>
+                   
+              <div class="card border-0 bg-white p-3" style="max-width: 500px">
+                <ul
+                  class="list-unstyled border-top border-bottom border-secondary-subtle py-3 my-0"
+                >
+                  <li class="d-flex align-items-start text-secondary mb-2 fs-6">
+                    <span class="me-2">•</span>
+                    <span>27-inch (diagonal) Retina 5K display</span>
+                  </li>
+                </ul>
+              </div>
                 </div>
               </div>
 
@@ -435,7 +499,7 @@
                  PRODUCT 4
             ================================================== -->
 
-              <div class="col-12 col-sm-6 col-lg-4">
+              <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="card product-card h-100">
                   <div class="product-image">
                     <span
@@ -510,13 +574,24 @@
                       Add To Cart
                     </button>
                   </div>
+              
+              <div class="card border-0 bg-white p-3" style="max-width: 500px">
+                <ul
+                  class="list-unstyled border-top border-bottom border-secondary-subtle py-3 my-0"
+                >
+                  <li class="d-flex align-items-start text-secondary mb-2 fs-6">
+                    <span class="me-2">•</span>
+                    <span>27-inch (diagonal) Retina 5K display</span>
+                  </li>
+                </ul>
+              </div>
                 </div>
               </div>
 
               <!-- =================================================
                  PRODUCT 5
             ================================================== -->
-              <div class="col-12 col-sm-6 col-lg-4">
+              <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="card product-card h-100">
                   <div class="product-image">
                     <span
@@ -526,7 +601,7 @@
                     </span>
 
                     <img
-                      src="ecom img/index.html/index/imgsp3.png"
+                      src="ecom img/index.html/index/9_imgsp4.png"
                       class="img-fluid"
                       alt="Product"
                     />
@@ -591,6 +666,17 @@
                       Add To Cart
                     </button>
                   </div>
+                   
+              <div class="card border-0 bg-white p-3" style="max-width: 500px">
+                <ul
+                  class="list-unstyled border-top border-bottom border-secondary-subtle py-3 my-0"
+                >
+                  <li class="d-flex align-items-start text-secondary mb-2 fs-6">
+                    <span class="me-2">•</span>
+                    <span>27-inch (diagonal) Retina 5K display</span>
+                  </li>
+                </ul>
+              </div>
                 </div>
               </div>
 
@@ -598,7 +684,7 @@
                  PRODUCT 6
             ================================================== -->
 
-              <div class="col-12 col-sm-6 col-lg-4">
+              <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="card product-card h-100">
                   <div class="product-image">
                     <span
@@ -608,7 +694,7 @@
                     </span>
 
                     <img
-                      src="ecom img/index.html/index/imgsp3.png"
+                      src="ecom img/index.html/index/8_imgsp5.png"
                       class="img-fluid"
                       alt="Product"
                     />
@@ -673,6 +759,16 @@
                       Add To Cart
                     </button>
                   </div>
+              <div class="card border-0 bg-white p-3" style="max-width: 500px">
+                <ul
+                  class="list-unstyled border-top border-bottom border-secondary-subtle py-3 my-0"
+                >
+                  <li class="d-flex align-items-start text-secondary mb-2 fs-6">
+                    <span class="me-2">•</span>
+                    <span>27-inch (diagonal) Retina 5K display</span>
+                  </li>
+                </ul>
+              </div>
                 </div>
               </div>
 
@@ -680,7 +776,7 @@
                  PRODUCT 7
             ================================================== -->
 
-              <div class="col-12 col-sm-6 col-lg-4">
+              <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="card product-card h-100">
                   <div class="product-image">
                     <span
@@ -690,7 +786,7 @@
                     </span>
 
                     <img
-                      src="ecom img/index.html/index/imgsp3.png"
+                      src="ecom img/index.html/index/43_imgsp6.png"
                       class="img-fluid"
                       alt="Product"
                     />
@@ -755,459 +851,679 @@
                       Add To Cart
                     </button>
                   </div>
+                  
+              <div class="card border-0 bg-white p-3" style="max-width: 500px">
+                <ul
+                  class="list-unstyled border-top border-bottom border-secondary-subtle py-3 my-0"
+                >
+                  <li class="d-flex align-items-start text-secondary mb-2 fs-6">
+                    <span class="me-2">•</span>
+                    <span>27-inch (diagonal) Retina 5K display</span>
+                  </li>
+                </ul>
+              </div>
                 </div>
               </div>
             </div>
-
-
           </div>
-                      <!-- =================================================
+          <!-- =================================================
      PRODUCTS - 5 COLUMNS
 ================================================== -->
 
-            <div class="row justify-content-center g-3 mt-3">
-              <!-- Product 1 -->
-              <div class="col-6 col-md-3 col-lg-2">
-                <div class="card product-card h-100 border">
-                  <div class="product-image position-relative">
-                    <span
-                      class="badge bg-danger position-absolute top-0 start-0 m-3"
+          <div class="row g-3 justify-content-center mt-3 ">
+            <!-- Product 1 -->
+            <div class="col-6 col-md-6 col-lg-2">
+              <div class="card product-card h-100 border"style="width: 250px;">
+                <div class="product-image position-relative">
+                  <span
+                    class="badge bg-danger position-absolute top-0 start-0 m-3"
+                  >
+                    25% OFF
+                  </span>
+
+                  <img
+                    src="ecom img/index.html/index/imgsp3.png"
+                    class="card-img-top"
+                    alt="Product"
+                  />
+
+                  <!-- Product Actions -->
+                  <div
+                    class="product-actions-wrapper position-absolute end-0 top-0 mt-3 me-3 d-flex flex-column gap-2"
+                  >
+                    <button
+                      type="button"
+                      class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      title="Add to Favorites"
                     >
-                      25% OFF
-                    </span>
+                      <i class="bi bi-heart"></i>
+                    </button>
 
-                    <img
-                      src="ecom img/index.html/index/45_imgsp1.png"
-                      class="card-img-top"
-                      alt="Product"
-                    />
-
-                    <!-- Product Actions -->
-                    <div
-                      class="product-actions-wrapper position-absolute end-0 top-0 mt-3 me-3 d-flex flex-column gap-2"
+                    <button
+                      type="button"
+                      class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      title="product compare"
                     >
-                      <button
-                        type="button"
-                        class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        title="Add to Favorites"
-                      >
-                        <i class="bi bi-heart"></i>
-                      </button>
+                      <i class="bi bi-arrow-left-right"></i>
+                    </button>
 
-                      <button
-                        type="button"
-                        class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        title="product compare"
-                      >
-                        <i class="bi bi-arrow-left-right"></i>
-                      </button>
-
-                      <button
-                        type="button"
-                        class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        title="Quick preview"
-                      >
-                        <i class="bi bi-eye"></i>
-                      </button>
-                    </div>
-                  </div>
-
-                  <div class="card-body">
-                    <span class="text-uppercase text-muted small"> Apple </span>
-
-                    <h6 class="product-title fw-semibold mt-1">
-                      Apple iPhone 15 Pro
-                    </h6>
-
-                    <div class="stars text-warning mb-2">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <span class="text-muted small">(65)</span>
-                    </div>
-
-                    <div class="d-flex align-items-baseline gap-2">
-                      <span class="price-current fw-bold text-primary">
-                        $999
-                      </span>
-
-                      <span
-                        class="price-old text-muted text-decoration-line-through"
-                      >
-                        $1199
-                      </span>
-                    </div>
-                                       <button
-                      class="btn btn-outline-secondary btn-sm rounded-0 w-100 mt-3"
+                    <button
+                      type="button"
+                      class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      title="Quick preview"
                     >
-                      Add To Cart
+                      <i class="bi bi-eye"></i>
                     </button>
                   </div>
                 </div>
-              </div>
 
-              <!-- Product 2 -->
-              <div class="col-6 col-md-4 col-lg-2">
-                <div class="card product-card h-100 border">
-                  <div class="product-image position-relative">
+                <div class="card-body">
+                  <span class="text-uppercase text-muted small"> Apple </span>
+
+                  <h6 class="product-title fw-semibold mt-1">
+                    Apple iPhone 15 Pro
+                  </h6>
+
+                  <div class="stars text-warning mb-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span class="text-muted small">(65)</span>
+                  </div>
+
+                  <div class="d-flex align-items-baseline gap-2">
+                    <span class="price-current fw-bold text-primary">
+                      $999
+                    </span>
+
                     <span
-                      class="badge bg-danger position-absolute top-0 start-0 m-3"
+                      class="price-old text-muted text-decoration-line-through"
                     >
-                      20% OFF
+                      $1199
                     </span>
-
-                    <img
-                      src="ecom img/index.html/index/imgsp2.png"
-                      class="card-img-top"
-                      alt="Product"
-                    />
-
-                    <div
-                      class="product-actions-wrapper position-absolute end-0 top-0 mt-3 me-3 d-flex flex-column gap-2"
-                    >
-                      <button
-                        type="button"
-                        class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        title="Add to Favorites"
-                      >
-                        <i class="bi bi-heart"></i>
-                      </button>
-
-                      <button
-                        type="button"
-                        class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        title="product compare"
-                      >
-                        <i class="bi bi-arrow-left-right"></i>
-                      </button>
-
-                      <button
-                        type="button"
-                        class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        title="Quick preview"
-                      >
-                        <i class="bi bi-eye"></i>
-                      </button>
-                    </div>
                   </div>
-                  <div class="card-body">
-                    <span class="text-uppercase text-muted small">
-                      Samsung
-                    </span>
-
-                    <h6 class="product-title fw-semibold mt-1">
-                      Samsung Galaxy Smartphone
-                    </h6>
-
-                    <div class="stars text-warning mb-2">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <span class="text-muted small">(42)</span>
-                    </div>
-
-                    <div class="d-flex align-items-baseline gap-2">
-                      <span class="price-current fw-bold text-primary">
-                        $799
-                      </span>
-
-                      <span
-                        class="price-old text-muted text-decoration-line-through"
-                      >
-                        $899
-                      </span>
-                    </div>
-                                       <button
-                      class="btn btn-outline-secondary btn-sm rounded-0 w-100 mt-3"
-                    >
-                      Add To Cart
-                    </button>
-                  </div>
+                  <button
+                    class="btn btn-outline-secondary btn-sm rounded-0 w-100 mt-3"
+                  >
+                    Add To Cart
+                  </button>
                 </div>
-              </div>
+                <hr />
 
-              <!-- Product 3 -->
-              <div class="col-6 col-md-4 col-lg-2">
-                <div class="card product-card h-100 border">
-                  <div class="product-image position-relative">
-                    <span
-                      class="badge bg-danger position-absolute top-0 start-0 m-3"
+                <div
+                  class="card border-0 bg-white p-3"
+                  style="max-width: 500px"
+                >
+                  <ul
+                    class="list-unstyled border-top border-bottom border-secondary-subtle py-3 my-0"
+                  >
+                    <li
+                      class="d-flex align-items-start text-secondary mb-2 fs-6"
                     >
-                      30% OFF
-                    </span>
-
-                    <img
-                      src="ecom img/index.html/index/imgsp3.png"
-                      class="card-img-top"
-                      alt="Product"
-                    />
-
-                    <div
-                      class="product-actions-wrapper position-absolute end-0 top-0 mt-3 me-3 d-flex flex-column gap-2"
-                    >
-                      <button
-                        type="button"
-                        class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        title="Add to Favorites"
-                      >
-                        <i class="bi bi-heart"></i>
-                      </button>
-
-                      <button
-                        type="button"
-                        class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        title="product compare"
-                      >
-                        <i class="bi bi-arrow-left-right"></i>
-                      </button>
-
-                      <button
-                        type="button"
-                        class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        title="Quick preview"
-                      >
-                        <i class="bi bi-eye"></i>
-                      </button>
-                    </div>
-                  </div>
-
-                  <div class="card-body">
-                    <span class="text-uppercase text-muted small"> Sony </span>
-
-                    <h6 class="product-title fw-semibold mt-1">
-                      Sony Wireless Headphones
-                    </h6>
-
-                    <div class="stars text-warning mb-2">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star"></i>
-                      <span class="text-muted small">(38)</span>
-                    </div>
-
-                    <div class="d-flex align-items-baseline gap-2">
-                      <span class="price-current fw-bold text-primary">
-                        $249
-                      </span>
-
-                      <span
-                        class="price-old text-muted text-decoration-line-through"
-                      >
-                        $299
-                      </span>
-                    </div>
-                                       <button
-                      class="btn btn-outline-secondary btn-sm rounded-0 w-100 mt-3"
-                    >
-                      Add To Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Product 4 -->
-              <div class="col-6 col-md-4 col-lg-2">
-                <div class="card product-card h-100 border">
-                  <div class="product-image position-relative">
-                    <span
-                      class="badge bg-danger position-absolute top-0 start-0 m-3"
-                    >
-                      15% OFF
-                    </span>
-
-                    <img
-                      src="ecom img/index.html/index/imgsp3.png"
-                      class="card-img-top"
-                      alt="Product"
-                    />
-
-                    <div
-                      class="product-actions-wrapper position-absolute end-0 top-0 mt-3 me-3 d-flex flex-column gap-2"
-                    >
-                      <button
-                        type="button"
-                        class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        title="Add to Favorites"
-                      >
-                        <i class="bi bi-heart"></i>
-                      </button>
-                      <button
-                        type="button"
-                        class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        title="product compare"
-                      >
-                        <i class="bi bi-arrow-left-right"></i>
-                      </button>
-
-                      <button
-                        type="button"
-                        class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        title="Quick preview"
-                      >
-                        <i class="bi bi-eye"></i>
-                      </button>
-                    </div>
-                  </div>
-
-                  <div class="card-body">
-                    <span class="text-uppercase text-muted small"> Dell </span>
-
-                    <h6 class="product-title fw-semibold mt-1">
-                      Dell Professional Monitor
-                    </h6>
-
-                    <div class="stars text-warning mb-2">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <span class="text-muted small">(51)</span>
-                    </div>
-
-                    <div class="d-flex align-items-baseline gap-2">
-                      <span class="price-current fw-bold text-primary">
-                        $359
-                      </span>
-
-                      <span
-                        class="price-old text-muted text-decoration-line-through"
-                      >
-                        $420
-                      </span>
-                    </div>
-                                       <button
-                      class="btn btn-outline-secondary btn-sm rounded-0 w-100 mt-3"
-                    >
-                      Add To Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Product 5 -->
-              <div class="col-6 col-md-4 col-lg-2">
-                <div class="card product-card h-100 border">
-                  <div class="product-image position-relative">
-                    <span
-                      class="badge bg-danger position-absolute top-0 start-0 m-3"
-                    >
-                      10% OFF
-                    </span>
-
-                    <img
-                      src="ecom img/index.html/index/imgsp3.png"
-                      class="card-img-top"
-                      alt="Product"
-                    />
-
-                    <div
-                      class="product-actions-wrapper position-absolute end-0 top-0 mt-3 me-3 d-flex flex-column gap-2"
-                    >
-                      <button
-                        type="button"
-                        class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        title="Add to Favorites"
-                      >
-                        <i class="bi bi-heart"></i>
-                      </button>
-
-                      <button
-                        type="button"
-                        class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        title="product compare"
-                      >
-                        <i class="bi bi-arrow-left-right"></i>
-                      </button>
-
-                      <button
-                        type="button"
-                        class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
-                        data-bs-toggle="tooltip"
-                        data-bs-placement="left"
-                        title="Quick preview"
-                      >
-                        <i class="bi bi-eye"></i>
-                      </button>
-                    </div>
-                  </div>
-
-                  <div class="card-body">
-                    <span class="text-uppercase text-muted small">
-                      Lenovo
-                    </span>
-
-                    <h6 class="product-title fw-semibold mt-1">
-                      Lenovo Laptop Computer
-                    </h6>
-
-                    <div class="stars text-warning mb-2">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star"></i>
-                      <i class="bi bi-star"></i>
-                      <span class="text-muted small">(27)</span>
-                    </div>
-
-                    <div class="d-flex align-items-baseline gap-2">
-                      <span class="price-current fw-bold text-primary">
-                        $699
-                      </span>
-
-                      <span
-                        class="price-old text-muted text-decoration-line-through"
-                      >
-                        $779
-                      </span>
-                    </div>
-                                       <button
-                      class="btn btn-outline-secondary btn-sm rounded-0 w-100 mt-3"
-                    >
-                      Add To Cart
-                    </button>
-                  </div>
+                      <span class="me-2">•</span>
+                      <span>27-inch (diagonal) Retina 5K display</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
+
+            <!-- Product 2 -->
+            <div class="col-6 col-md-6 col-lg-2">
+              <div class="card product-card h-100 border ">
+                <div class="product-image position-relative">
+                  <span
+                    class="badge bg-danger position-absolute top-0 start-0 m-3"
+                  >
+                    20% OFF
+                  </span>
+
+                  <img
+                    src="ecom img/index.html/index/9_imgsp4.png"
+                    class="card-img-top "
+                    alt="Product" 
+                  />
+
+                  <div
+                    class="product-actions-wrapper position-absolute end-0 top-0 mt-3 me-3 d-flex flex-column gap-2"
+                  >
+                    <button
+                      type="button"
+                      class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      title="Add to Favorites"
+                    >
+                      <i class="bi bi-heart"></i>
+                    </button>
+
+                    <button
+                      type="button"
+                      class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      title="product compare"
+                    >
+                      <i class="bi bi-arrow-left-right"></i>
+                    </button>
+
+                    <button
+                      type="button"
+                      class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      title="Quick preview"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <span class="text-uppercase text-muted small"> Samsung </span>
+
+                  <h6 class="product-title fw-semibold mt-1">
+                    Samsung Galaxy Smartphone
+                  </h6>
+
+                  <div class="stars text-warning mb-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span class="text-muted small">(42)</span>
+                  </div>
+
+                  <div class="d-flex align-items-baseline gap-2">
+                    <span class="price-current fw-bold text-primary">
+                      $799
+                    </span>
+
+                    <span
+                      class="price-old text-muted text-decoration-line-through"
+                    >
+                      $899
+                    </span>
+                  </div>
+                  <button
+                    class="btn btn-outline-secondary btn-sm rounded-0 w-100 mt-3"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+                <hr />
+                <div
+                  class="card border-0 bg-white p-3"
+                  style="max-width: 500px"
+                >
+                  <ul
+                    class="list-unstyled border-top border-bottom border-secondary-subtle py-3 my-0"
+                  >
+                    <li
+                      class="d-flex align-items-start text-secondary mb-2 fs-6"
+                    >
+                      <span class="me-2">•</span>
+                      <span>27-inch (diagonal) Retina 5K display</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="col-6 col-md-6 col-lg-2">
+              <div class="card product-card h-100 border"style="width:250px;">
+                <div class="product-image position-relative">
+                  <span
+                    class="badge bg-danger position-absolute top-0 start-0 m-3"
+                  >
+                    30% OFF
+                  </span>
+
+                  <img
+                    src="ecom img/index.html/index/8_imgsp5.png"
+                    class="card-img-top"
+                    alt="Product"
+                  />
+
+                  <div
+                    class="product-actions-wrapper position-absolute end-0 top-0 mt-3 me-3 d-flex flex-column gap-2"
+                  >
+                    <button
+                      type="button"
+                      class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      title="Add to Favorites"
+                    >
+                      <i class="bi bi-heart"></i>
+                    </button>
+
+                    <button
+                      type="button"
+                      class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      title="product compare"
+                    >
+                      <i class="bi bi-arrow-left-right"></i>
+                    </button>
+
+                    <button
+                      type="button"
+                      class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      title="Quick preview"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="card-body">
+                  <span class="text-uppercase text-muted small"> Sony </span>
+
+                  <h6 class="product-title fw-semibold mt-1">
+                    Sony Wireless Headphones
+                  </h6>
+
+                  <div class="stars text-warning mb-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <span class="text-muted small">(38)</span>
+                  </div>
+
+                  <div class="d-flex align-items-baseline gap-2">
+                    <span class="price-current fw-bold text-primary">
+                      $249
+                    </span>
+
+                    <span
+                      class="price-old text-muted text-decoration-line-through"
+                    >
+                      $299
+                    </span>
+                  </div>
+                  <button
+                    class="btn btn-outline-secondary btn-sm rounded-0 w-100 mt-3"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+                <hr />
+                <div
+                  class="card border-0 bg-white p-3"
+                  style="max-width: 500px"
+                >
+                  <ul
+                    class="list-unstyled border-top border-bottom border-secondary-subtle py-3 my-0"
+                  >
+                    <li
+                      class="d-flex align-items-start text-secondary mb-2 fs-6"
+                    >
+                      <span class="me-2">•</span>
+                      <span>27-inch (diagonal) Retina 5K display</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-6 col-md-6 col-lg-2">
+              <div class="card product-card h-100 border"style="width:250px;">
+                <div class="product-image position-relative">
+                  <span
+                    class="badge bg-danger position-absolute top-0 start-0 m-3"
+                  >
+                    15% OFF
+                  </span>
+
+                  <img
+                    src="ecom img/index.html/index/43_imgsp6.png"
+                    class="card-img-top"
+                    alt="Product"
+                  />
+
+                  <div
+                    class="product-actions-wrapper position-absolute end-0 top-0 mt-3 me-3 d-flex flex-column gap-2"
+                  >
+                    <button
+                      type="button"
+                      class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      title="Add to Favorites"
+                    >
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      title="product compare"
+                    >
+                      <i class="bi bi-arrow-left-right"></i>
+                    </button>
+
+                    <button
+                      type="button"
+                      class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      title="Quick preview"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="card-body">
+                  <span class="text-uppercase text-muted small"> Dell </span>
+
+                  <h6 class="product-title fw-semibold mt-1">
+                    Dell Professional Monitor
+                  </h6>
+
+                  <div class="stars text-warning mb-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span class="text-muted small">(51)</span>
+                  </div>
+
+                  <div class="d-flex align-items-baseline gap-2">
+                    <span class="price-current fw-bold text-primary">
+                      $359
+                    </span>
+
+                    <span
+                      class="price-old text-muted text-decoration-line-through"
+                    >
+                      $420
+                    </span>
+                  </div>
+                  <button
+                    class="btn btn-outline-secondary btn-sm rounded-0 w-100 mt-3"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+                <hr />
+                <div
+                  class="card border-0 bg-white p-3"
+                  style="max-width: 500px"
+                >
+                  <ul
+                    class="list-unstyled border-top border-bottom border-secondary-subtle py-3 my-0"
+                  >
+                    <li
+                      class="d-flex align-items-start text-secondary mb-2 fs-6"
+                    >
+                      <span class="me-2">•</span>
+                      <span>27-inch (diagonal) Retina 5K display</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="col-6 col-md-6 col-lg-2">
+              <div class="card product-card h-100 border"style="width:250px;">
+                <div class="product-image position-relative">
+                  <span
+                    class="badge bg-danger position-absolute top-0 start-0 m-3"
+                  >
+                    10% OFF
+                  </span>
+
+                  <img
+                    src="ecom img/index.html/index/44_imgsp7.png"
+                    class="card-img-top"
+                    alt="Product"
+                  />
+
+                  <div
+                    class="product-actions-wrapper position-absolute end-0 top-0 mt-3 me-3 d-flex flex-column gap-2"
+                  >
+                    <button
+                      type="button"
+                      class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      title="Add to Favorites"
+                    >
+                      <i class="bi bi-heart"></i>
+                    </button>
+
+                    <button
+                      type="button"
+                      class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      title="product compare"
+                    >
+                      <i class="bi bi-arrow-left-right"></i>
+                    </button>
+
+                    <button
+                      type="button"
+                      class="btn action-btn bg-white shadow-sm rounded-circle d-flex align-items-center justify-content-center"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      title="Quick preview"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="card-body">
+                  <span class="text-uppercase text-muted small"> Lenovo </span>
+
+                  <h6 class="product-title fw-semibold mt-1">
+                    Lenovo Laptop Computer
+                  </h6>
+
+                  <div class="stars text-warning mb-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <span class="text-muted small">(27)</span>
+                  </div>
+
+                  <div class="d-flex align-items-baseline gap-2">
+                    <span class="price-current fw-bold text-primary">
+                      $699
+                    </span>
+
+                    <span
+                      class="price-old text-muted text-decoration-line-through"
+                    >
+                      $779
+                    </span>
+                  </div>
+                  <button
+                    class="btn btn-outline-secondary btn-sm rounded-0 w-100 mt-3"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+                <hr />
+                <div
+                  class="card border-0 bg-white p-3"
+                  style="max-width: 500px"
+                >
+                  <ul
+                    class="list-unstyled border-top border-bottom border-secondary-subtle py-3 my-0"
+                  >
+                    <li
+                      class="d-flex align-items-start text-secondary mb-2 fs-6"
+                    >
+                      <span class="me-2">•</span>
+                      <span>27-inch (diagonal) Retina 5K display</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- Paners -->
+    <!-- Main Grid Section -->
+    <section class="py-4">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Left Large Banner (Xbox Main) -->
+          <div class="col-lg-4 col-md-12">
+            <div
+              class="hero-card card-main d-flex flex-column justify-content-between position-relative"
+            >
+              <div>
+                <span class="text-accent text-uppercase fs-7 tracking-wider"
+                  >FLAT 20% OFF</span
+                >
+                <h2 class="display-6 fw-bold mt-2 text-dark">
+                  Microsoft<br /><strong>Xbox Series</strong>
+                </h2>
+                <p class="text-muted mt-3 mb-1">From $3500.00</p>
+                <a href="#" class="btn-custom mt-3"
+                  >Shop Now <i class="bi bi-arrow-right ms-1"></i
+                ></a>
+              </div>
+              <div class="text-center mt-4">
+                <img
+                  src="./ecom img/index.html/index/94_xbox.png"style="object-fit: cover;"
+                  alt="Xbox Console"
+                  class="img-fluid rounded"
+                  style="max-height: 280px"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Right Side Grid (4 Cards) -->
+          <div class="col-lg-8 col-md-12">
+            <div class="row g-4">
+              <!-- Top Left: Controller -->
+              <div class="col-md-7">
+                <div
+                  class="hero-card card-controller d-flex align-items-center justify-content-between"
+                >
+                  <div style="z-index: 2">
+                    <h4 class="fw-bold text-dark">
+                      Xbox Core Wireless Controller
+                    </h4>
+                    <p class="text-secondary small mb-3">
+                      Aqua Shift Special Edition
+                    </p>
+                    <a href="#" class="btn-custom btn-sm"
+                      >Shop Now <i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                  <img
+                    src="./ecom img/index.html/index/95_controller.png"style="object-fit: cover;"
+                    alt="Controller"
+                    class="img-fluid"
+                    style="width: 140px; z-index: 1"
+                  />
+                </div>
+              </div>
+
+              <!-- Top Right: Metaverse -->
+              <div class="col-md-5">
+                <div
+                  class="hero-card card-metaverse d-flex align-items-center justify-content-between"
+                >
+                  <div style="z-index: 2">
+                    <h4 class="fw-bold text-dark">Metaverse</h4>
+                    <p class="text-muted small mb-2">
+                      The Future of Creativity
+                    </p>
+                    <a
+                      href="#"
+                      class="text-accent fw-bold text-decoration-none small"
+                      >LEARN MORE <i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                  <img
+                    src="./ecom img/index.html/index/96_metaverse.png"style="object-fit: cover;"
+                    alt="Metaverse"
+                    class="img-fluid"
+                    style="width: 110px; z-index: 1"
+                  />
+                </div>
+              </div>
+
+              <!-- Bottom Left: Electronic -->
+              <div class="col-md-6">
+                <div
+                  class="hero-card card-electronic d-flex align-items-center justify-content-between"
+                >
+                  <div style="z-index: 2">
+                    <h4 class="fw-bold text-dark mb-1">Electronic</h4>
+                    <p class="text-muted small mb-0">
+                      Hot devices, Latest trending
+                    </p>
+                  </div>
+                  <img
+                    src="./ecom img/index.html/index/36_electric.png"style="object-fit: cover;"
+                    alt="Smart Devices"
+                    class="img-fluid"
+                    style="width: 120px; z-index: 1"
+                  />
+                </div>
+              </div>
+
+              <!-- Bottom Right: Super Discount -->
+              <div class="col-md-6">
+                <div
+                  class="hero-card card-discount d-flex align-items-center justify-content-between"
+                >
+                  <div style="z-index: 2">
+                    <h5 class="fw-bold text-dark">
+                      Super discount for your first purchase
+                    </h5>
+                    <p class="text-muted small mb-3">
+                      Use discount code in checkout page.
+                    </p>
+                    <a href="#" class="btn-custom btn-sm"
+                      >Shop Now <i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                  <img
+                    src="./ecom img/index.html/index/99_phone.png " style="object-fit: cover;"
+                    alt="Phones"
+                    class="img-fluid"
+                    style="width: 110px; z-index: 1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

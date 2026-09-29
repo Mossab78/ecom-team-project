@@ -1,3 +1,31 @@
+/* div of hurry up*/
+.ribbon-wrapper {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20; /* on the element*/
+}
+
+/* Hurry up*/
+.ribbon-red {
+  font-size: 13px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  line-height: 30px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  width: 160px;
+  background-color: #d9383a; /* red display */
+  position: absolute;
+  top: 22px;
+  left: -40px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
 .carousel-indicators button {
   background-color: #333;
   width: 10px;
@@ -96,4 +124,136 @@
   background-color: #0d6efd !important; /* Bootstrap primary blue */
   color: #fff !important;
   border-color: #0d6efd;
+}
+/* paners */
+:root {
+  --primary-blue: #2b38d1;
+  --accent-orange: #fd683e;
+  --bg-lightblue: #eaf3f8;
+  --bg-lightcyan: #d7f1f6;
+  --bg-pink: #fbeae9;
+  --bg-mint: #e2f6f5;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Navbar Styling */
+.top-nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #eee;
+}
+
+.search-box {
+  border: 2px solid var(--primary-blue);
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.search-box select {
+  border: none;
+  background-color: #f5f5f5;
+  font-size: 0.9rem;
+  padding: 8px 15px;
+}
+
+.search-box input {
+  border: none;
+  box-shadow: none !important;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #333 !important;
+  margin: 0 5px;
+}
+
+.nav-link:hover {
+  color: var(--primary-blue) !important;
+}
+
+.icon-badge {
+  position: absolute;
+  top: -5px;
+  right: -8px;
+  background-color: var(--accent-orange);
+  color: white;
+  font-size: 0.7rem;
+  border-radius: 50%;
+  padding: 2px 6px;
+}
+
+/* Hero Banner Cards Styling */
+.hero-card {
+  border-radius: 12px;
+  padding: 25px;
+  position: relative;
+  overflow: hidden;
+  transition:
+    transform 0.3rem ease,
+    box-shadow 0.3s ease;
+  height: 100%;
+  border: none;
+}
+
+.hero-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card-main {
+  background-color: var(--bg-lightblue);
+  min-height: 480px;
+}
+
+.card-controller {
+  background-color: var(--bg-lightcyan);
+  min-height: 230px;
+}
+
+.card-metaverse {
+  background-color: var(--bg-pink);
+  min-height: 230px;
+}
+
+.card-electronic {
+  background-color: #f4f4f4;
+  min-height: 230px;
+}
+
+.card-discount {
+  background-color: var(--bg-mint);
+  min-height: 230px;
+}
+
+.btn-custom {
+  background-color: var(--accent-orange);
+  color: white;
+  border-radius: 20px;
+  padding: 8px 22px;
+  font-weight: 600;
+  border: none;
+  transition: background-color 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-custom:hover {
+  background-color: #e05328;
+  color: white;
+}
+
+.text-accent {
+  color: var(--accent-orange);
+  font-weight: bold;
+}
+
+.card-img-absolute {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  max-height: 80%;
+  object-fit: contain;
 }
