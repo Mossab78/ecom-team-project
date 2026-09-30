@@ -134,6 +134,36 @@
   --bg-pink: #fbeae9;
   --bg-mint: #e2f6f5;
 }
+.bg-pink {
+  background-color: var(--bg-pink);
+}
+.bg-cyan {
+  background-color: var(--bg-lightcyan);
+}
+.bg-lightblue {
+  background-color: var(--bg-lightblue);
+}
+
+.btn-orange {
+  background-color: var(--accent-orange);
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-orange:hover {
+  background-color: #e0552d;
+  color: #ffffff;
+}
+
+.product-img {
+  max-height: 150px;
+  object-fit: contain;
+}
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -256,4 +286,191 @@ body {
   right: 10px;
   max-height: 80%;
   object-fit: contain;
+}
+/* Customs Section diyaa Homepage 2 */
+/* Card Styles & Hover Effects */
+.product-card {
+  transition: all 0.3s ease;
+  border: 1px solid transparent !important;
+  background-color: #fff;
+}
+
+.product-card:hover {
+  border: 1px solid #dee2e6 !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.product-actions-wrapper {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.product-card:hover .product-actions-wrapper {
+  opacity: 1;
+}
+
+.action-btn {
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.action-btn:hover {
+  background-color: #0d6efd !important;
+  color: #fff;
+}
+
+.add-to-cart-btn {
+  display: none;
+}
+
+.product-card:hover .add-to-cart-btn {
+  display: block;
+}
+
+.trending-tabs .nav-link {
+  color: #6c757d;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.trending-tabs .nav-link.active {
+  color: #0d6efd;
+  background-color: transparent;
+  border-bottom: 2px solid #0d6efd;
+}
+
+/* تكبير حجم عناصر القائمة والتفاصيل */
+.product-title {
+  font-size: 15px !important;
+  line-height: 1.4;
+}
+
+.price-current {
+  font-size: 20px !important;
+}
+
+.price-old {
+  font-size: 14px !important;
+}
+
+.product-specs {
+  font-size: 13px !important;
+  line-height: 1.6;
+}
+
+@media (min-width: 992px) {
+  .col-lg-2-4 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
+
+/* CUstom pagehome3 Section diyaa */
+
+:root {
+  --blue: #2b38d1;
+  --orange: #fd683e;
+  --red: #f03e3e;
+}
+
+/* Tabs Navigation */
+.nav-trending .nav-link {
+  color: #6c757d;
+  font-weight: 700;
+  font-size: 0.85rem;
+  border: none;
+  background: transparent;
+}
+.nav-trending .nav-link.active,
+.nav-trending .nav-link:hover {
+  color: var(--blue) !important;
+}
+
+/* Product Card Styles */
+.card-prod {
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 15px;
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-prod:hover {
+  border-color: #bbb;
+}
+
+/* Badges & Labels */
+.badge-hurry {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: var(--blue);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 4px 12px;
+  border-bottom-left-radius: 10px;
+}
+
+/* شارة الخصم المستطيلة بحواف خفيفة */
+.badge-disc {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--red);
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  z-index: 2;
+}
+
+/* Timer & Buttons */
+.timer-box {
+  background: var(--orange);
+  color: #fff;
+  border-radius: 20px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  display: inline-block;
+}
+.timer-sq {
+  background: var(--orange);
+  color: #fff;
+  border-radius: 6px;
+  padding: 6px;
+  width: 45px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.btn-cart {
+  width: 100%;
+  border: 1px solid #dee2e6;
+  background: #f8f9fa;
+  color: #333;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 6px;
+  border-radius: 6px;
+}
+.btn-cart:hover {
+  background: var(--blue);
+  color: #fff;
+  border-color: var(--blue);
+}
+.stars {
+  color: #ffc107;
+  font-size: 0.75rem;
 }
