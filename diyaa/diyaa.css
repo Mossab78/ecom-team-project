@@ -1,168 +1,16 @@
-/* div of hurry up*/
-.ribbon-wrapper {
-  width: 120px;
-  height: 120px;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 20; /* on the element*/
-}
+/* =========================================
+   General Page Styles
+   ========================================= */
 
-/* Hurry up*/
-.ribbon-red {
-  font-size: 13px;
-  font-weight: bold;
-  color: #ffffff;
-  text-align: center;
-  line-height: 30px;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  width: 160px;
-  background-color: #d9383a; /* red display */
-  position: absolute;
-  top: 22px;
-  left: -40px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
-}
-
-.carousel-indicators button {
-  background-color: #333;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  opacity: 0.5;
-}
-
-.carousel-indicators button.active {
-  background-color: #000;
-  opacity: 1;
-}
-
-/* Dashed border for the main product card */
-.border-dashed {
-  border: 2px dashed #e0e0e0;
-  border-radius: 12px;
-  background-color: #fff;
-}
-
-/* Countdown timer boxes */
-.countdown-box {
-  background-color: #f27052; /* Orange color from the design */
-  color: white;
-  padding: 8px 12px;
-  border-radius: 6px;
-  min-width: 55px;
-  text-align: center;
-}
-
-.countdown-box .num {
-  font-size: 1.1rem;
-  font-weight: bold;
-  line-height: 1.2;
-}
-
-.countdown-box .label {
-  font-size: 0.65rem;
-  color: #ffe5e0;
-  text-transform: capitalize;
-}
-
-/* Colons between the countdown boxes */
-.colon {
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #f27052;
-}
-
-/* Product title and price */
-.product-title {
-  color: #2b3e51;
-  font-size: 1.2rem;
-  line-height: 1.4;
-}
-
-.price-current {
-  font-size: 1.6rem;
-}
-
-.price-old {
-  font-size: 1.1rem;
-}
-
-/* Hide the action buttons by default and move them slightly to the right */
-.product-actions-wrapper {
-  opacity: 0;
-  transform: translateX(10px);
-  transition: all 0.3s ease-in-out;
-  z-index: 10;
-}
-
-/* Show the action buttons when hovering over the product card */
-.product-card:hover .product-actions-wrapper {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-.long-product:hover .product-actions-wrapper {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-/* Style the action buttons */
-.action-btn {
-  width: 36px;
-  height: 36px;
-  padding: 0;
-  color: #6c757d;
-  border: 1px solid #f0f0f0;
-  transition: all 0.2s ease;
-}
-
-/* Change the icon color and background when hovering over the button */
-.action-btn:hover {
-  background-color: #0d6efd !important; /* Bootstrap primary blue */
-  color: #fff !important;
-  border-color: #0d6efd;
-}
-/* paners */
 :root {
   --primary-blue: #2b38d1;
   --accent-orange: #fd683e;
+  --red: #f03e3e;
+
   --bg-lightblue: #eaf3f8;
   --bg-lightcyan: #d7f1f6;
   --bg-pink: #fbeae9;
   --bg-mint: #e2f6f5;
-}
-.bg-pink {
-  background-color: var(--bg-pink);
-}
-.bg-cyan {
-  background-color: var(--bg-lightcyan);
-}
-.bg-lightblue {
-  background-color: var(--bg-lightblue);
-}
-
-.btn-orange {
-  background-color: var(--accent-orange);
-  color: #ffffff;
-  border-radius: 6px;
-  padding: 8px 18px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.btn-orange:hover {
-  background-color: #e0552d;
-  color: #ffffff;
-}
-
-.product-img {
-  max-height: 150px;
-  object-fit: contain;
 }
 
 body {
@@ -170,7 +18,11 @@ body {
   background-color: #f8f9fa;
 }
 
-/* Navbar Styling */
+
+/* =========================================
+   Navigation
+   ========================================= */
+
 .top-nav {
   background-color: #ffffff;
   border-bottom: 1px solid #eee;
@@ -215,14 +67,18 @@ body {
   padding: 2px 6px;
 }
 
-/* Hero Banner Cards Styling */
+
+/* =========================================
+   Hero Section
+   ========================================= */
+
 .hero-card {
   border-radius: 12px;
   padding: 25px;
   position: relative;
   overflow: hidden;
   transition:
-    transform 0.3rem ease,
+    transform 0.3s ease,
     box-shadow 0.3s ease;
   height: 100%;
   border: none;
@@ -287,8 +143,70 @@ body {
   max-height: 80%;
   object-fit: contain;
 }
-/* Customs Section diyaa Homepage 2 */
-/* Card Styles & Hover Effects */
+
+
+/* =========================================
+   Hurry Up Section
+   ========================================= */
+
+.ribbon-wrapper {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.ribbon-red {
+  font-size: 13px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  line-height: 30px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  width: 160px;
+  background-color: #d9383a;
+  position: absolute;
+  top: 22px;
+  left: -40px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.countdown-box {
+  background-color: #f27052;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  min-width: 55px;
+  text-align: center;
+}
+
+.countdown-box .num {
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.countdown-box .label {
+  font-size: 0.65rem;
+  color: #ffe5e0;
+  text-transform: capitalize;
+}
+
+.colon {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #f27052;
+}
+
+
+/* =========================================
+   Product Cards
+   ========================================= */
+
 .product-card {
   transition: all 0.3s ease;
   border: 1px solid transparent !important;
@@ -300,14 +218,19 @@ body {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
+
+/* Product Action Icons */
+
 .product-actions-wrapper {
   opacity: 0;
-  transition: opacity 0.3s ease;
-  z-index: 2;
+  transform: translateX(10px);
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
 }
-
-.product-card:hover .product-actions-wrapper {
+.product-card:hover .product-actions-wrapper,
+.long-product:hover .product-actions-wrapper {
   opacity: 1;
+  transform: translateX(0);
 }
 
 .action-btn {
@@ -315,13 +238,19 @@ body {
   height: 36px;
   padding: 0;
   font-size: 16px;
-  color: #555;
+  color: #6c757d;
+  border: 1px solid #f0f0f0;
+  transition: all 0.2s ease;
 }
 
 .action-btn:hover {
   background-color: #0d6efd !important;
-  color: #fff;
+  color: #fff !important;
+  border-color: #0d6efd;
 }
+
+
+/* Add To Cart Button */
 
 .add-to-cart-btn {
   display: none;
@@ -331,22 +260,11 @@ body {
   display: block;
 }
 
-.trending-tabs .nav-link {
-  color: #6c757d;
-  font-weight: 700;
-  font-size: 14px;
-  border: none;
-  text-transform: uppercase;
-}
 
-.trending-tabs .nav-link.active {
-  color: #0d6efd;
-  background-color: transparent;
-  border-bottom: 2px solid #0d6efd;
-}
+/* Product Information */
 
-/* تكبير حجم عناصر القائمة والتفاصيل */
 .product-title {
+  color: #2b3e51;
   font-size: 15px !important;
   line-height: 1.4;
 }
@@ -364,22 +282,16 @@ body {
   line-height: 1.6;
 }
 
-@media (min-width: 992px) {
-  .col-lg-2-4 {
-    flex: 0 0 auto;
-    width: 20%;
-  }
+.product-img {
+  max-height: 150px;
+  object-fit: contain;
 }
 
-/* CUstom pagehome3 Section diyaa */
 
-:root {
-  --blue: #2b38d1;
-  --orange: #fd683e;
-  --red: #f03e3e;
-}
+/* =========================================
+   Trending Products Tabs
+   ========================================= */
 
-/* Tabs Navigation */
 .nav-trending .nav-link {
   color: #6c757d;
   font-weight: 700;
@@ -387,12 +299,17 @@ body {
   border: none;
   background: transparent;
 }
+
 .nav-trending .nav-link.active,
 .nav-trending .nav-link:hover {
-  color: var(--blue) !important;
+  color: var(--primary-blue) !important;
 }
 
-/* Product Card Styles */
+
+/* =========================================
+   Trending Product Cards
+   ========================================= */
+
 .card-prod {
   background: #fff;
   border: 1px solid #e9ecef;
@@ -403,29 +320,36 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
 }
+
 .card-prod:hover {
   border-color: #bbb;
 }
 
-/* Badges & Labels */
+
+/* Hurry Up Badge */
+
 .badge-hurry {
   position: absolute;
-  top: 0;
-  right: 0;
-  background: var(--blue);
+  top: 1px;
+  left: -77px;
+  background: var(--primary-blue);
   color: #fff;
-  font-size: 0.75rem;
+  font-size: 1.75rem;
   font-weight: bold;
-  padding: 4px 12px;
-  border-bottom-left-radius: 10px;
+  padding: 50px 40px 10px;
+  rotate: -52deg;
+  overflow: hidden;
 }
 
-/* شارة الخصم المستطيلة بحواف خفيفة */
+
+/* Discount Badge */
+
 .badge-disc {
   position: absolute;
   top: 10px;
-  right: 10px;
+  left: 10px;
   background: var(--red);
   color: #fff;
   padding: 2px 8px;
@@ -435,18 +359,21 @@ body {
   z-index: 2;
 }
 
-/* Timer & Buttons */
+
+/* Timer */
+
 .timer-box {
-  background: var(--orange);
+  background: var(--primary-blue);
   color: #fff;
   border-radius: 20px;
-  padding: 4px 10px;
-  font-size: 0.75rem;
+  padding: 10px 14px;
+  font-size: 1rem;
   font-weight: bold;
   display: inline-block;
 }
+
 .timer-sq {
-  background: var(--orange);
+  background: var(--primary-blue);
   color: #fff;
   border-radius: 6px;
   padding: 6px;
@@ -455,6 +382,10 @@ body {
   font-weight: bold;
   font-size: 0.8rem;
 }
+
+
+/* Cart Button */
+
 .btn-cart {
   width: 100%;
   border: 1px solid #dee2e6;
@@ -465,12 +396,82 @@ body {
   padding: 6px;
   border-radius: 6px;
 }
+
 .btn-cart:hover {
-  background: var(--blue);
+  background: var(--primary-blue);
   color: #fff;
-  border-color: var(--blue);
+  border-color: var(--primary-blue);
 }
+
+
+/* Product Rating */
+
 .stars {
   color: #ffc107;
   font-size: 0.75rem;
+}
+
+
+/* =========================================
+   Background Utility Classes
+   ========================================= */
+
+.bg-pink {
+  background-color: var(--bg-pink);
+}
+
+.bg-cyan {
+  background-color: var(--bg-lightcyan);
+}
+
+.bg-lightblue {
+  background-color: var(--bg-lightblue);
+}
+
+.btn-orange {
+  background-color: var(--accent-orange);
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-orange:hover {
+  background-color: #e0552d;
+  color: #ffffff;
+}
+
+
+/* =========================================
+   Responsive Product Grid
+   ========================================= */
+
+@media (min-width: 992px) {
+  .col-lg-2-4 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
+
+/* custom  */
+.banner-ads::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 100%;
+    width: 400px;
+    background: url(	https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/bg-left-ads.png) right bottom / contain no-repeat;
+}
+.banner-ads::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 100%;
+    width: 350px;
+    background: url(	https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/bg-right-ads.png) left bottom / contain no-repeat;
 }
