@@ -475,3 +475,74 @@ body {
     width: 350px;
     background: url(	https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/bg-right-ads.png) left bottom / contain no-repeat;
 }
+
+/* Custom page4 */
+
+* تنسيقات عامة وتعديلات الأبعاد */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.text-navy {
+  color: #0c2556;
+}
+
+.bg-sky-blue {
+  background-color: #eaf6fc;
+}
+
+.bg-light-blue {
+  background-color: #eef5f9;
+}
+
+.extra-small {
+  font-size: 0.75rem;
+}
+
+/* تنسيق كاردات المنتجات العمودية */
+.product-card {
+  transition: all 0.3s ease;
+  font-size: 0.85rem;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.product-card .product-image img {
+  max-height: 140px;
+  object-fit: contain;
+}
+
+.action-btn {
+  width: 28px;
+  height: 28px;
+  font-size: 12px;
+  border: none;
+  color: #555;
+  transition: all 0.2s;
+}
+
+.action-btn:hover {
+  background-color: #0d6efd !important;
+  color: #fff;
+}
+
+/* تحديد النص لسطرين فقط في الكاردات العرضية */
+.text-truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* بنر الساعة الذكية واليد */
+.watch-banner {
+  border: 1px solid #d1e7dd;
+  min-height: 260px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
