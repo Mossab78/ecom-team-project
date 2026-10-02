@@ -1,0 +1,1526 @@
+    <div class="container">
+      <!-- عنوان القسم مع أسهم الكاروسيل المفعّلة -->
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <!-- Navigation Tabs -->
+        <ul
+          class="nav nav-tabs trending-tabs border-0 d-"
+          id="productTabs"
+          role="tablist"
+        >
+          <li class="nav-item">
+            <button
+              class="nav-link active fs-5"
+              id="all-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#ss"
+              type="button"
+            >
+              ALL
+            </button>
+          </li>
+          <li class="nav-item">
+            <button
+              class="nav-link fs-5"
+              id="bestseller-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#ss"
+              type="button"
+            >
+              BEST SELLER
+            </button>
+          </li>
+          <li class="nav-item">
+            <button
+              class="nav-link fs-5"
+              id="mostviewed-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#ss"
+              type="button"
+            >
+              MOST VIEWED
+            </button>
+          </li>
+          <li class="nav-item">
+            <button
+              class="nav-link fs-"
+              id="topbrands-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#ss"
+              type="button"
+            >
+              TOP BRANDS
+            </button>
+          </li>
+        </ul>
+        <div class="carousel-controls d-flex gap-2">
+          <button
+            class="btn btn-sm btn-outline-secondary rounded-circle"
+            type="button"
+            data-bs-target="#trendingCarousel"
+            data-bs-slide="prev"
+          >
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <button
+            class="btn btn-sm btn-outline-secondary rounded-circle"
+            type="button"
+            data-bs-target="#trendingCarousel"
+            data-bs-slide="next"
+          >
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- كاروسيل التلقائي لـ Trending Products (data-bs-ride="carousel") -->
+      <div
+        id="trendingCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="4000"
+      >
+        <div class="carousel-inner" id="ss">
+          <!-- ================= الشريحة الأولى (Slide 1) ================= -->
+          <div class="carousel-item active">
+            <div class="row g-3 mb-4 justify-content-center">
+              <!-- منتج 1 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/imgsp3.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >SAMSUNG</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      SAMSUNG Galaxy Tab A7 Lite, 8.7"
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                    <li>• 3.1GHz 6-core Intel i5</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- منتج 2 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/9_imgsp4.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >Dell</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      Dell Optiplex 9020 Desktop
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                    <li>• AMD Radeon Pro 5300</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- منتج 3 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/8_imgsp5.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >Gateway</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      Gateway 23.8" All-in-one Desktop
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                    <li>• AMD Radeon Pro 5300</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- منتج 4 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/43_imgsp6.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >HP</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      HP 22 All-in-One PC Pentium
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                    <li>• AMD Radeon Pro 5300</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- منتج 5 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/imgsp3.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >SAMSUNG</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      SAMSUNG Galaxy Tab A7 Lite, 8.7"
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                    <li>• 3.1GHz 6-core Intel i5</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row g-3 justify-content-center">
+              <!-- منتج 6 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/9_imgsp4.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >Dell</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      Dell Optiplex 9020 Desktop
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                    <li>• AMD Radeon Pro 5300</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- منتج 7 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/8_imgsp5.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >Gateway</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      Gateway 23.8" All-in-one Desktop
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                    <li>• AMD Radeon Pro 5300</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- منتج 8 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/43_imgsp6.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >HP</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      HP 22 All-in-One PC Pentium
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                    <li>• AMD Radeon Pro 5300</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- منتج 9 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/imgsp3.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >SAMSUNG</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      SAMSUNG Galaxy Tab A7 Lite, 8.7"
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                    <li>• 3.1GHz 6-core Intel i5</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- منتج 10 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/9_imgsp4.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >Dell</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      Dell Optiplex 9020 Desktop
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                    <li>• AMD Radeon Pro 5300</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ================= الشريحة الثانية (Slide 2 - عند النقر على الأسهم أو التبديل التلقائي) ================= -->
+          <div class="carousel-item i">
+            <div class="row mb-4 justify-content-center g-3">
+              <!-- منتج 1 +2 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/44_imgsp7.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >Roku</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      Roku Class 4K UHD LED Smart TV
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- منتج2+2 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/imgsp3.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >SAMSUNG</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      SAMSUNG Galaxy Tab S7 Plus
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- منتج 3+2 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/9_imgsp4.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >MSI</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      MSI Optix G272 27" Gaming
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- منتج 4+2 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <img
+                      src="/ecom img/index.html/index/8_imgsp5.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >Apple</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      Apple AirPods Pro MagSafe
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- منتج 5+2 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/44_imgsp7.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >Roku</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      Roku Class 4K UHD LED Smart TV
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row g-3 justify-content-center">
+              <!-- منتج 6+2 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/imgsp3.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >SAMSUNG</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      SAMSUNG Galaxy Tab S7 Plus
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- منتج 7+2 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/9_imgsp4.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >MSI</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      MSI Optix G272 27" Gaming
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- منتج 8+2 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/8_imgsp5.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >Apple</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      Apple AirPods Pro MagSafe
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- منتج 9+2 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/44_imgsp7.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >Roku</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      Roku Class 4K UHD LED Smart TV
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- منتج 10+2 -->
+              <div class="col-12 col-md-4 col-lg-2">
+                <div class="card product-card h-100 border bg-white p-2">
+                  <div class="product-image position-relative text-center">
+                    <span
+                      class="badge bg-danger position-absolute top-0 start-0 m-2"
+                      >-17%</span
+                    >
+                    <img
+                      src="/ecom img/index.html/index/imgsp3.png"
+                      class="img-fluid p-2"
+                      alt="Product"
+                    />
+
+                    <div
+                      class="product-actions-wrapper position-absolute end-0 top-0 mt-2 me-2 d-flex flex-column gap-1"
+                    >
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-heart"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-arrow-left-right"></i>
+                      </button>
+                      <button
+                        class="btn action-btn bg-white shadow-sm rounded-circle p-1"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-body p-2">
+                    <span class="text-uppercase text-muted extra-small"
+                      >SAMSUNG</span
+                    >
+                    <h6 class="product-title fw-semibold mt-1 text-truncate">
+                      SAMSUNG Galaxy Tab S7 Plus
+                    </h6>
+                    <div class="stars text-warning small mb-1">
+                      <i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i
+                      ><i class="bi bi-star-fill"></i>
+                      <span class="text-muted extra-small">(65)</span>
+                    </div>
+                    <div class="d-flex align-items-baseline gap-2 mb-2">
+                      <span class="price-current fw-bold text-primary"
+                        >$2856.3</span
+                      >
+                      <span
+                        class="price-old text-muted text-decoration-line-through small"
+                        >$3225.6</span
+                      >
+                    </div>
+                    <button
+                      class="btn btn-outline-secondary btn-sm w-100 rounded-1"
+                    >
+                      Add To Cart
+                    </button>
+                  </div>
+                  <ul
+                    class="list-unstyled border-top pt-2 mt-2 mb-0 extra-small text-secondary"
+                  >
+                    <li>• 27-inch Retina 5K display</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
