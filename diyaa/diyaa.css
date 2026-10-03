@@ -16,6 +16,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f8f9fa;
+  color: #333;
 }
 
 
@@ -166,7 +167,6 @@ body {
   text-align: center;
   line-height: 30px;
   transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
   width: 160px;
   background-color: #d9383a;
   position: absolute;
@@ -211,57 +211,18 @@ body {
   transition: all 0.3s ease;
   border: 1px solid transparent !important;
   background-color: #fff;
+  font-size: 0.85rem;
 }
 
 .product-card:hover {
-  border: 1px solid #dee2e6 !important;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-color: #bbb !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
 }
 
-
-/* Product Action Icons */
-
-.product-actions-wrapper {
-  opacity: 0;
-  transform: translateX(10px);
-  transition: all 0.3s ease-in-out;
-  z-index: 10;
+.product-card .product-image img {
+  max-height: 140px;
+  object-fit: contain;
 }
-.product-card:hover .product-actions-wrapper,
-.long-product:hover .product-actions-wrapper {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-.action-btn {
-  width: 36px;
-  height: 36px;
-  padding: 0;
-  font-size: 16px;
-  color: #6c757d;
-  border: 1px solid #f0f0f0;
-  transition: all 0.2s ease;
-}
-
-.action-btn:hover {
-  background-color: #0d6efd !important;
-  color: #fff !important;
-  border-color: #0d6efd;
-}
-
-
-/* Add To Cart Button */
-
-.add-to-cart-btn {
-  display: none;
-}
-
-.product-card:hover .add-to-cart-btn {
-  display: block;
-}
-
-
-/* Product Information */
 
 .product-title {
   color: #2b3e51;
@@ -276,11 +237,67 @@ body {
 .price-old {
   font-size: 14px !important;
 }
-
 .product-specs {
   font-size: 13px !important;
   line-height: 1.6;
 }
+
+.product-img {
+  max-height: 150px;
+  object-fit: contain;
+}
+
+
+/* =========================================
+   Product Action Icons
+   ========================================= */
+
+.product-actions-wrapper {
+  opacity: 0;
+  transform: translateX(10px);
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+}
+
+.product-card:hover .product-actions-wrapper,
+.long-product:hover .product-actions-wrapper {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.action-btn {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  font-size: 12px;
+  color: #555;
+  border: none;
+  transition: all 0.2s;
+}
+
+.action-btn:hover {
+  background-color: #0d6efd !important;
+  color: #fff !important;
+  border-color: #0d6efd;
+}
+
+
+/* =========================================
+   Add To Cart Button
+   ========================================= */
+
+.add-to-cart-btn {
+  display: none;
+}
+
+.product-card:hover .add-to-cart-btn {
+  display: block;
+}
+
+
+/* =========================================
+   Product Information
+   ========================================= */
 
 .product-img {
   max-height: 150px;
@@ -429,63 +446,25 @@ body {
 }
 
 .btn-orange {
-  background-color: var(--accent-orange);
+  background-color: #ff7d1a;
   color: #ffffff;
   border-radius: 6px;
-  padding: 8px 18px;
-  font-size: 0.85rem;
+  padding: 10px 22px;
+  font-size: 14px;
   font-weight: 600;
   text-decoration: none;
   display: inline-block;
+  border: none;
+  transition: background-color 0.2s;
 }
 
 .btn-orange:hover {
-  background-color: #e0552d;
+  background-color: #e66a0a;
   color: #ffffff;
 }
 
-
-/* =========================================
-   Responsive Product Grid
-   ========================================= */
-
-@media (min-width: 992px) {
-  .col-lg-2-4 {
-    flex: 0 0 auto;
-    width: 20%;
-  }
-}
-
-/* custom  */
-.banner-ads::before {
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    height: 100%;
-    width: 400px;
-    background: url(	https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/bg-left-ads.png) right bottom / contain no-repeat;
-}
-.banner-ads::after {
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    height: 100%;
-    width: 350px;
-    background: url(	https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/bg-right-ads.png) left bottom / contain no-repeat;
-}
-
-/* Custom page4 */
-
-* تنسيقات عامة وتعديلات الأبعاد */
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
-}
-
 .text-navy {
-  color: #0c2556;
+  color: #2b3859;
 }
 
 .bg-sky-blue {
@@ -500,15 +479,59 @@ body {
   font-size: 0.75rem;
 }
 
-/* تنسيق كاردات المنتجات العمودية */
-.product-card {
-  transition: all 0.3s ease;
-  font-size: 0.85rem;
+.cursor-pointer {
+  cursor: pointer;
 }
 
-.product-card:hover {
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+/* =========================================
+   Responsive Product Grid
+   ========================================= */
+
+   @media (min-width: 992px) {
+  .col-lg-2-4 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
 }
+
+
+/* custom  */
+
+.banner-ads::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 100%;
+  width: 400px;
+  background: url(https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/bg-left-ads.png)
+    right bottom / contain no-repeat;
+}
+
+.banner-ads::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 100%;
+  width: 350px;
+  background: url(https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/bg-right-ads.png)
+    left bottom / contain no-repeat;
+}
+
+
+/* Custom page4 */
+
+/* تنسيقات عامة وتعديلات الأبعاد */
+
+.watch-banner {
+  border: 1px solid #d1e7dd;
+  min-height: 260px;
+}
+
+
+/* تنسيق كاردات المنتجات العمودية */
 
 .product-card .product-image img {
   max-height: 140px;
@@ -524,12 +547,9 @@ body {
   transition: all 0.2s;
 }
 
-.action-btn:hover {
-  background-color: #0d6efd !important;
-  color: #fff;
-}
 
 /* تحديد النص لسطرين فقط في الكاردات العرضية */
+
 .text-truncate-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -537,7 +557,9 @@ body {
   overflow: hidden;
 }
 
-/* بنر الساعة الذكية واليد */
+
+/* تنسيق كاردات المنتجات العمودية */
+
 .watch-banner {
   border: 1px solid #d1e7dd;
   min-height: 260px;
@@ -546,98 +568,306 @@ body {
 .cursor-pointer {
   cursor: pointer;
 }
-/* custom page5 */
+
+
+/* Custom page5 */
+
 /* Custom Styling for Banners */
-    .promo-banner {
-      position: relative;
-      border-radius: 8px;
-      overflow: hidden;
-      min-height: 200px;
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      align-items: center;
-      padding: 25px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-    }
 
-    /* صندوق النص فقط بدون أي overlay غباش على بقية الصورة */
-    .banner-content {
-      position: relative;
-      z-index: 2;
-      max-width: 60%;
-      padding: 15px 20px;
-      border-radius: 8px;
-    }
-
-    .banner-title {
-      font-weight: 700;
-      color: #1a1a1a;
-      font-size: 1.2rem;
-      line-height: 1.3;
-      margin-bottom: 6px;
-    }
-
-    .banner-subtitle {
-      color: #555555;
-      font-size: 0.85rem;
-      margin-bottom: 12px;
-    }
-
-    .btn-shop {
-      background-color: #2b59c0; /* لون الأزرق المأخوذ من التصميم */
-      color: #ffffff;
-      font-size: 0.85rem;
-      font-weight: 600;
-      padding: 6px 16px;
-      border-radius: 4px;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      transition: background-color 0.2s ease;
-      border: none;
-    }
-
-    .btn-shop:hover {
-      background-color: #1e408a;
-      color: #ffffff;
-    }
-
-    /* استبدل روابط الصور بمسارات صورك الخاصة */
-    .banner-bg-1 {
-      background-image: url('https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage5/ads2.png');
-    }
-
-    .banner-bg-2 {
-      background-image: url('	https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage5/ads3.png');
-    }
-    /* Custom page7 */
-
-    .block-sale-1 {
-    background-color: #D1ECFD;
-    border-radius: 4px;
-    padding: 25px 15px 25px 25px;
+.promo-banner {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 200px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
+
+
+/* صندوق النص فقط بدون أي overlay غباش على بقية الصورة */
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+  max-width: 60%;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+
+.banner-title {
+  font-weight: 700;
+  color: #1a1a1a;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  margin-bottom: 6px;
+}
+
+.banner-subtitle {
+  color: #555555;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
+.btn-shop {
+  background-color: #2b59c0; /* لون الأزرق المأخوذ من التصميم */
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.2s ease;
+  border: none;
+}
+
+.btn-shop:hover {
+  background-color: #1e408a;
+  color: #ffffff;
+}
+
+
+/* استبدل روابط الصور بمسارات صورك الخاصة */
+
+.banner-bg-1 {
+  background-image: url('https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage5/ads2.png');
+}
+
+.banner-bg-2 {
+  background-image: url('https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage5/ads3.png');
+}
+
+
+/* Custom page7 */
+
+.block-sale-1 {
+  background-color: #D1ECFD;
+  border-radius: 4px;
+  padding: 25px 15px 25px 25px;
+}
+
 .color-brand-3 {
-    color: #425A8B !important;
+  color: #425A8B !important;
 }
 
 .font-sm {
-    font-family: "DM Sans", sans-serif;
-    font-size: 14px !important;
-    line-height: 20px !important;
-    font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  font-weight: 400;
 }
+
 .text-uppercase {
-    text-transform: uppercase !important;
+  text-transform: uppercase !important;
 }
+
 .list-nav-arrow li a {
-    font-size: 20px;
-    line-height: 24px;
-    color: #425A8B;
-    display: block;
-    text-align: center;
-    padding: 10-x;
-    background: url(../imgs/page/shop/arrow-menu.svg) no-repeat 0px 6px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #425A8B;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background: url(../imgs/page/shop/arrow-menu.svg) no-repeat 0px 6px;
+}
+
+
+/* custompage8 */
+
+.top-deals-ribbon {
+  position: absolute;
+  top: -17px;
+  left: -44px;
+  width: 130px;
+  background-color: #4b6584; /* لون خلفية الشريط */
+  color: #ffffff;
+  font-size: 9px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding: 4px 0;
+  transform: rotate(-45deg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 5;
+  pointer-events: none; /* لكي لا يعيق النقر إذا تم النقر بالقرب منه */
+}
+
+
+/* custom page 9 */
+
+/* لون العناوين والنصوص الرئيسية */
+
+.title-underlined {
+  position: relative;
+  padding-bottom: 8px;
+}
+
+
+/* خط تحت عنوان الفئة الرئيسي */
+
+.title-underlined::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 2px;
+  background-color: #8da2be;
+}
+
+/* تأثير الروابط الجانبية عند التمرير */
+
+.sidebar-link {
+  color: #55607a;
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebar-link:hover {
+  color: #0d6efd;
+  padding-left: 4px;
+}
+
+
+/* ألوان الشارات المخصصة */
+
+.bg-badge-orange {
+  background-color: #ff7d1a;
+}
+
+.bg-badge-red {
+  background-color: #fd384f;
+}
+
+.bg-badge-blue {
+  background-color: #00c0f3;
+}
+
+
+/* تخصيص الكروت لتتناسب مع الصورة */
+
+.product-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+
+/* ارتفاع متناسق للصور */
+
+.product-img-box {
+  height: 140px;
+}
+
+.product-img-box img {
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
+/* part 2 */
+
+.banner-pink {
+  background-color: #fceee9;
+  border-radius: 12px;
+  min-height: 320px;
+  transition: transform 0.3s ease;
+  border: 1px solid pink;
+}
+
+
+/* البنر الثاني (الأزرق الفاتح - الأكبر) */
+
+.banner-blue {
+  background-color: #eaf6f6;
+  border-radius: 12px;
+  min-height: 320px;
+  transition: transform 0.3s ease;
+  border: 1px solid blue;
+}
+
+
+/* البنر الثالث (الأخضر الفاتح) */
+
+.banner-green {
+  background-color: #eaf3ed;
+  border-radius: 12px;
+  min-height: 320px;
+  transition: transform 0.3s ease;
+  border: 1px solid green;
+}
+
+
+/* زر الشراء البرتقالي */
+
+.btn-orange {
+  background-color: #ff7d1a;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 10px 22px;
+  font-size: 14px;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.btn-orange:hover {
+  background-color: #e66a0a;
+  color: #ffffff;
+}
+
+
+/* زر الداكن للبنر الأوسط */
+
+.btn-navy {
+  background-color: #4b6584;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 10px 22px;
+  font-size: 14px;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.btn-navy:hover {
+  background-color: #384e68;
+  color: #ffffff;
+}
+
+
+/* رابط LEARN MORE للبنر الأخير */
+
+.link-learn-more {
+  color: #00c0f3;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.link-learn-more:hover {
+  color: #0098c2;
+}
+
+
+/* ضبط صور البنرات داخل المربعات */
+
+.banner-img-box {
+  max-height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-img-box img {
+  max-height: 100%;
+  object-fit: contain;
 }
