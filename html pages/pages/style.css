@@ -1,0 +1,454 @@
+:root {
+    --primary-color: #3b4963; 
+    --text-muted-color: #6c757d; 
+}
+
+
+.about-section-box .about-subtitle {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: var(--text-muted-color);
+}
+
+.about-section-box .about-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.about-section-box .about-desc {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text-muted-color);
+}
+
+
+.about-feature-item {
+    font-size: 13.5px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.stats-wrapper-box {
+    background-color: #f4f6f9;
+    border-radius: 8px;
+}
+
+.stat-number-title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.stat-desc-text {
+    font-size: 13.5px;
+    color: var(--text-muted-color);
+    line-height: 1.5;
+}
+
+.brand-team-card img {
+    border-radius: 8px;
+    object-fit: cover;
+    height: 280px;
+}
+
+.brand-section-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    max-width: 800px;
+}
+
+.brand-member-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.brand-member-role {
+    font-size: 13px;
+    color: var(--text-muted-color);
+}
+
+/* ========== partner logo css start ========== */
+.partner-logo-img {
+    max-width: 120px;
+    height: auto;
+    opacity: 0.6;
+    filter: grayscale(100%);
+    transition: all 0.2s ease;
+}
+
+.partner-logo-img:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+}
+/* ========== partner logo css end ========== */
+
+/* ========== contact section css start ========== */
+.contact-wrapper-box {
+    background-color: #f4f6f9;
+    border-radius: 8px;
+}
+
+.contact-main-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1.3;
+}
+
+.contact-card-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+/* ========== contact section css end ========== */
+
+/* ==========  end about us  ========== */
+
+/* ========== contact-map start ========== */
+.contact-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.contact-map-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--dark-color);
+}
+
+/* Form Controls */
+.form-control {
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #dee2e6;
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: none;
+}
+
+/* Send Message Button */
+.btn-send-message {
+    background-color: var(--dark-color);
+    color: #fff;
+    padding: 10px 24px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    transition: background-color 0.25s ease;
+}
+
+.btn-send-message:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* Map Wrapper: */
+.contact-map-wrapper {
+    width: 100%;
+    height: 100%;
+    min-height: 480px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/* Map Iframe */
+.contact-map-iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 480px;
+    border: 0;
+    border-radius: 4px;
+    display: block;
+}
+/* ========== contact-map end ========== */
+
+/* ========== stores-contact-section start ========== */
+.stores-section-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.store-city-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.btn-view-map {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 8px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn-view-map:hover {
+    background-color: #1d2d44;
+    color: #fff;
+}
+
+.contact-info-box {
+    background-color: #f4f6f9;
+    border-radius: 8px;
+}
+
+.contact-info-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1.3;
+}
+
+.contact-card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+/* ========== stores-contact-section end ========== */
+
+/* ==========  Contact Us end  ========== */
+
+/* ==========  Careers start  ========== */
+/* ========== work-with-us start ========== */
+.work-section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.work-hero-img {
+    border-radius: 8px;
+    object-fit: cover;
+    max-height: 480px;
+}
+
+.work-desc-text {
+    font-size: 15px;
+    color: var(--text-muted-color);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.work-subheading {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.work-body-text {
+    font-size: 14px;
+    color: var(--text-muted-color);
+    line-height: 1.6;
+}
+
+/* ========== content-articles start ========== */
+.article-section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.article-body-text {
+    font-size: 14px;
+    color: var(--text-muted-color);
+    line-height: 1.7;
+}
+/* ========== content-articles end ========== */
+/* ========== work-with-us end ========== */
+/* ==========  Careers end  ========== */
+
+/* ==========  Term and conditions  ========== */
+/* ========== term-and-condition start ========== */
+.terms-section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.terms-hero-img {
+    border-radius: 8px;
+    object-fit: cover;
+    max-height: 480px;
+}
+
+.terms-intro-text {
+    font-size: 14px;
+    color: var(--text-muted-color);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* ========== privacy-policy-content start ========== */
+.privacy-section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.privacy-subsection-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.privacy-body-text {
+    font-size: 14px;
+    color: var(--text-muted-color);
+    line-height: 1.7;
+}
+/* ========== privacy-policy-content end ========== */
+/* ========== term-and-condition end ========== */
+
+/* ==========  Register start  ========== */
+/* ========== create-account-section start ========== */
+.auth-section-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.auth-form-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.auth-form-control {
+    border-radius: 6px;
+    border: 1px solid #dfe3e8;
+    padding: 10px 14px;
+    font-size: 14px;
+    color: #637381;
+}
+
+.auth-form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: none;
+}
+
+.btn-social-auth {
+    border: 1px solid #dfe3e8;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--primary-color);
+    transition: all 0.2s ease;
+}
+
+.btn-social-auth:hover {
+    background-color: #f8f9fa;
+    border-color: #c4cdd5;
+}
+
+.btn-auth-submit {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 6px;
+    padding: 12px;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-auth-submit:hover {
+    background-color: #1d2d44;
+    color: #fff;
+}
+/* ========== create-account-section end ========== */
+
+/* ==========  login   ========== */
+.login-section-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.login-form-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.login-form-control {
+    border-radius: 6px;
+    border: 1px solid #dfe3e8;
+    padding: 10px 14px;
+    font-size: 14px;
+    color: #637381;
+}
+
+.login-form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: none;
+}
+
+.btn-login-submit {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 6px;
+    padding: 12px;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-login-submit:hover {
+    background-color: #1d2d44;
+    color: #fff;
+}
+/* ========== member-login-section end ========== */
+
+/* ==========  error 404  ========== */
+/* ========== error-404-section start ========== */
+.error-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.error-img {
+    max-width: 320px;
+    height: auto;
+}
+
+.error-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.error-subtitle {
+    font-size: 14px;
+    color: var(--text-muted-color);
+}
+
+.btn-back-home {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-back-home:hover {
+    background-color: #1d2d44;
+    color: #fff;
+}
+/* ========== error-404-section end ========== */
