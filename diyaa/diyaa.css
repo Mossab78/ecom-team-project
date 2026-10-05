@@ -1,3 +1,78 @@
+.z-2 {
+  z-index: 2;
+}
+.h-8 {
+  height: 8px;
+}
+.w-65 {
+  width: 65%;
+}
+.mw-500 {
+  max-width: 500px;
+}
+.img-mh {
+  object-fit: cover;
+  max-height: 280px;
+}
+.img-cover {
+  object-fit: cover;
+}
+.w-z {
+  z-index: 1;
+  width:120px;
+}
+.w-110{
+  width: 110px;
+}
+.w-140{
+  width: 140px;
+}
+.m-h {
+  min-height: 48px;
+}
+.l-s {
+  letter-spacing: 0.5px;
+}
+.orange-font {
+  color: var(--accent-orange);
+}
+.b2b {
+  color: #2b2b2b;
+}
+.mh-110 {
+  max-height: 110px;
+}
+.mh-100 {
+  max-height: 100px;
+}
+.mh-180 {
+  max-height: 180px; object-fit: cover
+}
+.f-blue {
+  color: var(--blue);
+}
+.bg-orange {
+  width: 65%;
+  background: var(--orange);
+}
+.fs-75 {
+  font-size: 0.75rem;
+}
+.hour {
+  font-size: 1rem;
+  font-weight: normal;
+}
+.h-6 {
+  height: 6px;
+}
+.bg-whitee {
+  color: #ffffff;
+}
+.img-custom {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
 /* =========================================
    General Page Styles
    ========================================= */
@@ -18,7 +93,6 @@ body {
   background-color: #f8f9fa;
   color: #333;
 }
-
 
 /* =========================================
    Navigation
@@ -67,7 +141,6 @@ body {
   border-radius: 50%;
   padding: 2px 6px;
 }
-
 
 /* =========================================
    Hero Section
@@ -145,7 +218,6 @@ body {
   object-fit: contain;
 }
 
-
 /* =========================================
    Hurry Up Section
    ========================================= */
@@ -202,7 +274,6 @@ body {
   color: #f27052;
 }
 
-
 /* =========================================
    Product Cards
    ========================================= */
@@ -247,7 +318,6 @@ body {
   object-fit: contain;
 }
 
-
 /* =========================================
    Product Action Icons
    ========================================= */
@@ -263,6 +333,7 @@ body {
 .long-product:hover .product-actions-wrapper {
   opacity: 1;
   transform: translateX(0);
+  z-index: 15;
 }
 
 .action-btn {
@@ -281,7 +352,6 @@ body {
   border-color: #0d6efd;
 }
 
-
 /* =========================================
    Add To Cart Button
    ========================================= */
@@ -294,7 +364,6 @@ body {
   display: block;
 }
 
-
 /* =========================================
    Product Information
    ========================================= */
@@ -303,7 +372,6 @@ body {
   max-height: 150px;
   object-fit: contain;
 }
-
 
 /* =========================================
    Trending Products Tabs
@@ -321,7 +389,6 @@ body {
 .nav-trending .nav-link:hover {
   color: var(--primary-blue) !important;
 }
-
 
 /* =========================================
    Trending Product Cards
@@ -344,7 +411,6 @@ body {
   border-color: #bbb;
 }
 
-
 /* Hurry Up Badge */
 
 .badge-hurry {
@@ -360,7 +426,6 @@ body {
   overflow: hidden;
 }
 
-
 /* Discount Badge */
 
 .badge-disc {
@@ -375,7 +440,6 @@ body {
   font-weight: bold;
   z-index: 2;
 }
-
 
 /* Timer */
 
@@ -400,7 +464,6 @@ body {
   font-size: 0.8rem;
 }
 
-
 /* Cart Button */
 
 .btn-cart {
@@ -420,14 +483,12 @@ body {
   border-color: var(--primary-blue);
 }
 
-
 /* Product Rating */
 
 .stars {
   color: #ffc107;
   font-size: 0.75rem;
 }
-
 
 /* =========================================
    Background Utility Classes
@@ -483,21 +544,23 @@ body {
   cursor: pointer;
 }
 
-
 /* =========================================
    Responsive Product Grid
    ========================================= */
 
-   @media (min-width: 992px) {
+@media (min-width: 992px) {
   .col-lg-2-4 {
     flex: 0 0 auto;
     width: 20%;
   }
 }
 
-
 /* custom  */
-
+.banner-ads {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .banner-ads::before {
   content: "";
   position: absolute;
@@ -520,7 +583,6 @@ body {
     left bottom / contain no-repeat;
 }
 
-
 /* Custom page4 */
 
 /* تنسيقات عامة وتعديلات الأبعاد */
@@ -529,7 +591,6 @@ body {
   border: 1px solid #d1e7dd;
   min-height: 260px;
 }
-
 
 /* تنسيق كاردات المنتجات العمودية */
 
@@ -547,7 +608,6 @@ body {
   transition: all 0.2s;
 }
 
-
 /* تحديد النص لسطرين فقط في الكاردات العرضية */
 
 .text-truncate-2 {
@@ -556,7 +616,6 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
 
 /* تنسيق كاردات المنتجات العمودية */
 
@@ -568,7 +627,6 @@ body {
 .cursor-pointer {
   cursor: pointer;
 }
-
 
 /* Custom page5 */
 
@@ -586,7 +644,6 @@ body {
   padding: 25px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
-
 
 /* صندوق النص فقط بدون أي overlay غباش على بقية الصورة */
 
@@ -632,28 +689,26 @@ body {
   color: #ffffff;
 }
 
-
 /* استبدل روابط الصور بمسارات صورك الخاصة */
 
 .banner-bg-1 {
-  background-image: url('https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage5/ads2.png');
+  background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage5/ads2.png");
 }
 
 .banner-bg-2 {
-  background-image: url('https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage5/ads3.png');
+  background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage5/ads3.png");
 }
-
 
 /* Custom page7 */
 
 .block-sale-1 {
-  background-color: #D1ECFD;
+  background-color: #d1ecfd;
   border-radius: 4px;
   padding: 25px 15px 25px 25px;
 }
 
 .color-brand-3 {
-  color: #425A8B !important;
+  color: #425a8b !important;
 }
 
 .font-sm {
@@ -670,13 +725,12 @@ body {
 .list-nav-arrow li a {
   font-size: 20px;
   line-height: 24px;
-  color: #425A8B;
+  color: #425a8b;
   display: block;
   text-align: center;
   padding: 10px;
   background: url(../imgs/page/shop/arrow-menu.svg) no-repeat 0px 6px;
 }
-
 
 /* custompage8 */
 
@@ -699,7 +753,6 @@ body {
   pointer-events: none; /* لكي لا يعيق النقر إذا تم النقر بالقرب منه */
 }
 
-
 /* custom page 9 */
 
 /* لون العناوين والنصوص الرئيسية */
@@ -709,11 +762,10 @@ body {
   padding-bottom: 8px;
 }
 
-
 /* خط تحت عنوان الفئة الرئيسي */
 
 .title-underlined::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -734,7 +786,6 @@ body {
   padding-left: 4px;
 }
 
-
 /* ألوان الشارات المخصصة */
 
 .bg-badge-orange {
@@ -749,7 +800,6 @@ body {
   background-color: #00c0f3;
 }
 
-
 /* تخصيص الكروت لتتناسب مع الصورة */
 
 .product-card {
@@ -758,7 +808,6 @@ body {
   border-radius: 8px;
   transition: box-shadow 0.3s ease;
 }
-
 
 /* ارتفاع متناسق للصور */
 
@@ -771,7 +820,6 @@ body {
   object-fit: contain;
 }
 
-
 /* part 2 */
 
 .banner-pink {
@@ -781,7 +829,6 @@ body {
   transition: transform 0.3s ease;
   border: 1px solid pink;
 }
-
 
 /* البنر الثاني (الأزرق الفاتح - الأكبر) */
 
@@ -793,7 +840,6 @@ body {
   border: 1px solid blue;
 }
 
-
 /* البنر الثالث (الأخضر الفاتح) */
 
 .banner-green {
@@ -803,7 +849,6 @@ body {
   transition: transform 0.3s ease;
   border: 1px solid green;
 }
-
 
 /* زر الشراء البرتقالي */
 
@@ -823,7 +868,6 @@ body {
   color: #ffffff;
 }
 
-
 /* زر الداكن للبنر الأوسط */
 
 .btn-navy {
@@ -842,7 +886,6 @@ body {
   color: #ffffff;
 }
 
-
 /* رابط LEARN MORE للبنر الأخير */
 
 .link-learn-more {
@@ -856,7 +899,6 @@ body {
 .link-learn-more:hover {
   color: #0098c2;
 }
-
 
 /* ضبط صور البنرات داخل المربعات */
 
