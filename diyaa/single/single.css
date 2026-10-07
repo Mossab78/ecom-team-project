@@ -403,3 +403,252 @@ input[type="number"] {
 .recently-viewed-section .old-price {
   font-size: 0.8rem;
 }
+
+/* Single2 page*/
+
+/* Root Color Variables & Theme Configurations */
+:root {
+  --primary-color: #3b71fe;
+  --primary-hover: #2a5bd7;
+  --brand-orange: #fd7e14;
+  --text-dark-custom: #212529;
+  --text-muted-custom: #858c96;
+  --border-color-custom: #e9ecef;
+  --bg-light-custom: #f8f9fa;
+  --font-size-base: 0.875rem;
+  --font-size-sm: 0.75rem;
+  --transition-speed: 0.3s;
+}
+
+/* Base Utility Classes */
+body {
+  font-size: var(--font-size-base);
+  color: var(--text-dark-custom);
+}
+
+.text-brand {
+  color: var(--brand-orange);
+}
+
+/* Breadcrumb Styling */
+.custom-breadcrumb {
+  font-size: var(--font-size-sm);
+}
+
+.custom-breadcrumb a {
+  color: var(--text-muted-custom);
+  text-decoration: none;
+  transition: color var(--transition-speed) ease;
+}
+
+.custom-breadcrumb a:hover {
+  color: var(--primary-color);
+}
+
+/* Gallery Thumbnails */
+.thumb-box {
+  cursor: pointer;
+  border: 1px solid var(--border-color-custom);
+  padding: 2px;
+  border-radius: 6px;
+  transition: border-color var(--transition-speed) ease, transform var(--transition-speed) ease;
+}
+
+.thumb-box:hover,
+.thumb-box.active {
+  border-color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+/* Main Image Container & Discount Badge */
+.main-img-container {
+  background-color: #ffffff;
+  border-color: var(--border-color-custom) !important;
+}
+
+.badge-discount {
+  background-color: var(--brand-orange);
+  font-size: var(--font-size-sm);
+  padding: 6px 12px;
+}
+
+/* Product Details Title & Meta */
+.product-title {
+  font-size: 1.35rem;
+  line-height: 1.4;
+}
+
+.custom-meta {
+  font-size: var(--font-size-sm);
+}
+
+.rating-stars {
+  font-size: 0.8rem;
+}
+
+.btn-action-link {
+  font-size: var(--font-size-sm);
+  transition: color var(--transition-speed) ease;
+}
+
+.btn-action-link:hover {
+  color: var(--primary-color) !important;
+}
+
+/* Prices */
+.price-current {
+  font-size: 1.75rem;
+  color: var(--primary-color);
+}
+
+.price-old {
+  font-size: 1.1rem;
+}
+
+/* Progress Bar Customization */
+.custom-sold-text {
+  font-size: var(--font-size-sm);
+}
+
+.custom-progress-bar {
+  height: 6px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+}
+
+.custom-progress-bar .progress-bar {
+  background-color: var(--primary-color);
+  width: 42%;
+  border-radius: 10px;
+}
+
+/* Features List */
+.product-features li {
+  position: relative;
+  padding-left: 15px;
+  margin-bottom: 6px;
+  font-size: var(--font-size-sm);
+}
+
+.product-features li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--text-muted-custom);
+}
+
+/* Option Card Right Box */
+.option-card-box {
+  background-color: #ffffff;
+  border-color: var(--border-color-custom) !important;
+}
+
+/* Color Thumbnails Selection */
+.color-thumb {
+  cursor: pointer;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color var(--transition-speed) ease;
+}
+
+.color-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.color-thumb:hover,
+.color-thumb.active {
+  border-color: var(--brand-orange) !important;
+  border-width: 2px !important;
+}
+
+/* Option Buttons (Style & Size) */
+.btn-option {
+  background: transparent;
+  border: 1px solid var(--border-color-custom);
+  border-radius: 6px;
+  padding: 6px 16px;
+  font-size: var(--font-size-sm);
+  color: var(--text-dark-custom);
+  transition: all var(--transition-speed) ease;
+}
+
+.btn-option:hover {
+  border-color: var(--brand-orange);
+}
+
+.btn-option.active {
+  border-color: var(--brand-orange);
+  color: var(--brand-orange);
+  font-weight: 600;
+}
+
+/* Quantity Picker */
+.quantity-picker {
+  max-width: 130px;
+  height: 40px;
+  background-color: #ffffff;
+}
+
+.qty-input {
+  width: 40px;
+  font-size: 0.95rem;
+  background: transparent;
+}
+
+.qty-input::-webkit-outer-spin-button,
+.qty-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.qty-btn {
+  transition: color var(--transition-speed) ease;
+}
+
+.qty-btn:hover {
+  color: var(--primary-color) !important;
+}
+
+/* Action Buttons Custom */
+.btn-outline-custom {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: transparent;
+  transition: all var(--transition-speed) ease;
+}
+
+.btn-outline-custom:hover {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.btn-primary-custom {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  transition: background-color var(--transition-speed) ease;
+}
+
+.btn-primary-custom:hover {
+  background-color: var(--primary-hover);
+}
+
+/* Social Share Icons */
+.social-icon {
+  color: var(--text-muted-custom);
+  font-size: 0.9rem;
+  transition: color var(--transition-speed) ease;
+}
+
+.social-icon:hover {
+  color: var(--primary-color);
+}
+
+.custom-footer-meta {
+  font-size: var(--font-size-sm);
+}
