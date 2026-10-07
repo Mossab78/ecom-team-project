@@ -1,0 +1,34 @@
+/* Ecom reference visual details. GPL-2.0-or-later; see SOURCE_NOTICE.md. */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .btn.btn-arrow-2 { background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/icons/arrow-2.svg"); background-position: top 3px right 10px; background-repeat: no-repeat; padding-right: 40px; font-size: 17px; line-height: 19px; color: #FD9636; }
+.ecom-site .btn.btn-arrow-2:hover { color: #425A8B; background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/icons/arrow-2-hover.svg"); }
+.ecom-site .btn.btn-arrow-2-reverse { color: #425A8B; background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/icons/arrow-2-hover.svg"); }
+.ecom-site .btn.btn-arrow-2-reverse:hover { background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/icons/arrow-2.svg"); color: #FD9636; }
+.ecom-site .btn.btn-tags { background-color: #ffffff; border: 1px solid #8C9EC5; padding-top: 7px; padding-right: 20px; padding-bottom: 7px; padding-left: 20px; font-size: 14px; line-height: 20px; color: #425A8B; }
+.ecom-site .btn.btn-tags:hover { color: #ffffff; background-color: #425A8B; }
+/* ============ Typography and visual details end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .card-grid-style-2.mh-auto { min-height: auto; }
+.ecom-site .card-grid-style-2.card-none-border { border: 0px; }
+.ecom-site .card-grid-style-2 .image-box.mw-84 { max-width: 99px; min-width: 99px; }
+/* ============ Products and shopping end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .mb-60 { margin-bottom: 60px !important; }
+.ecom-site .min-height-135 { min-height: 115px; }
+.ecom-site .info-blog { max-width: 780px; }
+.ecom-site .image-feature { margin-top: 30px; margin-bottom: 30px; }
+.ecom-site .image-single { margin-bottom: 20px; }
+.ecom-site .content-text p { color: #0E224D; line-height: 24px; margin-bottom: 15px; }
+.ecom-site .box-author .img-author img { height: 40px; width: 40px; border-radius: 100%; margin-right: 10px; }
+.ecom-site .comment-box .comment-item { margin-bottom: 30px; }
+.ecom-site .comment-box .comment-item .comment-content { padding-left: 90px; color: #0E224D; }
+.ecom-site .comment-box .comment-item .top-comment .image-author { min-width: 75px; max-width: 75px; margin-right: 15px; }
+.ecom-site .comment-box .comment-item .top-comment .image-author img { width: 75px; height: 75px; }
+.ecom-site .comment-box .comment-item .top-comment .author-name .info-author span { margin-right: 10px; }
+.ecom-site .comment-box .comment-item-small .top-comment .image-author { min-width: 40px; max-width: 40px; margin-right: 15px; }
+.ecom-site .comment-box .comment-item-small .top-comment .image-author img { width: 40px; height: 40px; }
+.ecom-site .comment-box .comment-item-small .comment-content { padding-left: 55px; }
+/* ============ Typography and visual details end ============ */
