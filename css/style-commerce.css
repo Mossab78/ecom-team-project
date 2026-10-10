@@ -1,132 +1,474 @@
 /* Ecom reference visual details. GPL-2.0-or-later; see SOURCE_NOTICE.md. */
 
 /* ============ Typography and visual details start ============ */
-.ecom-site a.text-brand-3 { color: #425A8B; }
-.ecom-site a.text-brand-3:hover { color: #0BA9ED; }
-.ecom-site .btn.btn-out-stock { background-color: #FFF3EA; color: #F53658; border-radius: 0px; padding-top: 2px; padding-right: 10px; padding-bottom: 2px; padding-left: 10px; }
-.ecom-site .btn.btn-out-stock:hover { color: #FD9636; }
-.ecom-site .btn.btn-delete { background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/wishlist/delete.svg"); background-position: center; background-repeat: no-repeat; height: 34px; width: 34px; }
-.ecom-site .btn.arrow-next { background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/checkout/arrow-next.svg"); background-position: right 20px center; background-repeat: no-repeat; padding-right: 45px; }
-.ecom-site .btn.arrow-next:hover { background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/cart/arrow-next-hover.svg"); }
-.ecom-site .btn.update-cart { background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/cart/reload.svg"); background-position: left 20px center; background-repeat: no-repeat; padding-left: 45px; }
-.ecom-site .btn.update-cart:hover { background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/cart/reload-hover.svg"); }
-.ecom-site .btn.btn-amazon { padding-top: 5px; padding-right: 10px; padding-bottom: 5px; padding-left: 10px; border: 1px solid #DDE4F0; }
-.ecom-site .btn.btn-amazon img { max-height: 42px; }
-.ecom-site .btn.btn-gpay { padding-top: 5px; padding-right: 10px; padding-bottom: 5px; padding-left: 10px; border: 1px solid #DDE4F0; }
-.ecom-site .btn.btn-gpay img { max-height: 42px; }
-.ecom-site .btn.btn-paypal { padding-top: 5px; padding-right: 10px; padding-bottom: 5px; padding-left: 10px; border: 1px solid #DDE4F0; }
-.ecom-site .btn.btn-paypal img { max-height: 42px; }
-.ecom-site .p-20 { padding-top: 20px !important; padding-right: 20px !important; padding-bottom: 20px !important; padding-left: 20px !important; }
+.ecom-site a.text-brand-3 {
+    color: #425a8b;
+}
+.ecom-site a.text-brand-3:hover {
+    color: #0ba9ed;
+}
+.ecom-site .btn.btn-out-stock {
+    background-color: #fff3ea;
+    color: #f53658;
+    border-radius: 0px;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+.ecom-site .btn.btn-out-stock:hover {
+    color: #fd9636;
+}
+.ecom-site .btn.btn-delete {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/wishlist/delete.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 34px;
+    width: 34px;
+}
+.ecom-site .btn.arrow-next {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/checkout/arrow-next.svg");
+    background-position: right 20px center;
+    background-repeat: no-repeat;
+    padding-right: 45px;
+}
+.ecom-site .btn.arrow-next:hover {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/cart/arrow-next-hover.svg");
+}
+.ecom-site .btn.update-cart {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/cart/reload.svg");
+    background-position: left 20px center;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+.ecom-site .btn.update-cart:hover {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/cart/reload-hover.svg");
+}
+.ecom-site .btn.btn-amazon {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border: 1px solid #dde4f0;
+}
+.ecom-site .btn.btn-amazon img {
+    max-height: 42px;
+}
+.ecom-site .btn.btn-gpay {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border: 1px solid #dde4f0;
+}
+.ecom-site .btn.btn-gpay img {
+    max-height: 42px;
+}
+.ecom-site .btn.btn-paypal {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border: 1px solid #dde4f0;
+}
+.ecom-site .btn.btn-paypal img {
+    max-height: 42px;
+}
+.ecom-site .p-20 {
+    padding-top: 20px !important;
+    padding-right: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 20px !important;
+}
 /* ============ Typography and visual details end ============ */
 
 /* ============ Products and shopping start ============ */
-.ecom-site .box-wishlist { max-width: 95%; }
-.ecom-site .head-wishlist { margin-bottom: 10px; }
-.ecom-site .head-wishlist .item-wishlist { padding-top: 5px; padding-right: 15px; padding-bottom: 5px; padding-left: 15px; background-color: #F0F3F8; }
-.ecom-site .content-wishlist { margin-bottom: 70px; }
-.ecom-site .content-wishlist .item-wishlist { border: 1px solid #DDE4F0; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; margin-bottom: 10px; }
-.ecom-site .item-wishlist .wishlist-cb { width: 4%; max-width: 25px; }
-.ecom-site .item-wishlist .wishlist-cb .cb-layout { margin-top: 3px; }
-.ecom-site .item-wishlist .wishlist-product { width: 52%; }
-.ecom-site .item-wishlist .wishlist-price { width: 12%; }
-.ecom-site .item-wishlist .wishlist-status { width: 12%; }
-.ecom-site .item-wishlist .wishlist-status .btn.btn-gray { padding-right: 10px; padding-left: 10px; }
-.ecom-site .item-wishlist .wishlist-action { width: 15%; }
-.ecom-site .item-wishlist .wishlist-action .btn-cart { max-width: 126px; padding-top: 6px; padding-right: 15px; padding-bottom: 6px; padding-left: 15px; }
-.ecom-site .item-wishlist .wishlist-remove { width: 8%; }
-.ecom-site .product-wishlist .product-image { min-width: 130px; max-width: 130px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; margin-right: 15px; align-content: center; }
-.ecom-site .product-wishlist .product-info { align-content: center; padding-right: 15px; }
-.ecom-site .product-wishlist .product-info a { margin-bottom: 5px; }
+.ecom-site .box-wishlist {
+    max-width: 95%;
+}
+.ecom-site .head-wishlist {
+    margin-bottom: 10px;
+}
+.ecom-site .head-wishlist .item-wishlist {
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    background-color: #f0f3f8;
+}
+.ecom-site .content-wishlist {
+    margin-bottom: 70px;
+}
+.ecom-site .content-wishlist .item-wishlist {
+    border: 1px solid #dde4f0;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.ecom-site .item-wishlist .wishlist-cb {
+    width: 4%;
+    max-width: 25px;
+}
+.ecom-site .item-wishlist .wishlist-cb .cb-layout {
+    margin-top: 3px;
+}
+.ecom-site .item-wishlist .wishlist-product {
+    width: 52%;
+}
+.ecom-site .item-wishlist .wishlist-price {
+    width: 12%;
+}
+.ecom-site .item-wishlist .wishlist-status {
+    width: 12%;
+}
+.ecom-site .item-wishlist .wishlist-status .btn.btn-gray {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ecom-site .item-wishlist .wishlist-action {
+    width: 15%;
+}
+.ecom-site .item-wishlist .wishlist-action .btn-cart {
+    max-width: 126px;
+    padding-top: 6px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+}
+.ecom-site .item-wishlist .wishlist-remove {
+    width: 8%;
+}
+.ecom-site .product-wishlist .product-image {
+    min-width: 130px;
+    max-width: 130px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-right: 15px;
+    align-content: center;
+}
+.ecom-site .product-wishlist .product-info {
+    align-content: center;
+    padding-right: 15px;
+}
+.ecom-site .product-wishlist .product-info a {
+    margin-bottom: 5px;
+}
 /* ============ Products and shopping end ============ */
 
 /* ============ Typography and visual details start ============ */
-.ecom-site .box-cart-left { border: 1px solid #DDE4F0; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; }
+.ecom-site .box-cart-left {
+    border: 1px solid #dde4f0;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
 /* ============ Typography and visual details end ============ */
 
 /* ============ Forms and account start ============ */
-.ecom-site .select-style1 { background: transparent; background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/cart/arrow-down.svg"); background-repeat: no-repeat; background-position: right 5px center; }
+.ecom-site .select-style1 {
+    background: transparent;
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/cart/arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+}
 /* ============ Forms and account end ============ */
 
 /* ============ Typography and visual details start ============ */
-.ecom-site .summary-cart { border: 1px solid #DDE4F0; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; margin-bottom: 30px; }
-.ecom-site .box-payment { margin-right: -10px; margin-left: -10px; }
-.ecom-site .box-payment .btn { width: 33.3%; margin-right: 5px; margin-left: 5px; }
-.ecom-site .box-border { border: 1px solid #DDE4F0; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; }
-.ecom-site .text-or { bottom: -18px; background: #ffffff; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; }
-.ecom-site .arrow-back-1 { background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/checkout/arrow-left.svg") no-repeat left top 12px; padding-top: 7px; padding-bottom: 9px; padding-left: 25px; color: #0BA9ED !important; }
-.ecom-site .arrow-back-1:hover { color: #425A8B !important; }
-.ecom-site .checkboxOffer { margin-top: 3px; margin-right: 10px; }
+.ecom-site .summary-cart {
+    border: 1px solid #dde4f0;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+.ecom-site .box-payment {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.ecom-site .box-payment .btn {
+    width: 33.3%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.ecom-site .box-border {
+    border: 1px solid #dde4f0;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.ecom-site .text-or {
+    bottom: -18px;
+    background: #ffffff;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.ecom-site .arrow-back-1 {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/checkout/arrow-left.svg") no-repeat left
+        top 12px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+    padding-left: 25px;
+    color: #0ba9ed !important;
+}
+.ecom-site .arrow-back-1:hover {
+    color: #425a8b !important;
+}
+.ecom-site .checkboxOffer {
+    margin-top: 3px;
+    margin-right: 10px;
+}
 /* ============ Typography and visual details end ============ */
 
 /* ============ Products and shopping start ============ */
-.ecom-site .listCheckout .item-wishlist { border: 1px solid #DDE4F0; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; margin-bottom: 10px; }
-.ecom-site .listCheckout .item-wishlist .wishlist-product { width: 76%; }
-.ecom-site .box-compare-products { color: #425A8B; font-size: 13px; line-height: 18px; }
-.ecom-site .box-compare-products table { border-collapse: collapse; border: 1px solid #DDE4F0; }
-.ecom-site .box-compare-products table tr td { border: 1px solid #DDE4F0; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; min-width: 200px; }
-.ecom-site .box-compare-products table tr td:first-child { min-width: 150px; max-width: 150px; }
+.ecom-site .listCheckout .item-wishlist {
+    border: 1px solid #dde4f0;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.ecom-site .listCheckout .item-wishlist .wishlist-product {
+    width: 76%;
+}
+.ecom-site .box-compare-products {
+    color: #425a8b;
+    font-size: 13px;
+    line-height: 18px;
+}
+.ecom-site .box-compare-products table {
+    border-collapse: collapse;
+    border: 1px solid #dde4f0;
+}
+.ecom-site .box-compare-products table tr td {
+    border: 1px solid #dde4f0;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    min-width: 200px;
+}
+.ecom-site .box-compare-products table tr td:first-child {
+    min-width: 150px;
+    max-width: 150px;
+}
 /* ============ Products and shopping end ============ */
 
 /* ============ Forms and account start ============ */
-.ecom-site .nav-tabs-account li a { font-weight: bold; }
-.ecom-site .nav-tabs-account li a:hover { font-weight: bold; }
-.ecom-site .nav-tabs-account li:first-child { padding-left: 0px; }
-.ecom-site .nav-tabs-account li:first-child a { padding-left: 0px; }
+.ecom-site .nav-tabs-account li a {
+    font-weight: bold;
+}
+.ecom-site .nav-tabs-account li a:hover {
+    font-weight: bold;
+}
+.ecom-site .nav-tabs-account li:first-child {
+    padding-left: 0px;
+}
+.ecom-site .nav-tabs-account li:first-child a {
+    padding-left: 0px;
+}
 /* ============ Forms and account end ============ */
 
 /* ============ Typography and visual details start ============ */
-.ecom-site .list-notifications .item-notification { border: 1px solid #DDE4F0; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; margin-bottom: 20px; }
-.ecom-site .list-notifications .item-notification .image-notification { min-width: 130px; max-width: 130px; }
-.ecom-site .list-notifications .item-notification .info-notification { padding-left: 20px; padding-right: 20px; }
-.ecom-site .list-notifications .item-notification .button-notification { width: 10%; min-width: 150px; max-width: 150px; }
-.ecom-site .list-orders .item-orders { margin-bottom: 20px; }
-.ecom-site .list-orders .item-orders:last-child { margin-bottom: 0px; }
-.ecom-site .list-orders .item-orders .image-orders { min-width: 130px; max-width: 130px; border: 1px solid #8C9EC5; }
-.ecom-site .list-orders .item-orders .info-orders { padding-left: 20px; padding-right: 20px; }
+.ecom-site .list-notifications .item-notification {
+    border: 1px solid #dde4f0;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+.ecom-site .list-notifications .item-notification .image-notification {
+    min-width: 130px;
+    max-width: 130px;
+}
+.ecom-site .list-notifications .item-notification .info-notification {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ecom-site .list-notifications .item-notification .button-notification {
+    width: 10%;
+    min-width: 150px;
+    max-width: 150px;
+}
+.ecom-site .list-orders .item-orders {
+    margin-bottom: 20px;
+}
+.ecom-site .list-orders .item-orders:last-child {
+    margin-bottom: 0px;
+}
+.ecom-site .list-orders .item-orders .image-orders {
+    min-width: 130px;
+    max-width: 130px;
+    border: 1px solid #8c9ec5;
+}
+.ecom-site .list-orders .item-orders .info-orders {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 /* ============ Typography and visual details end ============ */
 
 /* ============ Products and shopping start ============ */
-.ecom-site .list-orders .item-orders .price-orders { width: 10%; min-width: 150px; max-width: 150px; }
+.ecom-site .list-orders .item-orders .price-orders {
+    width: 10%;
+    min-width: 150px;
+    max-width: 150px;
+}
 /* ============ Products and shopping end ============ */
 
 /* ============ Typography and visual details start ============ */
-.ecom-site .body-orders { padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; }
-.ecom-site .box-orders { border: 1px solid #D5DFE4; margin-bottom: 30px; }
-.ecom-site .box-orders .head-orders { border-bottom: 1px solid #D5DFE4; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; }
-.ecom-site .box-orders .head-orders .head-right { width: 20%; }
-.ecom-site .label-delivery { padding-top: 7px; padding-bottom: 7px; border-radius: 30px; color: #ffffff; font-size: 13px; line-height: 12px; background-color: #FD9636; }
-.ecom-site .label-delivered { background-color: #5BC694; }
-.ecom-site .label-cancel { background-color: #F53658; }
-.ecom-site .h54 { height: 54px; }
+.ecom-site .body-orders {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.ecom-site .box-orders {
+    border: 1px solid #d5dfe4;
+    margin-bottom: 30px;
+}
+.ecom-site .box-orders .head-orders {
+    border-bottom: 1px solid #d5dfe4;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.ecom-site .box-orders .head-orders .head-right {
+    width: 20%;
+}
+.ecom-site .label-delivery {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 12px;
+    background-color: #fd9636;
+}
+.ecom-site .label-delivered {
+    background-color: #5bc694;
+}
+.ecom-site .label-cancel {
+    background-color: #f53658;
+}
+.ecom-site .h54 {
+    height: 54px;
+}
 /* ============ Typography and visual details end ============ */
 
 /* ============ Forms and account start ============ */
-.ecom-site .form-tracking .form-control { height: 54px; }
-.ecom-site .form-tracking .btn-buy { height: 54px; }
-.ecom-site .form-tracking .box-input { margin-right: 15px; }
-.ecom-site .form-tracking .box-button { width: 10%; min-width: 185px; max-width: 185px; }
+.ecom-site .form-tracking .form-control {
+    height: 54px;
+}
+.ecom-site .form-tracking .btn-buy {
+    height: 54px;
+}
+.ecom-site .form-tracking .box-input {
+    margin-right: 15px;
+}
+.ecom-site .form-tracking .box-button {
+    width: 10%;
+    min-width: 185px;
+    max-width: 185px;
+}
 /* ============ Forms and account end ============ */
 
 /* ============ Typography and visual details start ============ */
-.ecom-site .list-features ul { padding-left: 15px; }
-.ecom-site .list-features ul li { list-style: disc; color: #8C9EC5; line-height: 32px; }
-.ecom-site .list-steps { margin-top: 30px; margin-bottom: 30px; min-width: 768px; }
-.ecom-site .list-steps .item-step { width: 50%; position: relative; }
-.ecom-site .list-steps .item-step::before { height: 10px; content: ""; width: 100%; z-index: 1; position: absolute; left: 1px; top: 33px; margin-top: -5px; background-color: #425A8B; }
-.ecom-site .list-steps .item-step:last-child::before { display: none; }
-.ecom-site .list-steps .item-step .rounded-step { z-index: 2; }
-.ecom-site .list-steps .item-step .rounded-step .icon-step { width: 64px; height: 64px; background-color: #CAD6EC; margin-bottom: 20px; }
-.ecom-site .list-steps .item-step .rounded-step .icon-step.step-1 { background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/account/tick.svg"); background-repeat: no-repeat; background-position: center; }
-.ecom-site .list-steps .item-step .rounded-step .icon-step.step-1.active { background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/account/tick-active.svg"); background-color: #5BC694; }
-.ecom-site .list-steps .item-step .rounded-step .icon-step.step-2 { background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/account/in-production.svg"); background-repeat: no-repeat; background-position: center; }
-.ecom-site .list-steps .item-step .rounded-step .icon-step.step-2.active { background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/account/in-production-active.svg"); background-color: #5BC694; }
-.ecom-site .list-steps .item-step .rounded-step .icon-step.step-3 { background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/account/shipping.svg"); background-repeat: no-repeat; background-position: center; }
-.ecom-site .list-steps .item-step .rounded-step .icon-step.step-3.active { background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/account/shipping-active.svg"); background-color: #5BC694; }
-.ecom-site .list-steps .item-step .rounded-step .icon-step.step-4 { background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/account/delivery-truck.svg"); background-repeat: no-repeat; background-position: center; }
-.ecom-site .list-steps .item-step .rounded-step .icon-step.step-5 { background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/account/delivered.svg"); background-repeat: no-repeat; background-position: center; }
+.ecom-site .list-features ul {
+    padding-left: 15px;
+}
+.ecom-site .list-features ul li {
+    list-style: disc;
+    color: #8c9ec5;
+    line-height: 32px;
+}
+.ecom-site .list-steps {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-width: 768px;
+}
+.ecom-site .list-steps .item-step {
+    width: 50%;
+    position: relative;
+}
+.ecom-site .list-steps .item-step::before {
+    height: 10px;
+    content: "";
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    left: 1px;
+    top: 33px;
+    margin-top: -5px;
+    background-color: #425a8b;
+}
+.ecom-site .list-steps .item-step:last-child::before {
+    display: none;
+}
+.ecom-site .list-steps .item-step .rounded-step {
+    z-index: 2;
+}
+.ecom-site .list-steps .item-step .rounded-step .icon-step {
+    width: 64px;
+    height: 64px;
+    background-color: #cad6ec;
+    margin-bottom: 20px;
+}
+.ecom-site .list-steps .item-step .rounded-step .icon-step.step-1 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/account/tick.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ecom-site .list-steps .item-step .rounded-step .icon-step.step-1.active {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/account/tick-active.svg");
+    background-color: #5bc694;
+}
+.ecom-site .list-steps .item-step .rounded-step .icon-step.step-2 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/account/in-production.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ecom-site .list-steps .item-step .rounded-step .icon-step.step-2.active {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/account/in-production-active.svg");
+    background-color: #5bc694;
+}
+.ecom-site .list-steps .item-step .rounded-step .icon-step.step-3 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/account/shipping.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ecom-site .list-steps .item-step .rounded-step .icon-step.step-3.active {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/account/shipping-active.svg");
+    background-color: #5bc694;
+}
+.ecom-site .list-steps .item-step .rounded-step .icon-step.step-4 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/account/delivery-truck.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ecom-site .list-steps .item-step .rounded-step .icon-step.step-5 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/account/delivered.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 /* ============ Typography and visual details end ============ */
 
 /* ============ Forms and account start ============ */
-.ecom-site .map-account { margin-top: 30px; margin-bottom: 30px; }
-.ecom-site #tab-setting .form-control { min-height: 44px; }
+.ecom-site .map-account {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ecom-site #tab-setting .form-control {
+    min-height: 44px;
+}
 /* ============ Forms and account end ============ */
