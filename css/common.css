@@ -2769,3 +2769,7 @@ body.ecom-site {
     opacity: 1;
 }
 /* ============ Header and categories end ============ */
+.ecom-site .list-col-5.row .item-list {
+  min-height: 130px;
+  height: 100%;
+}
