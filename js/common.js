@@ -131,17 +131,21 @@ document.querySelectorAll(".slider-track").forEach(function (track) {
 });
 /* ============ Automatic banner and card movement end ============ */
 
-/* ============ Shopping cart start ============ */
+ /* ============ Shopping cart start ============ */
 let cart = [];
+
 try {
     cart = JSON.parse(sessionStorage.getItem("ecom-cart-v3")) || [];
 } catch (error) {
     cart = [];
 }
+
 const cartItems = document.getElementById("cart-items");
+
 function updateCart() {
-    if(cartItems)
-    cartItems.replaceChildren();
+    if (cartItems) {
+        cartItems.replaceChildren();
+    }
 
     const cartPageItems = document.getElementById("cart-page-items");
 
@@ -178,8 +182,10 @@ function updateCart() {
         });
 
         row.append(label, remove);
-        if(cartItems)
-        cartItems.append(row);
+
+        if (cartItems) {
+            cartItems.append(row);
+        }
 
         // Cart page
         if (cartPageItems) {
@@ -189,6 +195,15 @@ function updateCart() {
 
             const product = document.createElement("div");
             product.className = "wishlist-product";
+
+            // Product image
+            if (item.image) {
+                const image = document.createElement("img");
+                image.src = item.image;
+                image.alt = item.name;
+                image.className = "cart-product-image";
+                product.append(image);
+            }
 
             const name = document.createElement("h6");
             name.className = "color-brand-3 fs-6 fw-bold";
@@ -238,8 +253,7 @@ function updateCart() {
             removeButton.type = "button";
             removeButton.className = "btn btn-delete";
             removeButton.textContent = "Remove";
-
-            removeButton.addEventListener("click", function () {
+removeButton.addEventListener("click", function () {
                 cart.splice(index, 1);
                 updateCart();
             });
@@ -258,20 +272,21 @@ function updateCart() {
         }
     });
 
-if (!cart.length) {
-    if (cartItems) {
-        cartItems.textContent = "Your cart is empty.";
+    if (!cart.length) {
+        if (cartItems) {
+            cartItems.textContent = "Your cart is empty.";
+        }
+
+        if (cartPageItems) {
+            cartPageItems.textContent = "Your cart is empty.";
+        }
     }
 
-    if (cartPageItems) {
-        cartPageItems.textContent = "Your cart is empty.";
-    }
-}
- const cartTotal = document.getElementById("cart-total");
+    const cartTotal = document.getElementById("cart-total");
 
-if (cartTotal) {
-    cartTotal.textContent = total.toFixed(2);
-}
+    if (cartTotal) {
+        cartTotal.textContent = total.toFixed(2);
+    }
 
     const badge = document.getElementById("cart-count");
 
@@ -296,24 +311,50 @@ if (cartTotal) {
         /* Cart still works without storage. */
     }
 }
+
 document.querySelectorAll(".add-cart").forEach(function (button) {
     button.addEventListener("click", function (event) {
         const card = button.closest(".product-card");
+
         if (!card) return;
+
         event.preventDefault();
+
         const name = card.dataset.name;
         const price = Number(card.dataset.price);
+
         const existing = cart.find(function (item) {
             return item.name === name;
         });
+
         const quantityField = card.querySelector("[data-quantity]");
-        const quantity = quantityField ? Math.max(1, Number(quantityField.value) || 1) : 1;
-        if (existing) existing.quantity += quantity;
-        else cart.push({ name: name, price: price, quantity: quantity });
+        const quantity = quantityField
+            ? Math.max(1, Number(quantityField.value) || 1)
+            : 1;
+
+        // Get product image
+        const image = card.querySelector("img");
+
+        if (existing) {
+            existing.quantity += quantity;
+
+            if (!existing.image && image) {
+                existing.image = image.src;
+            }
+        } else {
+            cart.push({
+                name: name,
+                price: price,
+                quantity: quantity,
+                image: image ? image.src : ""
+            });
+        }
+
         updateCart();
         showMessage("Added to cart.");
     });
 });
+
 const clearCartButton = document.getElementById("clear-cart");
 
 if (clearCartButton) {
@@ -322,7 +363,9 @@ if (clearCartButton) {
         updateCart();
     });
 }
+
 updateCart();
+/* ============ Shopping cart end ============ */
 /* ============ Shopping cart end ============ */
 
 /* ============ Wishlist and quick view start ============ */
