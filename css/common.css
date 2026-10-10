@@ -2771,3 +2771,9 @@ body.ecom-site {
 /* ============ Header and categories end ============ */
 .feature-box h5 { font-size: 14px !important; }
 .feature-box p { font-size: 12px !important; }
+.cart-product-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
