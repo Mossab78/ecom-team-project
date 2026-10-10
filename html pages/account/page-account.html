@@ -1300,38 +1300,9 @@
 </ul></div></div>
 </div>
 </div></div></aside><!-- ============ Category panel end ============ --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-  // تحديد الكل بالـ Wishlist
-  document.getElementById('wishlist-select-all')?.addEventListener('change', (e) => {
-    document.querySelectorAll('[data-wishlist-item]').forEach((cb) => (cb.checked = e.target.checked));
-  });
-
-  // حذف صف من الـ Wishlist
-  document.querySelectorAll('[data-remove-row]').forEach((btn) => {
-    btn.addEventListener('click', () => btn.closest('tr').remove());
-  });
-
-  // فتح التاب المطلوب حسب الرابط (مثلاً page-account.html#tab-orders)
-  window.addEventListener('load', () => {
-    if (location.hash) {
-      const trigger = document.querySelector('.nav-tabs a[href="' + location.hash + '"]');
-      if (trigger) bootstrap.Tab.getOrCreateInstance(trigger).show();
-    }
-  });
-
-  // زيادة/نقصان الكمية
-  document.querySelectorAll('[data-qty]').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const input = document.getElementById('quickview-qty');
-      input.value = Math.max(1, (parseInt(input.value, 10) || 1) + parseInt(btn.dataset.qty, 10));
-    });
-  });
-</script>
-
-<script src="../../js/common.js"></script>
 
 <!-- Responsive navigation: Bootstrap Offcanvas and Collapse -->
-<aside class="offcanvas offcanvas-end ecom-mobile-nav" tabindex="-1" id="mobileNavigation" aria-labelledby="mobileNavigationTitle">
+<dic class="offcanvas offcanvas-end ecom-mobile-nav" tabindex="-1" id="mobileNavigation" aria-labelledby="mobileNavigationTitle">
 <div class="offcanvas-header border-bottom px-4 py-3">
 <a href="../../index.html" id="mobileNavigationTitle"><img src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/logo.svg" width="110" height="30" alt="Ecom home"></a>
 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close navigation"></button></div>
@@ -1397,8 +1368,10 @@
 <li class="col"><a class="d-block py-2" href="../pages/page-login.html">Sign in</a></li>
 </ul></div>
 <div class="ecom-mobile-promo bg-5 mt-4 p-4 rounded-1"><span class="font-xs">Starting from $899</span><h3 class="h6 fw-bold mt-2">iPhone 12 Pro 128Gb</h3><p class="font-xs mt-2">Special Sale</p><a class="d-inline-block mt-3 font-xs" href="../shop/shop-grid.html">Learn more →</a></div>
-<p class="font-xs color-gray-400 mt-4">Copyright 2022 © Ecom - Marketplace Template.<br>Designed by AliThemes</p></div></aside>
+<p class="font-xs color-gray-400 mt-4">Copyright 2022 © Ecom - Marketplace Template.<br>Designed by AliThemes</p></div>
+</aside>
 <!-- End responsive navigation -->
+ <script src="../../js/common.js"></script>
 <script src="../../js/responsive-navigation.js"></script>
 </body>
 </html>
