@@ -9,19 +9,20 @@
 <link rel="stylesheet" href="https://fonts.bunny.net/css?family=dm-sans:400,500,700|kanit:700">
 <link rel="stylesheet" href="../../css/common.css">
 <link rel="stylesheet" href="../../css/style-blog.css">
+<link rel="stylesheet" href="../../css/responsive.css">
 </head>
-<body class="ecom-homepage home-11 fst-normal fw-normal position-relative mt-0 me-0 mb-0 ms-0 overflow-x-hidden ecom-site" data-page-kind="blog">
+<body class="ecom-homepage home-11 fst-normal fw-normal position-relative mt-0 me-0 mb-0 ms-0 ecom-site" data-page-kind="blog">
 <span id="wideBreakpoint" class="d-none d-xxl-inline" aria-hidden="true"></span><span id="desktopBreakpoint" class="d-none d-xl-inline" aria-hidden="true"></span><!-- ============ topbar start ============ -->
-<div class="topbar d-inline-block w-100 position-relative">
+<div class="topbar w-100 position-relative d-none d-xl-inline-block">
       <div class="container-topbar d-flex align-items-center">
-        <div class="menu-topbar-left d-none d-xl-block">
+        <div class="menu-topbar-left d-none d-xl-inline-block">
           <ul class="nav-small">
             <li class="position-relative d-inline-block"><a class="font-xs fw-normal pt-0 pb-0 ps-0" href="page-about-us.html">About Us</a></li>
             <li class="position-relative d-inline-block"><a class="font-xs fw-normal pt-0 pb-0 ps-0" href="page-careers.html">Careers</a></li>
             <li class="position-relative d-inline-block"><a class="font-xs fw-normal pt-0 pb-0 ps-0" href="page-register.html">Open a shop</a></li>
           </ul>
         </div>
-        <div class="info-topbar text-center d-none d-xl-block">
+        <div class="info-topbar text-center d-none d-xl-inline-block">
 <span class="font-xs color-brand-3 fw-normal">Free shipping for all orders over</span><span class="font-sm-bold color-success fw-bold"> $75.00</span>
 </div>
         <div class="menu-topbar-right text-end flex-grow-1">
@@ -52,12 +53,13 @@
 <!-- ============ topbar end ============ -->
 <!-- ============ Header start ============ -->
 <div class="sticky-top bg-white ecom-main-header">
-<header class="header clearfix navbar-expand-xl d-block pt-0 pe-0 pb-0 ps-0 float-none w-100">
+<header class="header clearfix navbar-expand-xl d-block pt-0 pe-0 pb-0 ps-0 float-none w-100 navbar">
       <div class="container">
-        <div class="main-header d-flex align-items-center justify-content-between position-relative">
+        <div class="main-header w-100 d-flex align-items-center justify-content-between position-relative">
           <div class="header-left flex-wrap flex-xl-nowrap d-flex align-items-center w-100 pe-0 ps-0">
+            <button class="btn p-0 d-md-none order-0 ecom-category-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#categoriesPanel" aria-controls="categoriesPanel" aria-label="Browse categories"><img src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/open.svg" width="20" height="20" alt=""></button>
             <div class="header-logo order-1"><a class="d-flex" href="../../index.html"><img alt="Ecom" src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/logo.svg"></a></div>
-            <div class="header-search order-3 order-xl-2 flex-grow-1 col-12 col-xl-auto flex-grow-0">
+            <div class="header-search order-3 order-xl-2 flex-grow-1 col-12 col-xl-auto flex-grow-0 d-none d-md-block">
               <div class="box-header-search rounded-3">
                 <form class="form-search search-form d-flex" action="#" role="search">
                   <div class="box-category">
@@ -81,7 +83,7 @@
 </form>
               </div>
             </div>
-            <div class="header-nav order-4 order-xl-3 flex-grow-1 col-12 col-xl-auto d-inline-block text-center flex-grow-0">
+            <div class="header-nav order-4 order-xl-3 flex-grow-1 col-12 col-xl-auto text-center flex-grow-0 d-none d-xl-block">
               <nav class="nav-main-menu collapse navbar-collapse w-auto pt-0 pe-0 pb-0 ps-0 float-none justify-content-center" id="site-navigation">
                 <ul class="main-menu navbar-nav flex-row flex-wrap d-flex pe-0 pb-0 ps-0 mt-0 me-0 mb-0 ms-0">
                   <li class="nav-item dropdown float-none position-relative text-start">
@@ -155,7 +157,7 @@
             <div class="header-shop order-2 order-xl-4 ms-auto d-flex align-items-center text-end flex-shrink-1 justify-content-end">
               <div class="d-inline-block box-dropdown-cart position-relative flex-shrink-0 dropdown">
 <a class="font-lg icon-list icon-account fs-6 fw-normal d-inline-block pt-0 pb-0 position-relative w-auto text-nowrap flex-shrink-0 ms-0" href="#" aria-label="Account" data-bs-toggle="dropdown" aria-expanded="false"><span class="d-none d-xxl-inline">Account</span></a>
-                                    <div class="dropdown-account  position-absolute dropdown-menu">
+                                    <div class="dropdown-account position-absolute dropdown-menu">
                                         <ul>
                                             <li class="d-flex flex-wrap">
                                                 <a href="/html pages/account/page-account.html">My Account</a>
@@ -181,7 +183,7 @@
 <a class="font-lg icon-list icon-cart fs-6 fw-normal d-inline-block pt-0 pb-0 position-relative w-auto text-nowrap flex-shrink-0 ms-0" href="#cartPanel" data-bs-toggle="offcanvas" aria-label="Open cart"><span class="d-none d-xxl-inline">Cart</span><span class="number-item font-xs fw-normal rounded-circle position-absolute text-center d-inline-block" id="cart-count">0</span></a>
                 </div>
 <a class="font-lg icon-list icon-compare fs-6 fw-normal d-inline-block pt-0 pb-0 position-relative w-auto text-nowrap flex-shrink-0 ms-0" href="../shop/shop-compare.html"><span class="d-none d-xxl-inline">Compare</span></a>
-            <button class="navbar-toggler d-xl-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#site-navigation" aria-controls="site-navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler d-xl-none ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNavigation" aria-controls="mobileNavigation" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 </div>
           </div>
         </div>
@@ -478,7 +480,7 @@
                 </div>
               </div>
               <nav class="d-block">
-                <ul class="pagination">
+                <ul class="pagination flex-wrap gap-1">
                   <li class="page-item"><a class="page-link page-prev fw-bold fs-6 rounded-1 text-center" href="#"></a></li>
                   <li class="page-item"><a class="page-link fw-bold fs-6 rounded-1 text-center" href="#">1</a></li>
                   <li class="page-item"><a class="page-link active fw-bold fs-6 rounded-1 text-center" href="#">2</a></li>
@@ -649,7 +651,7 @@
       </section>
       <!-- ============ Augmented and Virtual Reality Challenges and Future Trends Virtual Reality Shopping end ============ --><!-- ============ Store benefits start ============ --><section class="section-box mt-90 mb-50" id="home-1-section-10">
   <div class="container ecom-reference-container">
-    <ul class="row row-cols-1 row-cols-sm-2 row-cols-lg-5 g-3 list-unstyled m-0 p-0">
+    <ul class="row row-cols-1 row-cols-sm-2 g-3 list-unstyled m-0 p-0 row-cols-lg-3 row-cols-xl-5 align-items-stretch">
       
       <li class="col">
         <div class="item-list border rounded-1 d-flex align-items-center h-100 p-3 bg-white feature-box">
@@ -657,7 +659,7 @@
             <img src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/delivery.svg" alt="Free Delivery" width="35">
           </div>
           <div class="info-right">
-            <h5 class="fs-6 fw-bold text-dark mb-1 text-nowrap">Free Delivery</h5>
+            <h5 class="fs-6 fw-bold text-dark mb-1">Free Delivery</h5>
             <p class="fs-sm text-muted mb-0">From all orders over $10</p>
           </div>
         </div>
@@ -669,7 +671,7 @@
             <img src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/support.svg" alt="Support 24/7" width="35">
           </div>
           <div class="info-right">
-            <h5 class="fs-6 fw-bold text-dark mb-1 text-nowrap">Support 24/7</h5>
+            <h5 class="fs-6 fw-bold text-dark mb-1">Support 24/7</h5>
             <p class="fs-sm text-muted mb-0">Shop with an expert</p>
           </div>
         </div>
@@ -681,7 +683,7 @@
             <img src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/voucher.svg" alt="Gift voucher" width="35">
           </div>
           <div class="info-right">
-            <h5 class="fs-6 fw-bold text-dark mb-1 text-nowrap">Gift voucher</h5>
+            <h5 class="fs-6 fw-bold text-dark mb-1">Gift voucher</h5>
             <p class="fs-sm text-muted mb-0">Refer a friend</p>
           </div>
         </div>
@@ -693,7 +695,7 @@
             <img src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/return.svg" alt="Return & Refund" width="35">
           </div>
           <div class="info-right">
-            <h5 class="fs-6 fw-bold text-dark mb-1 text-nowrap">Return &amp; Refund</h5>
+            <h5 class="fs-6 fw-bold text-dark mb-1">Return &amp; Refund</h5>
             <p class="fs-sm text-muted mb-0">Free return over $200</p>
           </div>
         </div>
@@ -705,7 +707,7 @@
             <img src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/secure.svg" alt="Secure payment" width="35">
           </div>
           <div class="info-right">
-            <h5 class="fs-6 fw-bold text-dark mb-1 text-nowrap">Secure payment</h5>
+            <h5 class="fs-6 fw-bold text-dark mb-1">Secure payment</h5>
             <p class="fs-sm text-muted mb-0">100% Protected</p>
           </div>
         </div>
@@ -1042,5 +1044,76 @@
 </div>
 </div></div></aside><!-- ============ Category panel end ============ --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/common.js"></script>
+
+<!-- Responsive navigation: Bootstrap Offcanvas and Collapse -->
+<aside class="offcanvas offcanvas-end ecom-mobile-nav" tabindex="-1" id="mobileNavigation" aria-labelledby="mobileNavigationTitle">
+<div class="offcanvas-header border-bottom px-4 py-3">
+<a href="../../index.html" id="mobileNavigationTitle"><img src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/logo.svg" width="110" height="30" alt="Ecom home"></a>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close navigation"></button></div>
+<div class="offcanvas-body px-4"><nav aria-label="Mobile navigation"><ul class="list-unstyled mb-0">
+<li><button class="btn ecom-mobile-toggle w-100 d-flex align-items-center justify-content-between text-start px-0 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#mobileSection0" aria-expanded="false" aria-controls="mobileSection0">Home<span aria-hidden="true">⌄</span></button><ul class="collapse list-unstyled ps-3" id="mobileSection0">
+<li><a class="d-block py-2" href="../../index.html">Homepage - 1</a></li>
+<li><a class="d-block py-2" href="../homepage/Homepage - 2.html">Homepage - 2</a></li>
+<li><a class="d-block py-2" href="../homepage/Homepage - 3.html">Homepage - 3</a></li>
+<li><a class="d-block py-2" href="../homepage/Homepage - 4.html">Homepage - 4</a></li>
+<li><a class="d-block py-2" href="../homepage/Homepage - 5.html">Homepage - 5</a></li>
+<li><a class="d-block py-2" href="../homepage/Homepage - 6.html">Homepage - 6</a></li>
+<li><a class="d-block py-2" href="../homepage/Homepage - 7.html">Homepage - 7</a></li>
+<li><a class="d-block py-2" href="../homepage/Homepage - 8.html">Homepage - 8</a></li>
+<li><a class="d-block py-2" href="../homepage/Homepage - 9.html">Homepage - 9</a></li>
+<li><a class="d-block py-2" href="../homepage/Homepage - 10.html">Homepage - 10</a></li>
+</ul></li>
+<li><button class="btn ecom-mobile-toggle w-100 d-flex align-items-center justify-content-between text-start px-0 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#mobileSection1" aria-expanded="false" aria-controls="mobileSection1">Shop<span aria-hidden="true">⌄</span></button><ul class="collapse list-unstyled ps-3" id="mobileSection1">
+<li><a class="d-block py-2" href="../shop/shop-grid.html">Shop Grid</a></li>
+<li><a class="d-block py-2" href="../shop/shop-grid-2.html">Shop Grid 2</a></li>
+<li><a class="d-block py-2" href="../shop/shop-list.html">Shop list - Left sidebar</a></li>
+<li><a class="d-block py-2" href="../shop/shop-list-2.html">Shop list - Right sidebar</a></li>
+<li><a class="d-block py-2" href="../shop/shop-fullwidth.html">Shop Fullwidth</a></li>
+<li><a class="d-block py-2" href="../shop/shop-single-product.html">Single Product</a></li>
+<li><a class="d-block py-2" href="../shop/shop-single-product-2.html">Single Product 2</a></li>
+<li><a class="d-block py-2" href="../shop/shop-single-product-3.html">Single Product 3</a></li>
+<li><a class="d-block py-2" href="../shop/shop-single-product-4.html">Single Product 4</a></li>
+<li><a class="d-block py-2" href="../shop/shop-cart.html">Shop Cart</a></li>
+<li><a class="d-block py-2" href="../shop/shop-checkout.html">Shop Checkout</a></li>
+<li><a class="d-block py-2" href="../shop/shop-compare.html">Shop Compare</a></li>
+<li><a class="d-block py-2" href="../shop/shop-wishlist.html">Shop Wishlist</a></li>
+</ul></li>
+<li><button class="btn ecom-mobile-toggle w-100 d-flex align-items-center justify-content-between text-start px-0 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#mobileSection2" aria-expanded="false" aria-controls="mobileSection2">Vendors<span aria-hidden="true">⌄</span></button><ul class="collapse list-unstyled ps-3" id="mobileSection2">
+<li><a class="d-block py-2" href="../vendors/Vendors Listing.html">Vendors Listing</a></li>
+<li><a class="d-block py-2" href="../vendors/Vendor Single.html">Vendor Single</a></li>
+</ul></li>
+<li><button class="btn ecom-mobile-toggle w-100 d-flex align-items-center justify-content-between text-start px-0 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#mobileSection3" aria-expanded="false" aria-controls="mobileSection3">Pages<span aria-hidden="true">⌄</span></button><ul class="collapse list-unstyled ps-3" id="mobileSection3">
+<li><a class="d-block py-2" href="../pages/page-about-us.html">About Us</a></li>
+<li><a class="d-block py-2" href="../pages/page-contact.html">Contact Us</a></li>
+<li><a class="d-block py-2" href="../pages/page-careers.html">Careers</a></li>
+<li><a class="d-block py-2" href="../pages/page-term.html">Term and Condition</a></li>
+<li><a class="d-block py-2" href="../pages/page-register.html">Register</a></li>
+<li><a class="d-block py-2" href="../pages/page-login.html">Login</a></li>
+<li><a class="d-block py-2" href="../pages/page-404.html">Error 404</a></li>
+</ul></li>
+<li><button class="btn ecom-mobile-toggle w-100 d-flex align-items-center justify-content-between text-start px-0 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#mobileSection4" aria-expanded="false" aria-controls="mobileSection4">Blog<span aria-hidden="true">⌄</span></button><ul class="collapse list-unstyled ps-3" id="mobileSection4">
+<li><a class="d-block py-2" href="blog.html">Blog - No Sidebar</a></li>
+<li><a class="d-block py-2" href="blog-2.html">Blog - Right Sidebar</a></li>
+<li><a class="d-block py-2" href="Blog List.html">Blog List</a></li>
+<li><a class="d-block py-2" href="blog-big.html">Blog category big</a></li>
+<li><a class="d-block py-2" href="Blog Single.html">Blog Single - Left sidebar</a></li>
+<li><a class="d-block py-2" href="Blog Single - 2.html">Blog Single - Right sidebar</a></li>
+<li><a class="d-block py-2" href="Blog Single - 3.html">Blog Single - No sidebar</a></li>
+</ul></li>
+<li><a class="d-block py-3" href="../pages/page-contact.html">Contact Us</a></li>
+</ul></nav><div class="border-top mt-3 pt-4">
+<div class="d-flex align-items-center gap-3 mb-3"><img src="https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/ava_1.png" width="44" height="44" class="rounded-circle" alt="Account"><span class="fw-bold">My Account</span></div>
+<ul class="row row-cols-2 g-2 list-unstyled">
+<li class="col"><a class="d-block py-2" href="../account/page-account.html">My Account</a></li>
+<li class="col"><a class="d-block py-2" href="../shop/shop-wishlist.html">My Wishlist</a></li>
+<li class="col"><a class="d-block py-2" href="../account/page-account.html#tab-order-tracking">Order Tracking</a></li>
+<li class="col"><a class="d-block py-2" href="../account/page-account.html#tab-orders">My Orders</a></li>
+<li class="col"><a class="d-block py-2" href="../account/page-account.html#tab-setting">Setting</a></li>
+<li class="col"><a class="d-block py-2" href="../pages/page-login.html">Sign in</a></li>
+</ul></div>
+<div class="ecom-mobile-promo bg-5 mt-4 p-4 rounded-1"><span class="font-xs">Starting from $899</span><h3 class="h6 fw-bold mt-2">iPhone 12 Pro 128Gb</h3><p class="font-xs mt-2">Special Sale</p><a class="d-inline-block mt-3 font-xs" href="../shop/shop-grid.html">Learn more →</a></div>
+<p class="font-xs color-gray-400 mt-4">Copyright 2022 © Ecom - Marketplace Template.<br>Designed by AliThemes</p></div></aside>
+<!-- End responsive navigation -->
+<script src="../../js/responsive-navigation.js"></script>
 </body>
 </html>

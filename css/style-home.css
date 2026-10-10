@@ -293,7 +293,10 @@
 
 /* ============ Typography and visual details start ============ */
 .ecom-site .list-9-col { margin-left: -10px; margin-right: -10px; }
+/* Nine columns are a desktop-only reference layout; mobile uses Bootstrap row-cols. */
+@media (min-width: 1200px) {
 .ecom-site .list-9-col li { flex: 0 0 auto; width: 11.11%; padding-right: 10px; padding-left: 10px; margin-bottom: 20px; }
+}
 /* ============ Typography and visual details end ============ */
 
 /* ============ Categories and benefits start ============ */
