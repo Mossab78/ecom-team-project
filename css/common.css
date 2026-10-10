@@ -2769,7 +2769,5 @@ body.ecom-site {
     opacity: 1;
 }
 /* ============ Header and categories end ============ */
-.ecom-site .list-col-5.row .item-list {
-  min-height: 130px;
-  height: 100%;
-}
+.feature-box h5 { font-size: 14px !important; }
+.feature-box p { font-size: 12px !important; }
