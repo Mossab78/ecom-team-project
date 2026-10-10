@@ -131,7 +131,7 @@ document.querySelectorAll(".slider-track").forEach(function (track) {
 });
 /* ============ Automatic banner and card movement end ============ */
 
-/* ============ Shopping cart start ============ */
+ /* ============ Shopping cart start ============ */
 let cart = [];
 
 try {
@@ -157,19 +157,19 @@ function updateCart() {
     let count = 0;
 
     cart.forEach(function (item, index) {
-        const subtotal = Number(item.price) * Number(item.quantity);
+        const subtotal = item.price * item.quantity;
 
         total += subtotal;
-        count += Number(item.quantity);
+        count += item.quantity;
 
         // Sidebar cart
-<<<<<<< HEAD
-=======
         const row = document.createElement("div");
         row.className = "cart-row d-flex justify-content-between gap-3";
 
         const label = document.createElement("span");
-        label.textContent = item.name + " × " + item.quantity + " — $" + subtotal.toFixed(2);
+        label.textContent =
+            item.name + " × " + item.quantity + " — $" +
+            subtotal.toFixed(2);
 
         const remove = document.createElement("button");
         remove.className = "cart-remove btn btn-sm";
@@ -183,42 +183,15 @@ function updateCart() {
 
         row.append(label, remove);
 
->>>>>>> d5060bb2958865137afc588cc8ea0c52d1ff7d68
         if (cartItems) {
-            const row = document.createElement("div");
-            row.className = "cart-row d-flex justify-content-between gap-3 align-items-center";
-
-            if (item.image) {
-                const image = document.createElement("img");
-                image.src = item.image;
-                image.alt = item.name;
-                image.className = "cart-sidebar-image";
-                row.append(image);
-            }
-
-            const label = document.createElement("span");
-            label.textContent =
-                item.name + " × " + item.quantity + " — $" +
-                subtotal.toFixed(2);
-
-            const remove = document.createElement("button");
-            remove.className = "cart-remove btn btn-sm";
-            remove.type = "button";
-            remove.textContent = "Remove";
-
-            remove.addEventListener("click", function () {
-                cart.splice(index, 1);
-                updateCart();
-            });
-
-            row.append(label, remove);
             cartItems.append(row);
         }
 
         // Cart page
         if (cartPageItems) {
             const pageRow = document.createElement("div");
-            pageRow.className = "item-wishlist rounded-1 d-flex w-100 align-items-center";
+            pageRow.className =
+                "item-wishlist rounded-1 d-flex w-100 align-items-center";
 
             const product = document.createElement("div");
             product.className = "wishlist-product";
@@ -256,7 +229,10 @@ function updateCart() {
             quantityInput.setAttribute("aria-label", "Product quantity");
 
             quantityInput.addEventListener("change", function () {
-                item.quantity = Math.max(1, Number(quantityInput.value) || 1);
+                item.quantity = Math.max(
+                    1,
+                    Number(quantityInput.value) || 1
+                );
                 updateCart();
             });
 
@@ -269,25 +245,28 @@ function updateCart() {
             subtotalText.className = "color-brand-3 fw-bold";
             subtotalText.textContent = "$" + subtotal.toFixed(2);
             subtotalCell.append(subtotalText);
-const removeCell = document.createElement("div");
+
+            const removeCell = document.createElement("div");
             removeCell.className = "wishlist-remove text-center";
 
             const removeButton = document.createElement("button");
             removeButton.type = "button";
             removeButton.className = "btn btn-delete";
             removeButton.textContent = "Remove";
-<<<<<<< HEAD
-
-=======
->>>>>>> d5060bb2958865137afc588cc8ea0c52d1ff7d68
-            removeButton.addEventListener("click", function () {
+removeButton.addEventListener("click", function () {
                 cart.splice(index, 1);
                 updateCart();
             });
 
             removeCell.append(removeButton);
 
-            pageRow.append(product, price, quantity, subtotalCell, removeCell);
+            pageRow.append(
+                product,
+                price,
+                quantity,
+                subtotalCell,
+                removeCell
+            );
 
             cartPageItems.append(pageRow);
         }
@@ -349,8 +328,11 @@ document.querySelectorAll(".add-cart").forEach(function (button) {
         });
 
         const quantityField = card.querySelector("[data-quantity]");
-        const quantity = quantityField ? Math.max(1, Number(quantityField.value) || 1) : 1;
+        const quantity = quantityField
+            ? Math.max(1, Number(quantityField.value) || 1)
+            : 1;
 
+        // Get product image
         const image = card.querySelector("img");
 
         if (existing) {
@@ -364,7 +346,7 @@ document.querySelectorAll(".add-cart").forEach(function (button) {
                 name: name,
                 price: price,
                 quantity: quantity,
-                image: image ? image.src : "",
+                image: image ? image.src : ""
             });
         }
 
@@ -590,29 +572,3 @@ if (document.body.dataset.pageKind === "commerce" && window.location.hash) {
     if (target) bootstrap.Tab.getOrCreateInstance(target).show();
 }
 /* ============ Account tab links end ============ */
-
-// account
-
-//   Wishlist
-document.getElementById("wishlist-select-all")?.addEventListener("change", (e) => {
-    document.querySelectorAll("[data-wishlist-item]").forEach((cb) => (cb.checked = e.target.checked));
-});
-
-// Wishlist
-document.querySelectorAll("[data-remove-row]").forEach((btn) => {
-    btn.addEventListener("click", () => btn.closest("tr").remove());
-});
-
-window.addEventListener("load", () => {
-    if (location.hash) {
-        const trigger = document.querySelector('.nav-tabs a[href="' + location.hash + '"]');
-        if (trigger) bootstrap.Tab.getOrCreateInstance(trigger).show();
-    }
-});
-
-document.querySelectorAll("[data-qty]").forEach((btn) => {
-    btn.addEventListener("click", () => {
-        const input = document.getElementById("quickview-qty");
-        input.value = Math.max(1, (parseInt(input.value, 10) || 1) + parseInt(btn.dataset.qty, 10));
-    });
-});
