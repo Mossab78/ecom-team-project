@@ -131,7 +131,7 @@ document.querySelectorAll(".slider-track").forEach(function (track) {
 });
 /* ============ Automatic banner and card movement end ============ */
 
- /* ============ Shopping cart start ============ */
+/* ============ Shopping cart start ============ */
 let cart = [];
 
 try {
@@ -157,33 +157,40 @@ function updateCart() {
     let count = 0;
 
     cart.forEach(function (item, index) {
-        const subtotal = item.price * item.quantity;
+        const subtotal = Number(item.price) * Number(item.quantity);
 
         total += subtotal;
-        count += item.quantity;
+        count += Number(item.quantity);
 
         // Sidebar cart
-        const row = document.createElement("div");
-        row.className = "cart-row d-flex justify-content-between gap-3";
-
-        const label = document.createElement("span");
-        label.textContent =
-            item.name + " × " + item.quantity + " — $" +
-            subtotal.toFixed(2);
-
-        const remove = document.createElement("button");
-        remove.className = "cart-remove btn btn-sm";
-        remove.type = "button";
-        remove.textContent = "Remove";
-
-        remove.addEventListener("click", function () {
-            cart.splice(index, 1);
-            updateCart();
-        });
-
-        row.append(label, remove);
-
         if (cartItems) {
+            const row = document.createElement("div");
+            row.className = "cart-row d-flex justify-content-between gap-3 align-items-center";
+
+            if (item.image) {
+                const image = document.createElement("img");
+                image.src = item.image;
+                image.alt = item.name;
+                image.className = "cart-sidebar-image";
+                row.append(image);
+            }
+
+            const label = document.createElement("span");
+            label.textContent =
+                item.name + " × " + item.quantity + " — $" +
+                subtotal.toFixed(2);
+
+            const remove = document.createElement("button");
+            remove.className = "cart-remove btn btn-sm";
+            remove.type = "button";
+            remove.textContent = "Remove";
+
+            remove.addEventListener("click", function () {
+                cart.splice(index, 1);
+                updateCart();
+            });
+
+            row.append(label, remove);
             cartItems.append(row);
         }
 
@@ -245,15 +252,15 @@ function updateCart() {
             subtotalText.className = "color-brand-3 fw-bold";
             subtotalText.textContent = "$" + subtotal.toFixed(2);
             subtotalCell.append(subtotalText);
-
-            const removeCell = document.createElement("div");
+const removeCell = document.createElement("div");
             removeCell.className = "wishlist-remove text-center";
 
             const removeButton = document.createElement("button");
             removeButton.type = "button";
             removeButton.className = "btn btn-delete";
             removeButton.textContent = "Remove";
-removeButton.addEventListener("click", function () {
+
+            removeButton.addEventListener("click", function () {
                 cart.splice(index, 1);
                 updateCart();
             });
@@ -365,7 +372,7 @@ if (clearCartButton) {
 }
 
 updateCart();
-/* ============ Shopping cart end ============ */
+
 /* ============ Shopping cart end ============ */
 
 /* ============ Wishlist and quick view start ============ */
