@@ -140,31 +140,156 @@ try {
 }
 const cartItems = document.getElementById("cart-items");
 function updateCart() {
+    if(cartItems)
     cartItems.replaceChildren();
+
+    const cartPageItems = document.getElementById("cart-page-items");
+
+    if (cartPageItems) {
+        cartPageItems.replaceChildren();
+    }
+
     let total = 0;
     let count = 0;
+
     cart.forEach(function (item, index) {
-        total += item.price * item.quantity;
+        const subtotal = item.price * item.quantity;
+
+        total += subtotal;
         count += item.quantity;
+
+        // Sidebar cart
         const row = document.createElement("div");
         row.className = "cart-row d-flex justify-content-between gap-3";
+
         const label = document.createElement("span");
-        label.textContent = item.name + " × " + item.quantity + " — $" + (item.price * item.quantity).toFixed(2);
+        label.textContent =
+            item.name + " × " + item.quantity + " — $" +
+            subtotal.toFixed(2);
+
         const remove = document.createElement("button");
         remove.className = "cart-remove btn btn-sm";
         remove.type = "button";
         remove.textContent = "Remove";
+
         remove.addEventListener("click", function () {
             cart.splice(index, 1);
             updateCart();
         });
+
         row.append(label, remove);
+        if(cartItems)
         cartItems.append(row);
+
+        // Cart page
+        if (cartPageItems) {
+            const pageRow = document.createElement("div");
+            pageRow.className =
+                "item-wishlist rounded-1 d-flex w-100 align-items-center";
+
+            const product = document.createElement("div");
+            product.className = "wishlist-product";
+
+            const name = document.createElement("h6");
+            name.className = "color-brand-3 fs-6 fw-bold";
+            name.textContent = item.name;
+            product.append(name);
+
+            const price = document.createElement("div");
+            price.className = "wishlist-price text-center";
+
+            const priceText = document.createElement("h4");
+            priceText.className = "color-brand-3 fw-bold";
+            priceText.textContent = "$" + Number(item.price).toFixed(2);
+            price.append(priceText);
+
+            const quantity = document.createElement("div");
+            quantity.className = "wishlist-status text-center";
+
+            const quantityInput = document.createElement("input");
+            quantityInput.type = "number";
+            quantityInput.min = "1";
+            quantityInput.value = item.quantity;
+            quantityInput.className = "form-control text-center";
+            quantityInput.setAttribute("aria-label", "Product quantity");
+
+            quantityInput.addEventListener("change", function () {
+                item.quantity = Math.max(
+                    1,
+                    Number(quantityInput.value) || 1
+                );
+                updateCart();
+            });
+
+            quantity.append(quantityInput);
+
+            const subtotalCell = document.createElement("div");
+            subtotalCell.className = "wishlist-action text-center";
+
+            const subtotalText = document.createElement("h4");
+            subtotalText.className = "color-brand-3 fw-bold";
+            subtotalText.textContent = "$" + subtotal.toFixed(2);
+            subtotalCell.append(subtotalText);
+
+            const removeCell = document.createElement("div");
+            removeCell.className = "wishlist-remove text-center";
+
+            const removeButton = document.createElement("button");
+            removeButton.type = "button";
+            removeButton.className = "btn btn-delete";
+            removeButton.textContent = "Remove";
+
+            removeButton.addEventListener("click", function () {
+                cart.splice(index, 1);
+                updateCart();
+            });
+
+            removeCell.append(removeButton);
+
+            pageRow.append(
+                product,
+                price,
+                quantity,
+                subtotalCell,
+                removeCell
+            );
+
+            cartPageItems.append(pageRow);
+        }
     });
-    if (!cart.length) cartItems.textContent = "Your cart is empty.";
-    document.getElementById("cart-total").textContent = total.toFixed(2);
+
+if (!cart.length) {
+    if (cartItems) {
+        cartItems.textContent = "Your cart is empty.";
+    }
+
+    if (cartPageItems) {
+        cartPageItems.textContent = "Your cart is empty.";
+    }
+}
+ const cartTotal = document.getElementById("cart-total");
+
+if (cartTotal) {
+    cartTotal.textContent = total.toFixed(2);
+}
+
     const badge = document.getElementById("cart-count");
-    if (badge) badge.textContent = count;
+
+    if (badge) {
+        badge.textContent = count;
+    }
+
+    const pageSubtotal = document.getElementById("cart-page-subtotal");
+    const pageTotal = document.getElementById("cart-page-total");
+
+    if (pageSubtotal) {
+        pageSubtotal.textContent = "$" + total.toFixed(2);
+    }
+
+    if (pageTotal) {
+        pageTotal.textContent = "$" + total.toFixed(2);
+    }
+
     try {
         sessionStorage.setItem("ecom-cart-v3", JSON.stringify(cart));
     } catch (error) {
@@ -189,10 +314,14 @@ document.querySelectorAll(".add-cart").forEach(function (button) {
         showMessage("Added to cart.");
     });
 });
-document.getElementById("clear-cart").addEventListener("click", function () {
-    cart = [];
-    updateCart();
-});
+const clearCartButton = document.getElementById("clear-cart");
+
+if (clearCartButton) {
+    clearCartButton.addEventListener("click", function () {
+        cart = [];
+        updateCart();
+    });
+}
 updateCart();
 /* ============ Shopping cart end ============ */
 
