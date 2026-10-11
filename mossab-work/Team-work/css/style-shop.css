@@ -1,0 +1,461 @@
+/* Ecom reference visual details. GPL-2.0-or-later; see SOURCE_NOTICE.md. */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .mw-80 {
+    max-width: 80%;
+}
+.ecom-site .opacity-100 {
+    opacity: 1 !important;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Forms and account start ============ */
+.ecom-site .transform-none {
+    transform: none !important;
+}
+/* ============ Forms and account end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .cb-container-2 {
+    padding-left: 30px;
+    cursor: pointer;
+    line-height: 22px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Forms and account start ============ */
+.ecom-site .cb-container-2 input {
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.ecom-site .cb-container-2 input:checked ~ .checkmark {
+    border: 1px solid #425a8b;
+}
+.ecom-site .cb-container-2 input:checked ~ .checkmark:after {
+    display: block;
+}
+/* ============ Forms and account end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .cb-container-2 .checkmark:after {
+    left: 0px;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/product/checked.svg") no-repeat center;
+}
+.ecom-site .pl-80 {
+    padding-left: 80px !important;
+}
+.ecom-site .pr-80 {
+    padding-right: 80px !important;
+}
+.ecom-site .ml-15 {
+    margin-left: 15px !important;
+}
+.ecom-site .ml-30 {
+    margin-left: 30px !important;
+}
+.ecom-site .ml-50 {
+    margin-left: 50px !important;
+}
+.ecom-site .display-list .btn-tooltip {
+    position: relative;
+}
+.ecom-site .display-list .btn-tooltip:after {
+    color: #425a8b;
+    background-color: #d5dfe4;
+    top: -35px;
+    left: auto;
+    position: absolute;
+    white-space: nowrap;
+    border-radius: 5px;
+    font-size: 11px;
+    padding-top: 7px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    content: attr(aria-label);
+    line-height: 1.3;
+    box-shadow: 0;
+    transition: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: 0;
+    transition-duration: 0.2s;
+    bottom: unset;
+    right: 0;
+}
+.ecom-site .display-list .btn-tooltip:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    border: 7px solid transparent;
+    border-top-color: #d5dfe4;
+    z-index: 9;
+    margin-bottom: 0;
+    transition: 0;
+    opacity: 0;
+    visibility: hidden;
+    margin-left: -8px;
+}
+.ecom-site .display-list .btn-tooltip:hover:after {
+    opacity: 1;
+    visibility: visible;
+    transform: 0;
+    transition-duration: 0.2s;
+}
+.ecom-site .display-list .btn-tooltip:hover:before {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-8px);
+}
+.ecom-site .box-bought-together {
+    margin-bottom: 30px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .box-bought-together .box-product-bought .product-bought {
+    width: 50%;
+    border: 4px solid #dde4f0;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    min-width: 216px;
+    max-width: 216px;
+    margin-right: 50px;
+    position: relative;
+}
+.ecom-site .box-bought-together .box-product-bought .product-bought::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -49px;
+    height: 40px;
+    width: 40px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/product/plus-brand-3.svg") no-repeat
+        center;
+    margin-top: -20px;
+}
+.ecom-site .box-bought-together .box-product-bought .product-bought:first-child::before {
+    display: none;
+}
+.ecom-site .box-bought-together .box-product-bought .product-bought:last-child {
+    margin-right: 0px;
+}
+.ecom-site .box-bought-together .price-bought {
+    align-content: center;
+    padding-left: 30px;
+}
+.ecom-site .box-bought-together .price-bought .box-btn-add-cart {
+    margin-top: 20px;
+}
+.ecom-site .box-bought-together .price-bought .box-btn-add-cart a {
+    max-width: 216px;
+}
+.ecom-site .nav-tabs-product {
+    margin-bottom: 10px;
+}
+.ecom-site .nav-tabs-product li {
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.ecom-site .nav-tabs-product li a {
+    padding-right: 0px;
+    line-height: 31px;
+    color: #8c9ec5;
+    font-weight: bold;
+}
+.ecom-site .nav-tabs-product li a:hover {
+    font-weight: bold;
+}
+.ecom-site a:hover span.btn-wishlist {
+    background: #ffffff url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/icons/wishlist-hover.svg")
+        no-repeat center;
+}
+.ecom-site a:hover span.btn-compare {
+    background: #ffffff url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/icons/compare-hover.svg")
+        no-repeat center;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .galleries {
+    padding-left: 105px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Sliders and galleries start ============ */
+.ecom-site .slider-nav-thumbnails {
+    top: 0px;
+    left: 0px;
+    width: 94px;
+}
+/* ============ Sliders and galleries end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .display-text-short {
+    height: 125px;
+}
+.ecom-site .display-text-short p {
+    margin-bottom: 15px;
+}
+.ecom-site .title-question {
+    font-size: 18px;
+    color: #425a8b;
+    line-height: 28px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .product-rate {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/product/rating-stars.png");
+    background-position: 0 -12px;
+    background-repeat: repeat-x;
+    height: 12px;
+    width: 60px;
+    transition: all 0.5s ease-out 0s;
+}
+.ecom-site .product-rating {
+    height: 12px;
+    background-repeat: repeat-x;
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/product/rating-stars.png");
+    background-position: 0 0;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .progress span {
+    line-height: 16px;
+    background: #ffffff;
+    padding-right: 10px;
+    width: 45px;
+}
+.ecom-site .progress + .progress {
+    margin-top: 1rem;
+}
+.ecom-site .comments-area h6,
+.ecom-site .vendor-logo h6 {
+    color: #425a8b;
+    line-height: 1.2;
+}
+.ecom-site .comments-area .comment-list:last-child {
+    padding-bottom: 0px;
+}
+.ecom-site .comments-area .comment-list .single-comment {
+    margin-bottom: 15px;
+    margin-left: 0;
+    border: 1px solid #dde4f0;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    transition: 0.2s;
+}
+.ecom-site .comments-area .comment-list .single-comment:not(:last-child) {
+    border-bottom: 1px solid #ececec;
+}
+.ecom-site .comments-area .thumb {
+    margin-right: 20px;
+}
+.ecom-site .comments-area .comment-list .single-comment img {
+    min-width: 80px;
+    max-width: 80px;
+}
+.ecom-site .comments-area .thumb img {
+    width: 70px;
+}
+.ecom-site .text-brand {
+    color: #425a8b !important;
+    line-height: 1.2;
+}
+.ecom-site .comments-area .comment-list .single-comment .reply {
+    opacity: 0;
+    transition: 0.2s;
+    color: #0ba9ed;
+}
+.ecom-site .comments-area .comment-list .single-comment:hover .reply {
+    opacity: 1;
+    transition: 0.2s;
+}
+.ecom-site .comments-area .comment-list .single-comment .reply:hover {
+    color: #fd9636;
+}
+.ecom-site .contact-infor li {
+    color: #425a8b;
+}
+.ecom-site .contact-infor li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.ecom-site .contact-infor li img {
+    max-width: 16px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .box-border-product {
+    border: 1px solid #8c9ec5;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.ecom-site .box-border-product .box-quantity {
+    width: 30%;
+    min-width: 100px;
+    max-width: 100px;
+}
+.ecom-site .box-progress-product .progress {
+    background-color: #d5dfe4;
+    height: 8px;
+}
+.ecom-site .box-progress-product .progress .progress-bar {
+    background-color: #425a8b;
+    height: 8px;
+}
+.ecom-site .banner-right-product {
+    height: 320px !important;
+    padding-top: 20px;
+}
+.ecom-site .banner-right-product .font-md-bold {
+    line-height: 20px !important;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .list-checkbox li .number-item {
+    top: 35%;
+    right: 0px;
+    transform: translateY(-50%);
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 7px;
+    background: #f0f3f8;
+    color: #425a8b;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Categories and benefits start ============ */
+.ecom-site .list-color {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.ecom-site .list-color li {
+    flex: 0 0 auto;
+    width: 20%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.ecom-site .list-color li a {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 5px;
+}
+.ecom-site .list-color li a:hover,
+.ecom-site .list-color li a.active {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/shop/check.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ecom-site .list-color li a.color-red {
+    background-color: #f53658;
+}
+.ecom-site .list-color li a.color-green {
+    background-color: #5bc694;
+}
+.ecom-site .list-color li a.color-blue {
+    background-color: #1aaeed;
+}
+.ecom-site .list-color li a.color-purple {
+    background-color: #9c79ff;
+}
+.ecom-site .list-color li a.color-black {
+    background-color: #0e224d;
+}
+.ecom-site .list-color li a.color-gray {
+    background-color: #dde4f0;
+}
+.ecom-site .list-color li a.color-pink {
+    background-color: #ff94bc;
+}
+.ecom-site .list-color li a.color-brown {
+    background-color: #ab5f3e;
+}
+.ecom-site .list-color li a.color-yellow {
+    background-color: #f9d915;
+}
+/* ============ Categories and benefits end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .slide-shop .card-grid-style-2.border-bottom {
+    border-width: 0px !important;
+}
+.ecom-site .slide-shop .card-grid-style-2 .image-box .label {
+    left: 2px;
+    top: 2px;
+}
+.ecom-site .slide-shop .card-grid-style-2.card-grid-none-border .image-box {
+    min-width: 84px;
+    max-width: 84px;
+    margin-right: 13px;
+    border: 1px solid #ccc;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .banner-ads-top {
+    border: 1px solid #dde4f0;
+}
+.ecom-site .banner-top-gray-100 .banner-ads-top {
+    background-color: #f9fafb !important;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Sliders and galleries start ============ */
+.ecom-site .slider-shop-2 .card-grid-style-2 {
+    border: 1px solid #d5dfe4;
+}
+.ecom-site .slider-shop-2 .card-grid-style-2:hover {
+    border: 1px solid #fd9636;
+}
+.ecom-site .slider-shop-2 .swiper-button-next {
+    right: -50px;
+    top: 50%;
+    margin-top: -30px;
+}
+.ecom-site .slider-shop-2 .swiper-button-prev {
+    left: -50px;
+    right: auto;
+    top: 50%;
+    margin-top: -30px;
+}
+.ecom-site .slider-shop-2 .card-grid-style-2 {
+    margin-left: 1px;
+}
+/* ============ Sliders and galleries end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .home-visual-018 {
+    width: 80%;
+}
+.ecom-site .home-visual-019 {
+    width: 90%;
+}
+.ecom-site .home-visual-021 {
+    width: 45%;
+}
+.ecom-site .home-visual-022 {
+    width: 65%;
+}
+.ecom-site .home-visual-023 {
+    width: 85%;
+}
+/* ============ Banners and promotions end ============ */

@@ -1,0 +1,106 @@
+/* Ecom reference visual details. GPL-2.0-or-later; see SOURCE_NOTICE.md. */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .card-vendor {
+    border: 1px solid #d5dfe4;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+.ecom-site .card-vendor:hover {
+    border-color: #8c9ec5;
+}
+.ecom-site .card-vendor .btn-gray:hover {
+    background-color: #425a8b;
+    color: #ffffff;
+}
+.ecom-site .card-vendor .card-top-vendor {
+    border-bottom: 1px solid #d5dfe4;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.ecom-site .card-vendor .card-top-vendor .card-top-vendor-left {
+    width: 30%;
+    max-width: 115px;
+    min-width: 115px;
+}
+.ecom-site .card-vendor .card-top-vendor .card-top-vendor-left img {
+    max-height: 40px;
+}
+.ecom-site .card-vendor .card-top-vendor .card-top-vendor-right {
+    width: 80%;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .location {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/vendor/location.svg") no-repeat 0px 0px;
+    padding-left: 32px;
+    color: #8c9ec5;
+    font-size: 16px;
+    line-height: 24px;
+}
+.ecom-site .phone {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/vendor/phone.svg") no-repeat 0px 0px;
+    padding-bottom: 1px;
+    padding-left: 32px;
+    color: #8c9ec5;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .box-banner-vendor {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.ecom-site .box-banner-vendor .vendor-right {
+    max-width: 293px;
+    min-width: 293px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ecom-site .box-banner-vendor .vendor-left {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .box-info-vendor {
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+.ecom-site .box-info-vendor .avarta {
+    max-width: 150px;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    top: -65px;
+    background: #ffffff;
+    border: 1px solid #d5dfe4;
+    max-height: 140px;
+}
+.ecom-site .box-info-vendor .avarta .btn-buy {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ecom-site .box-info-vendor .info-vendor {
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 30%;
+}
+.ecom-site .box-info-vendor .vendor-contact {
+    width: 60%;
+}
+.ecom-site .border-vendor {
+    margin-top: -60px !important;
+}
+/* ============ Typography and visual details end ============ */

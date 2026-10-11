@@ -1,0 +1,2282 @@
+/* Ecom reference visual details. GPL-2.0-or-later; see SOURCE_NOTICE.md. */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .font-sm-lh32 {
+    font-size: 14px;
+    line-height: 32px;
+}
+.ecom-site .font-base {
+    line-height: 24px;
+}
+.ecom-site .font-base-2 {
+    font-size: 18px;
+    line-height: 23px;
+}
+.ecom-site .font-desc {
+    font-size: 19px;
+    line-height: 27px;
+}
+.ecom-site .bg-2 {
+    background-color: #fff3ea;
+}
+.ecom-site .bg-3 {
+    background-color: #fff2f3;
+}
+.ecom-site .bg-4 {
+    background-color: #fff1f6 !important;
+}
+.ecom-site .bg-5 {
+    background-color: #dbece5;
+}
+.ecom-site .bg-6 {
+    background-color: #e8fcff !important;
+}
+.ecom-site .bg-9 {
+    background-color: #d1ecfd !important;
+}
+.ecom-site .bg-10 {
+    background-color: #ddd3fa !important;
+}
+.ecom-site .bg-11 {
+    background-color: #d4f7ff;
+}
+.ecom-site .bg-11-2 {
+    background-color: #dcf4e0;
+}
+.ecom-site .bg-11-3 {
+    background-color: #f7e5d5;
+}
+.ecom-site .bg-13 {
+    background-color: #fff4f6;
+}
+.ecom-site .bg-14 {
+    background-color: #e0f2ee;
+}
+.ecom-site .bg-15 {
+    background-color: #5c74a6;
+}
+.ecom-site .bg-16 {
+    background-color: #c8dce8;
+}
+.ecom-site .bg-17 {
+    background-color: #c4e3d6;
+}
+.ecom-site .bg-19 {
+    background-color: #cbe9ff;
+}
+.ecom-site .bg-20 {
+    background-color: #ffd5c8;
+}
+.ecom-site .bg-21 {
+    background-color: #caefdf;
+}
+.ecom-site .bg-22 {
+    background-color: #b8f2ff;
+}
+.ecom-site .bg-26 {
+    background-color: #fff5db;
+}
+.ecom-site .bg-27 {
+    background-color: #f5ecdd !important;
+}
+.ecom-site .bg-29 {
+    background-color: #ffdebf !important;
+}
+.ecom-site .bg-30 {
+    background-color: #d6eff2 !important;
+}
+.ecom-site .bg-32 {
+    background-color: #f9f9f9 !important;
+}
+.ecom-site h1 {
+    font-size: 64px;
+}
+.ecom-site .bg-brand-1 {
+    background-color: #0ba9ed !important;
+}
+.ecom-site .bg-gray-50 {
+    background-color: #f0f3f8;
+}
+.ecom-site .bd-gray-200 {
+    border-color: #cad6ec !important;
+}
+.ecom-site .box-count {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+.ecom-site .box-count .deals-countdown {
+    border-radius: 34px;
+    background-color: #425a8b;
+    padding-right: 12px;
+    padding-left: 12px;
+    width: 84%;
+    max-width: 230px;
+}
+.ecom-site .box-count .deals-countdown .countdown-section {
+    display: inline-block;
+    line-height: 12px;
+    position: relative;
+}
+.ecom-site .box-count .deals-countdown .countdown-section::before {
+    content: ":";
+    position: absolute;
+    top: 3px;
+    right: -1px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+}
+.ecom-site .box-count .deals-countdown .countdown-section span {
+    color: #ffffff;
+}
+.ecom-site .box-count .deals-countdown .countdown-section .countdown-period {
+    text-transform: capitalize;
+}
+.ecom-site .box-count .deals-countdown .countdown-section:last-child::before {
+    display: none;
+}
+.ecom-site .box-count.box-count-square {
+    margin-bottom: 5px;
+}
+.ecom-site .box-count.box-count-square .deals-countdown {
+    background-color: #ffffff;
+    max-width: 250px;
+}
+.ecom-site .box-count.box-count-square .deals-countdown .countdown-section {
+    display: inline-block;
+    line-height: 12px;
+    position: relative;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.ecom-site .box-count.box-count-square .deals-countdown .countdown-section::before {
+    content: ":";
+    position: absolute;
+    top: 12px;
+    right: -9px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #425a8b;
+}
+.ecom-site .box-count.box-count-square .deals-countdown .countdown-section .countdown-period {
+    color: #8c9ec5;
+}
+.ecom-site .box-count.box-count-square .deals-countdown .countdown-amount {
+    background-color: #fd9636;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 42px;
+    margin-bottom: 5px;
+}
+.ecom-site .box-count.hide-period {
+    bottom: -5px;
+}
+.ecom-site .box-count.hide-period .deals-countdown {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .box-all-hurry {
+    bottom: -20px;
+}
+.ecom-site .box-text-hurryup {
+    line-height: 16px;
+    padding-top: 7px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .divide {
+    border-bottom: 1px solid #d5dfe4;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.ecom-site .box-progress {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ecom-site .box-progress .progress-bar {
+    background-color: #d5dfe4;
+    height: 9px;
+    border-radius: 24px;
+}
+.ecom-site .box-progress .progress-bar .progress-bar-inner {
+    background-color: #fd9636;
+    border-radius: 24px;
+    width: 50%;
+    height: 9px;
+    position: relative;
+}
+.ecom-site .box-progress .progress-bar .progress-bar-inner::before {
+    content: "";
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fd9636;
+    width: 15px;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+}
+.ecom-site .box-progress.box-progress-small .progress-bar {
+    height: 6px;
+}
+.ecom-site .box-progress.box-progress-small .progress-bar .progress-bar-inner {
+    height: 6px;
+}
+.ecom-site .box-progress.box-progress-small .progress-bar .progress-bar-inner::before {
+    height: 11px;
+    width: 11px;
+    top: -3px;
+}
+.ecom-site .font-18 {
+    font-size: 18px;
+    line-height: 23px;
+    color: #0ba9ed;
+}
+.ecom-site .font-30 {
+    font-size: 30px;
+    line-height: 39px;
+    color: #0e224d;
+}
+.ecom-site .font-32 {
+    line-height: 31px;
+    color: #0e224d;
+}
+.ecom-site .font-33 {
+    font-size: 30px;
+    line-height: 35px;
+    color: #0e224d;
+}
+.ecom-site .font-59 {
+    font-size: 59px;
+    line-height: 64px;
+    color: #0e224d;
+}
+.ecom-site .font-55 {
+    font-size: 55px;
+    line-height: 62px;
+    color: #0e224d;
+}
+.ecom-site .font-17 {
+    font-size: 17px;
+    line-height: 22px;
+}
+.ecom-site .font-46 {
+    font-size: 46px;
+    line-height: 60px;
+}
+.ecom-site .color-danger {
+    color: #f53658;
+}
+.ecom-site .color-border-1 {
+    color: #d5dfe4;
+}
+.ecom-site .btn.btn-arrow {
+    font-size: 12px;
+    line-height: 32px;
+    color: #0ba9ed;
+    padding-right: 15px;
+    text-transform: uppercase;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/icons/arrow.svg") no-repeat right 0px
+        top 20px;
+}
+.ecom-site .btn.btn-brand-3 {
+    background-color: #425a8b;
+    color: #ffffff;
+}
+.ecom-site .btn.btn-brand-3:hover {
+    background-color: #fd9636;
+}
+.ecom-site .btn.btn-info {
+    background-color: #27b3d2;
+    color: #ffffff;
+}
+.ecom-site .btn.btn-info:hover {
+    background-color: #fd9636;
+    border-color: #fd9636;
+}
+.ecom-site .btn.btn-arrow-right {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/icons/arrow-white.svg");
+    background-position: center right 18px;
+    background-repeat: no-repeat;
+    padding-right: 34px;
+}
+.ecom-site .btn.btn-link {
+    color: #425a8b;
+    font-size: 14px;
+    line-height: 18px;
+}
+.ecom-site .btn.btn-link:hover {
+    color: #fd9636;
+}
+.ecom-site .btn.btn-link-brand-2 {
+    color: #fd9636;
+    font-size: 12px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.ecom-site .btn.btn-link-brand-2:hover {
+    color: #425a8b;
+}
+.ecom-site .btn.btn-arrow-brand-2 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/icons/arrow-brand-2.svg");
+    background-position: center right 18px;
+    background-repeat: no-repeat;
+    padding-right: 34px;
+}
+.ecom-site .btn.btn-arrow-brand-2:hover {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/icons/arrow-gray.svg");
+    background-position: center right 18px;
+    background-repeat: no-repeat;
+}
+.ecom-site .btn.btn-arrow-small {
+    background-size: 5px;
+    background-position: top 6px right 18px;
+    line-height: 18px;
+    padding-right: 30px;
+}
+.ecom-site .btn.btn-gray-abs {
+    bottom: -20px;
+    right: -15px;
+    background-color: #d5dfe4;
+    font-size: 14px;
+    line-height: 18px;
+    color: #425a8b;
+    border-radius: 0px;
+    border-top-left-radius: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ecom-site .btn.btn-gray-abs:hover {
+    color: #fd9636;
+}
+.ecom-site .btn.btn-view-all {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/icons/arrow-line.svg") no-repeat right
+        0px center;
+    padding-right: 26px;
+    color: #425a8b;
+}
+.ecom-site .btn.btn-view-all:hover {
+    color: #fd9636;
+}
+.ecom-site .btn.btn-link-orange {
+    text-decoration: underline;
+    color: #fd9636;
+}
+.ecom-site .btn.btn-shop-now {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage5/shop-now.svg");
+    background-position: left 14px center;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+.ecom-site .btn.btn-success {
+    background-color: #5bc694;
+    border-color: #5bc694;
+}
+.ecom-site .btn.btn-success:hover {
+    background-color: #425a8b;
+    border-color: #425a8b;
+}
+.ecom-site .btn.btn-link-brand-3 {
+    color: #425a8b;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: underline;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Sliders and galleries start ============ */
+.ecom-site .box-button-slider {
+    top: 10px;
+    right: 0px;
+}
+/* ============ Sliders and galleries end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .card-grid-style-2-small {
+    padding-bottom: 20px;
+}
+.ecom-site .card-grid-style-2-small .image-box {
+    max-width: 100px;
+    min-width: 100px;
+}
+.ecom-site .card-grid-style-3.card-grid-none-border .card-grid-inner {
+    border-color: #ffffff;
+}
+.ecom-site .card-grid-style-3.card-grid-none-border .card-grid-inner .box-add-cart {
+    min-height: 36px;
+}
+.ecom-site .card-grid-style-3.card-grid-none-border .card-grid-inner .box-add-cart .btn-cart {
+    display: none;
+}
+.ecom-site .card-grid-style-3.card-grid-none-border .card-grid-inner:hover {
+    border-color: #8c9ec5;
+}
+.ecom-site .card-grid-style-3.card-grid-none-border .card-grid-inner:hover .box-add-cart .btn-cart {
+    display: block;
+}
+.ecom-site .card-grid-style-3.hover-hide-show-cart .box-progress-small {
+    display: block;
+    padding-top: 19px;
+}
+.ecom-site .card-grid-style-3.hover-hide-show-cart .box-add-cart {
+    display: none;
+}
+.ecom-site .card-grid-style-3.hover-hide-show-cart:hover .box-progress-small {
+    display: none;
+}
+.ecom-site .card-grid-style-3.hover-hide-show-cart:hover .box-add-cart {
+    display: block;
+}
+.ecom-site .card-grid-style-4 {
+    background-color: #ffffff;
+    border: 1px solid #d5dfe4;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+.ecom-site .card-grid-style-4 .card-grid-inner {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.ecom-site .card-grid-style-4 .card-grid-inner .image-box {
+    flex: 0 0 auto;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.ecom-site .card-grid-style-4 .card-grid-inner .info-right {
+    flex: 0 0 auto;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.ecom-site .card-grid-style-4 .box-link {
+    line-height: 10px;
+}
+.ecom-site .hurry-up {
+    height: calc(100% - 30px);
+}
+.ecom-site .hurry-up .card-grid-inner .image-box {
+    height: 370px;
+    line-height: 360px;
+    margin-bottom: 10px;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Sliders and galleries start ============ */
+.ecom-site .hurry-up .card-grid-inner .image-box .box-swiper .swiper-container {
+    padding-bottom: 10px;
+}
+/* ============ Sliders and galleries end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .hurry-up .card-grid-inner .price-info {
+    margin-top: 20px;
+}
+.ecom-site .hurry-up .label {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/label.svg") no-repeat 0px 0px;
+    border-radius: 0px;
+    top: 0px;
+    left: 0px;
+    height: 120px;
+    width: 120px;
+    z-index: 12;
+}
+.ecom-site .hurry-up .label span {
+    transform: rotate(-45deg);
+    top: 33px;
+    left: -1px;
+}
+.ecom-site .hurry-up-2 .label {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage4/hurry-up-2.svg") no-repeat 0px
+        0px;
+}
+.ecom-site .hurry-up-2 .label span {
+    top: 30px;
+    left: -3px;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .top-deals {
+    margin-bottom: 30px;
+}
+.ecom-site .top-deals .label {
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 100px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage2/topdeals.svg") no-repeat 0px 0px;
+    z-index: 12;
+}
+.ecom-site .top-deals .label span {
+    transform: rotate(-45deg);
+    top: 12px;
+    left: 7px;
+    text-transform: uppercase;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .top-deals .card-grid-inner {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border: 3px solid #425a8b;
+}
+.ecom-site .top-deals .card-grid-inner:hover {
+    border: 3px solid #425a8b;
+}
+.ecom-site .top-deals .card-grid-inner .image-box {
+    height: 210px;
+    line-height: 190px;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Sliders and galleries start ============ */
+.ecom-site .top-deals .card-grid-inner .image-box .swiper-container {
+    padding-bottom: 40px;
+}
+/* ============ Sliders and galleries end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .top-deals .card-grid-inner .box-count.box-count-square .deals-countdown .countdown-amount {
+    width: 33px;
+}
+.ecom-site .top-deals .card-grid-inner .box-count.box-count-square .deals-countdown .countdown-section {
+    margin-right: 5px;
+}
+.ecom-site .top-deals .card-grid-inner .box-count.box-count-square .deals-countdown .countdown-section::before {
+    right: -7px;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .top-deals .box-top-deals {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.ecom-site .top-deals .box-top-deals .top-deals-left {
+    flex: 0 0 auto;
+    width: 40%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ecom-site .top-deals .box-top-deals .top-deals-right {
+    flex: 0 0 auto;
+    width: 60%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ecom-site .top-deals .box-top-deals .top-deals-right .box-progress .progress-bar .progress-bar-inner,
+.ecom-site .top-deals .box-top-deals .top-deals-right .box-progress .progress-bar {
+    height: 7px;
+}
+.ecom-site .top-deals .box-top-deals .top-deals-right .box-progress .progress-bar .progress-bar-inner:before {
+    height: 13px;
+    width: 13px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .grid-banner-height {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage2/bg-xiaomi.svg") no-repeat;
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    height: calc(100% - 30px);
+    margin-bottom: 30px;
+    position: relative;
+}
+.ecom-site .grid-banner-height::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 50%;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage2/xiaomi.png") no-repeat left top;
+    background-size: cover;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .card-category {
+    margin-bottom: 30px;
+}
+.ecom-site .card-category .card-image {
+    margin-bottom: 10px;
+}
+.ecom-site .card-circle .card-image {
+    margin-bottom: 10px;
+}
+.ecom-site .card-circle .card-image .inner-image {
+    width: 154px;
+    height: 154px;
+    background-color: #f0f3f8;
+}
+.ecom-site .card-circle .card-image .inner-image img {
+    max-width: 80%;
+}
+.ecom-site .card-circle .card-info a {
+    color: #425a8b;
+}
+.ecom-site .card-product-small .card-image {
+    background-color: #f0f3f8;
+    margin-bottom: 10px;
+}
+.ecom-site .card-product-small .card-info .box-prices {
+    margin-top: 5px;
+}
+.ecom-site .card-product-small .card-info .box-prices * {
+    font-size: 12px;
+    line-height: 12px;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .banner-hero {
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+.ecom-site .banner-hero.banner-1 {
+    background-color: #ffffff;
+}
+.ecom-site .banner-hero.banner-1 .banner-big {
+    height: 500px;
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-bottom: 25px;
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain !important;
+}
+.ecom-site .banner-hero.banner-1 .banner-big.banner-big-2 {
+    padding-top: 110px;
+    padding-right: 60px;
+    padding-bottom: 25px;
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.ecom-site .banner-hero.banner-1 .banner-big.banner-big-3 {
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage4/bg-banner.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover !important;
+}
+.ecom-site .banner-hero.banner-1 .banner-small {
+    height: 238px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+.ecom-site .banner-hero.banner-1 .banner-small.banner-small-1 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage1/banner-small-1.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 60% auto;
+}
+.ecom-site .banner-hero.banner-1 .banner-small.banner-small-2 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage1/banner-small-2.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 70% auto;
+}
+.ecom-site .banner-hero.banner-1 .banner-small.banner-laptop {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage2/laptop.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto;
+}
+.ecom-site .banner-hero.banner-1 .banner-small.banner-laptop::before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 125px;
+    width: 100%;
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage2/circle-top.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    z-index: 1;
+    border-top-left-radius: 8px;
+}
+.ecom-site .banner-hero.banner-1 .banner-small.banner-laptop * {
+    z-index: 2;
+}
+.ecom-site .banner-hero.banner-1 .banner-small.banner-player {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage2/player.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100%;
+}
+.ecom-site .banner-hero.banner-1 .banner-small.banner-apple {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage2/apple-day.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100%;
+}
+.ecom-site .banner-hero.banner-1 .banner-small.banner-samsung {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage2/samsung.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100%;
+}
+.ecom-site .banner-hero.banner-8 .banner-big {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain !important;
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage8/bg-banner.png");
+}
+.ecom-site .banner-right .text-main {
+    line-height: 31px;
+    color: #0e224d;
+}
+.ecom-site .banner-homepage3 {
+    background-color: #d1ecfd;
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/bg-circle.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.ecom-site .banner-homepage3 .container-banner {
+    max-width: 1400px;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .pt-25 {
+    padding-top: 25px !important;
+}
+.ecom-site .pt-35 {
+    padding-top: 35px !important;
+}
+.ecom-site .pt-50 {
+    padding-top: 50px !important;
+}
+.ecom-site .pt-60 {
+    padding-top: 60px !important;
+}
+.ecom-site .pt-70 {
+    padding-top: 70px !important;
+}
+.ecom-site .pb-25 {
+    padding-bottom: 25px !important;
+}
+.ecom-site .pb-30 {
+    padding-bottom: 30px !important;
+}
+.ecom-site .pb-35 {
+    padding-bottom: 35px !important;
+}
+.ecom-site .pb-60 {
+    padding-bottom: 60px !important;
+}
+.ecom-site .pb-90 {
+    padding-bottom: 90px !important;
+}
+.ecom-site .pl-10 {
+    padding-left: 10px !important;
+}
+.ecom-site .pl-20 {
+    padding-left: 20px !important;
+}
+.ecom-site .pl-25 {
+    padding-left: 25px !important;
+}
+.ecom-site .pr-10 {
+    padding-right: 10px !important;
+}
+.ecom-site .pr-20 {
+    padding-right: 20px !important;
+}
+.ecom-site .pr-25 {
+    padding-right: 25px !important;
+}
+.ecom-site .pr-100 {
+    padding-right: 100px !important;
+}
+.ecom-site .mt-35 {
+    margin-top: 35px !important;
+}
+.ecom-site .mt-45 {
+    margin-top: 45px !important;
+}
+.ecom-site .mt-70 {
+    margin-top: 70px !important;
+}
+.ecom-site .mb-70 {
+    margin-bottom: 70px !important;
+}
+.ecom-site .mb-120 {
+    margin-bottom: 120px !important;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Categories and benefits start ============ */
+.ecom-site .list-brands {
+    border: 1px solid #d5dfe4;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 10px;
+}
+.ecom-site .list-brands a {
+    line-height: 100%;
+}
+.ecom-site .list-brands a img {
+    opacity: 0.3;
+    max-height: 15px;
+}
+.ecom-site .list-brands a:hover img {
+    opacity: 1;
+}
+/* ============ Categories and benefits end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .head-main {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d5dfe4;
+    margin-bottom: 30px;
+}
+.ecom-site .list-links-disc {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.ecom-site .list-links-disc li {
+    margin-bottom: 6px;
+    list-style: none;
+    transition: 0.2s;
+}
+.ecom-site .list-links-disc li:hover {
+    padding-left: 2px;
+    transition: 0.2s;
+}
+.ecom-site .list-links-disc li a {
+    padding-left: 10px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/icons/arrow-small.svg") no-repeat left
+        center;
+    color: #6b83b6;
+}
+.ecom-site .list-links-disc li a:hover {
+    color: #0ba9ed;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/template/icons/arrow-small-hover.svg")
+        no-repeat left center;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .image-gallery {
+    display: table;
+    table-layout: fixed;
+    margin-right: -10px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    width: calc(100% + 20px);
+}
+.ecom-site .image-gallery .image-big {
+    width: 62.5%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ecom-site .image-gallery .image-small {
+    width: 37.5%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ecom-site .banner-2 {
+    background-color: #dfe7fd;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    height: 470px;
+    margin-bottom: 25px;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .bg-xbox {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage1/xbox.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 260px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .banner-img-left {
+    background-color: #d1ecfd;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 220px;
+    height: 225px;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .bg-controller {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage1/controller.png");
+    background-repeat: no-repeat;
+    background-position: bottom left 10px;
+    background-size: auto 80%;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .bg-metaverse {
+    background-color: #fff3ea;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 225px;
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage1/metaverse.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: auto 80%;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .bg-phone {
+    background-color: #ddd3fa;
+    padding-top: 30px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    height: 225px;
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage1/phone.png");
+    background-repeat: no-repeat;
+    background-position: bottom right 10px;
+    background-size: auto 75%;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .block-drone {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage1/drone.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top: 25px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    background-size: auto 150px;
+    height: 250px;
+}
+.ecom-site .block-samsung {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage1/samsung.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top: 25px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    background-size: auto 220px;
+    height: 250px;
+}
+.ecom-site .block-iphone {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage1/iphone-12.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top: 25px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    background-size: auto 160px;
+    height: 250px;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .label-green {
+    background-color: #5bc694;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+}
+.ecom-site .list-disc {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.ecom-site .btn.btn-gray-1000 {
+    background-color: #0e224d;
+    color: #ffffff;
+}
+.ecom-site .btn.btn-link-white {
+    text-decoration: underline;
+    color: #ffffff;
+}
+.ecom-site .saleoff {
+    top: 0px;
+    left: 0px;
+    height: 93px;
+    width: 106px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage2/saleoff.svg") no-repeat 0px 0px;
+    line-height: 32px;
+    color: #ffffff;
+    font-family: "Kanit", sans-serif;
+    padding-top: 25px;
+    padding-left: 15px;
+    border-radius: 8px 0 0 0;
+}
+.ecom-site .list-none-border {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0px !important;
+    margin-top: -10px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Categories and benefits start ============ */
+.ecom-site .list-none-border.list-brands a img {
+    opacity: 0.3;
+    max-height: 20px;
+    transition: 0.2s;
+}
+.ecom-site .list-none-border.list-brands a:hover img {
+    opacity: 0.8;
+    transition: 0.2s;
+}
+/* ============ Categories and benefits end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .list-9-col {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+/* Nine columns are a desktop-only reference layout; mobile uses Bootstrap row-cols. */
+@media (min-width: 1200px) {
+    .ecom-site .list-9-col li {
+        flex: 0 0 auto;
+        width: 11.11%;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Categories and benefits start ============ */
+.ecom-site .list-9-col li .box-category {
+    border: 1px solid #d5dfe4;
+}
+.ecom-site .list-9-col li .box-category:hover {
+    border: 1px solid #8c9ec5;
+}
+.ecom-site .list-9-col li .box-category .image {
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 5px;
+}
+.ecom-site .list-9-col li .box-category .image img {
+    max-height: 90%;
+}
+/* ============ Categories and benefits end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .font-24 {
+    line-height: 24px;
+}
+.ecom-site .lbl-new-arrival {
+    background-color: #a4eee1;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.ecom-site .box-bdrd-4 {
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.ecom-site .bg-headphone {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage2/headphone.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 85%;
+    padding-bottom: 100px;
+    min-height: 315px;
+}
+.ecom-site .bg-watch {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage2/watch.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: auto 58%;
+    padding-bottom: 100px;
+    min-height: 315px;
+}
+.ecom-site .bg-ipad {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage2/ipad.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 80% auto;
+    padding-bottom: 100px;
+    min-height: 315px;
+}
+.ecom-site .text-underline {
+    text-decoration: underline;
+}
+.ecom-site .box-slide-bg-1 {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/banner.png") no-repeat bottom
+        right;
+    background-size: 70% auto;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .block-water {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/water.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 55% auto;
+    padding-bottom: 40px;
+    min-height: 240px;
+}
+.ecom-site .block-kitchen {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/kitchen.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 85% auto;
+    padding-bottom: 40px;
+    min-height: 240px;
+}
+.ecom-site .block-electric {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/electric.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 85% auto;
+    padding-bottom: 40px;
+    min-height: 240px;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .box-icon-flash {
+    padding-left: 55px;
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/flash.svg");
+    background-repeat: no-repeat;
+    background-position: left -13px top 5px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .box-all-hurry-round {
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    bottom: 0px;
+}
+.ecom-site .box-all-hurry-round .box-count.box-count-square .deals-countdown {
+    background-color: transparent;
+}
+.ecom-site .box-all-hurry-round .box-count.hide-period {
+    bottom: -1px;
+}
+.ecom-site .box-all-hurry-round .box-text-hurryup {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 50px;
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/clock.svg");
+    background-repeat: no-repeat;
+    background-position: left 0px top 1px;
+}
+.ecom-site .box-all-hurry-round .box-count.box-count-square .deals-countdown .countdown-amount {
+    width: 35px;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .banner-ads {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/bg-ads.png") no-repeat 0px 0px;
+    background-size: cover;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    position: relative;
+}
+.ecom-site .banner-ads::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 100%;
+    width: 400px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/bg-left-ads.png") no-repeat
+        bottom right;
+    background-size: contain;
+}
+.ecom-site .banner-ads::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 100%;
+    width: 350px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/bg-right-ads.png") no-repeat
+        bottom left;
+    background-size: contain;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .card-ads-1 .card-grid-inner {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/bg-kitchen.png") no-repeat 0px
+        0px;
+    padding-top: 20px;
+    background-size: cover;
+}
+.ecom-site .card-ads-1 .card-grid-inner .image-box {
+    line-height: 100%;
+    margin-top: 30px;
+}
+.ecom-site .card-ads-2 .card-grid-inner {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/bg-kitchen2.png") no-repeat
+        bottom right;
+    background-size: cover;
+    padding-top: 20px;
+}
+.ecom-site .card-ads-2 .card-grid-inner .image-box {
+    line-height: 100%;
+    margin-top: 15px;
+}
+.ecom-site .card-ads-2 .card-grid-inner .image-box img {
+    max-height: 260px;
+}
+.ecom-site .card-ads-2 .box-count.box-count-square .deals-countdown {
+    background-color: transparent;
+    border-radius: 0px;
+}
+.ecom-site .card-ads-2 .box-count.box-count-square .deals-countdown .countdown-amount {
+    width: 35px;
+    background-color: #425a8b;
+}
+.ecom-site .card-ads-2 .box-count.box-count-square .deals-countdown .countdown-section {
+    margin-right: 14px;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .block-ads-1 {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/bg-ads-2.png") no-repeat 0px 0px;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+.ecom-site .block-ads-2 {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage3/bg-ads-3.png") no-repeat 0px 0px;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Sliders and galleries start ============ */
+.ecom-site .box-button-slider-normal .swiper-button-next,
+.ecom-site .box-button-slider-normal .swiper-button-prev {
+    top: auto;
+    left: auto;
+    right: auto;
+}
+/* ============ Sliders and galleries end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .box-sidebar {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+.ecom-site .box-sidebar .head {
+    background-color: #fd9636;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.ecom-site .box-sidebar .head h4 {
+    color: #ffffff;
+}
+.ecom-site .box-button-control {
+    padding-top: 6px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Sliders and galleries start ============ */
+.ecom-site .box-button-control .swiper-button-next-style-2 {
+    top: auto;
+    right: auto;
+    left: auto;
+    width: 17px;
+    height: 17px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage4/arrow-next-white.svg") no-repeat
+        center right;
+}
+.ecom-site .box-button-control .swiper-button-prev-style-2 {
+    top: auto;
+    left: auto;
+    right: auto;
+    width: 17px;
+    height: 17px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage4/arrow-prev-white.svg") no-repeat
+        center right;
+}
+/* ============ Sliders and galleries end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .box-content .card-grid-style-3 .card-grid-inner .image-box {
+    height: 133px;
+    line-height: 135px;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .block-charge {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage4/quick-charge.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding-top: 25px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    background-size: auto 100%;
+    height: 250px;
+}
+.ecom-site .block-player {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage4/player.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top: 25px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    background-size: auto 90%;
+    height: 250px;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .text-shadow {
+    text-shadow:
+        -2px -2px 0px #fff500,
+        2px 2px 0px #ff6bc4;
+}
+.ecom-site .h-175 {
+    height: 175px;
+}
+.ecom-site .mh-307 {
+    min-height: 307px;
+}
+.ecom-site .box-promotions {
+    border: 3px solid #fd9636;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    height: 501px;
+}
+.ecom-site .box-promotions img {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.ecom-site .lbl-newarrival {
+    background-color: #5bc694;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .banner-slide {
+    background-size: cover !important;
+    min-height: 550px;
+}
+.ecom-site .banner-desc {
+    max-width: 767px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    right: 0px;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Categories and benefits start ============ */
+.ecom-site .list-no-border li .item-list {
+    border: 0px;
+}
+.ecom-site .list-no-border li .item-list:hover {
+    border: 0px;
+}
+/* ============ Categories and benefits end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .ads1 {
+    max-width: 914px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Categories and benefits start ============ */
+.ecom-site .list-9-col li .box-category {
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+}
+/* ============ Categories and benefits end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .list-style-brand-2 .btn-cart:hover {
+    background-color: #fd9636;
+    border-color: #fd9636;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .list-style-brand-2 .card-grid-style-3:hover .card-grid-inner {
+    border-color: #fd9636;
+}
+.ecom-site .list-style-brand-2 .card-grid-style-3:hover a.color-gray-500,
+.ecom-site .list-style-brand-2 .card-grid-style-3:hover .rating span {
+    color: #fd9636;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Newsletter start ============ */
+.ecom-site .box-newsletter.bg-brand-2 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage5/bg-newsletter.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.ecom-site .box-newsletter.bg-brand-2 .color-warning {
+    color: #425a8b;
+}
+.ecom-site .box-newsletter.bg-brand-2 .box-form-newsletter .btn-brand-3 {
+    top: 0px;
+    right: 0px;
+    height: 50px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+/* ============ Newsletter end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .sidebar-border .head {
+    border-bottom: 0px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Sliders and galleries start ============ */
+.ecom-site .sidebar-border .content-slider {
+    border: 1px solid #fd9636;
+    border-top: 0px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-top: 5px;
+}
+/* ============ Sliders and galleries end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .sidebar-border .card-grid-style-2 .info-right .font-xs-bold {
+    font-size: 14px;
+}
+.ecom-site .sidebar-border .card-grid-style-2 .info-right .price-info {
+    margin-top: 5px;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .banner-left {
+    height: 535px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage6/banner1.png") no-repeat top
+        center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.ecom-site .banner-middle {
+    height: 535px;
+    background-size: cover;
+}
+.ecom-site .banner-right-home6 {
+    height: 535px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage6/banner3.png") no-repeat top
+        center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.ecom-site .box-adsolute-banner {
+    bottom: 10px;
+    left: 10px;
+    min-width: 220px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-color: #ffffff;
+}
+.ecom-site .box-adsolute-banner .btn-link-brand-2 {
+    text-decoration: underline;
+    line-height: 18px;
+}
+.ecom-site .banner-middle .box-adsolute-banner {
+    top: 20%;
+    left: 40px;
+    background-color: transparent;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Sliders and galleries start ============ */
+.ecom-site .swiper-button-prev-style-4 {
+    left: 40px;
+    bottom: 10px;
+    top: auto;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage6/prev.svg") no-repeat center;
+    height: 56px;
+    width: 56px;
+}
+.ecom-site .swiper-button-prev-style-4:hover {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage6/prev.svg") no-repeat center;
+}
+.ecom-site .swiper-button-next-style-4 {
+    left: 98px;
+    bottom: 10px;
+    top: auto;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage6/next.svg") no-repeat center;
+    height: 56px;
+    width: 56px;
+}
+.ecom-site .swiper-button-next-style-4:hover {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage6/next.svg") no-repeat center;
+}
+/* ============ Sliders and galleries end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .sale-tag {
+    background-color: #fd9636;
+    color: #ffffff;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .home6-style .card-grid-inner .image-box {
+    background-color: #f7f7f7;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    line-height: 218px;
+    height: 250px;
+}
+.ecom-site .home6-style .card-grid-inner .image-box .label {
+    top: 15px;
+    left: 15px;
+}
+.ecom-site .home6-style .card-grid-inner .info-right {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.ecom-site .home6-style .price-info {
+    display: block;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .home6-style .box-btn-cart {
+    display: none;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .home6-style:hover .price-info {
+    display: none;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .home6-style:hover .box-btn-cart {
+    display: block;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .banner-bottom-1 {
+    height: 265px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage6/reading-table.png") no-repeat
+        center;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+.ecom-site .banner-bottom-2 {
+    height: 265px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage6/table-lamp.png") no-repeat
+        center;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+.ecom-site .banner-bottom-3 {
+    height: 566px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage6/top-rate.png") no-repeat center;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+.ecom-site .banner-bottom-4 {
+    height: 265px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage6/sofa.png") no-repeat center;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+.ecom-site .banner-bottom-5 {
+    height: 265px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage6/relax.png") no-repeat center;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .top-style-1 {
+    top: 35%;
+    left: 40px;
+}
+.ecom-site .top-style-2 {
+    top: 20%;
+    left: 40px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .banner-ads-3 {
+    background-color: #dbece5;
+    padding-top: 25px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage6/chair.png");
+    background-repeat: no-repeat;
+    background-position: bottom right 5px;
+    max-width: 886px;
+}
+.ecom-site .banner-right-7 {
+    max-height: 500px;
+}
+.ecom-site .banner-big-7 {
+    max-height: 500px;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .list-brand-2 .box-count .deals-countdown {
+    background-color: #fd9636;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .list-brand-2 .card-grid-style-3 .card-grid-inner .info-right a.btn-cart:hover {
+    background-color: #fd9636;
+    border-color: #fd9636;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Categories and benefits start ============ */
+.ecom-site .box-menu-category {
+    background-color: #f0f3f8;
+    padding-top: 21px;
+    padding-right: 30px;
+    padding-bottom: 19px;
+    padding-left: 30px;
+}
+.ecom-site .box-menu-category .list-nav-arrow li {
+    margin-bottom: 13px;
+}
+/* ============ Categories and benefits end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .block-sale-1 {
+    background-color: #d1ecfd;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+.ecom-site .block-sale-1 h3 {
+    line-height: 30px;
+    margin-top: 10px;
+    color: #0e224d;
+}
+.ecom-site .block-sale-1 .col-lg-4 {
+    line-height: 130px;
+}
+.ecom-site .block-sale-1 .col-lg-4 img {
+    max-height: 130px;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .box-ads-1 {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.ecom-site .box-ads-1 .ads-1 {
+    width: 40%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ecom-site .box-ads-1 .ads-2 {
+    width: 40%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ecom-site .box-ads-1 .ads-3 {
+    width: 20%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ecom-site .box-ads-2 {
+    max-width: 1100px;
+    position: relative;
+    width: 100%;
+}
+.ecom-site .box-ads-2 * {
+    z-index: 3;
+}
+.ecom-site .box-ads-2 img {
+    z-index: 1;
+}
+.ecom-site .box-ads-2 .ads-info {
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 4;
+}
+.ecom-site .box-ads-2::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage7/bg-trans.png");
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .home7-style .card-grid-inner .image-box {
+    background-color: #ffffff;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Newsletter start ============ */
+.ecom-site .mw-newsletter {
+    max-width: 500px;
+}
+.ecom-site .bg-newsletter-home7 {
+    position: relative;
+    background-image: none;
+}
+.ecom-site .bg-newsletter-home7 * {
+    z-index: 2;
+}
+.ecom-site .bg-newsletter-home7::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage7/newsletter-left.png") no-repeat
+        bottom left;
+    background-size: auto;
+    z-index: 1;
+}
+.ecom-site .bg-newsletter-home7::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage7/newsletter-right.png") no-repeat
+        bottom right;
+    background-size: auto;
+    z-index: 1;
+}
+/* ============ Newsletter end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .block-sale-2 {
+    background-color: #d1ecfd;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: relative;
+    height: 220px;
+}
+.ecom-site .block-sale-2 .box-sale h4 {
+    line-height: 26px;
+}
+.ecom-site .block-sale-2.circle-1 * {
+    z-index: 2;
+}
+.ecom-site .block-sale-2.circle-1::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage8/bg-sale1.png") no-repeat bottom
+        right;
+    z-index: 1;
+}
+.ecom-site .block-sale-2.circle-2 * {
+    z-index: 2;
+}
+.ecom-site .block-sale-2.circle-2::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage8/bg-sale2.png") no-repeat bottom
+        right;
+    z-index: 1;
+}
+.ecom-site .block-sale-2.circle-3 * {
+    z-index: 2;
+}
+.ecom-site .block-sale-2.circle-3::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage8/bg-sale3.png") no-repeat bottom
+        right;
+    z-index: 1;
+}
+.ecom-site .block-sale-3 {
+    background-color: #bad0e7;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 260px;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .style-label-right .card-grid-style-2 > .label {
+    left: auto;
+    right: 15px;
+    top: 10px;
+    z-index: 2;
+    border-radius: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #ffffff;
+    background-color: #fd9636;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Sliders and galleries start ============ */
+.ecom-site .pick-by-ecom .top-deals .card-grid-inner .image-box .swiper-container {
+    padding-bottom: 20px;
+}
+/* ============ Sliders and galleries end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .pick-by-ecom {
+    max-width: 1100px;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Sliders and galleries start ============ */
+.ecom-site .swiper-button-next-ecom {
+    top: 50%;
+    right: -75px;
+    margin-top: -28px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage8/next.svg") no-repeat center;
+    height: 56px;
+    width: 56px;
+}
+.ecom-site .swiper-button-next-ecom:hover {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage8/next.svg") no-repeat center;
+}
+.ecom-site .swiper-button-prev-ecom {
+    top: 50%;
+    margin-top: -28px;
+    left: -75px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage8/prev.svg") no-repeat center;
+    height: 56px;
+    width: 56px;
+}
+.ecom-site .swiper-button-prev-ecom:hover {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage8/prev.svg") no-repeat center;
+}
+/* ============ Sliders and galleries end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .box-ads-3 {
+    min-height: 150px;
+    max-height: 170px;
+}
+.ecom-site .box-ads-3::before {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage8/bg-trans.png");
+}
+.ecom-site .box-ads-3 img {
+    max-width: none;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Newsletter start ============ */
+.ecom-site .bg-newsletter-home8 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage8/bg-newsletter.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 200px;
+    padding-top: 60px;
+}
+/* ============ Newsletter end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .banner-home9 .banner-big-home9 {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    min-height: 300px;
+}
+.ecom-site .banner-home9 .banner-big-home9 .info-banner {
+    z-index: 2;
+}
+.ecom-site .banner-home9 .banner-big-home9 .box-img-banner {
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}
+.ecom-site .banner-home9 .banner-big-home9 .box-img-banner img {
+    max-width: 400px;
+}
+.ecom-site .banner-home9 .banner-small {
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    min-height: 300px;
+}
+.ecom-site .banner-home9 .banner-small img {
+    max-width: 90%;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Sliders and galleries start ============ */
+.ecom-site .box-slider-product {
+    border: 1px solid #d5dfe4;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.ecom-site .box-slider-product .head-slider {
+    padding-bottom: 15px;
+}
+.ecom-site .box-slider-product .box-button-slider-2 .swiper-button-next-style-top {
+    right: auto;
+    top: auto;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+}
+.ecom-site .box-slider-product .box-button-slider-2 .swiper-button-prev-style-top {
+    top: auto;
+    right: auto;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+}
+/* ============ Sliders and galleries end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .title-border-bottom {
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d5dfe4;
+}
+.ecom-site .title-border-bottom::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    height: 2px;
+    width: 100px;
+    background-color: #8c9ec5;
+}
+.ecom-site .bg-home9 {
+    background-color: #f8faff;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .box-product-category {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #ffffff;
+    border: 1px solid #d5dfe4;
+}
+.ecom-site .box-product-category .box-menu-category {
+    padding-right: 20px;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Categories and benefits start ============ */
+.ecom-site .box-category-left {
+    min-width: 270px;
+    max-width: 270px;
+}
+/* ============ Categories and benefits end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .item-cat {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ecom-site .item-cat .box-image {
+    margin-bottom: 10px;
+}
+.ecom-site .item-cat .box-image .inner-image {
+    max-height: 134px;
+    line-height: 114px;
+    max-width: 134px;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage10/circle.png") no-repeat center;
+    background-size: contain;
+    min-height: 114px;
+}
+.ecom-site .item-cat .box-image .inner-image img {
+    max-width: 90%;
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .banner-home10 .banner-big-home10 {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 70px;
+    padding-left: 40px;
+    min-height: 400px;
+}
+.ecom-site .banner-home10 .banner-big-home10 .info-banner {
+    z-index: 2;
+}
+.ecom-site .banner-home10 .banner-big-home10 .info-banner .box-count-square {
+    max-width: 250px;
+    margin-left: -7px;
+    margin-top: 15px;
+}
+.ecom-site .banner-home10 .banner-big-home10 .info-banner .box-count-square .deals-countdown {
+    border-radius: 0px;
+    background-color: transparent;
+}
+.ecom-site .banner-home10 .banner-big-home10 .box-img-banner {
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}
+.ecom-site .banner-home10 .banner-big-home10 .box-img-banner img {
+    max-width: 270px;
+}
+.ecom-site .banner-home10 .banner-big-home10 .box-img-banner-2 {
+    bottom: 0px;
+    right: 0px;
+}
+.ecom-site .banner-home10 .banner-big-home10 .box-img-banner-2 img {
+    max-width: 370px;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Products and shopping start ============ */
+.ecom-site .list-products-home10 .home7-style .image-box {
+    background-color: #dbece5;
+}
+/* ============ Products and shopping end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .banner-small-home10 {
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    min-height: 410px;
+}
+.ecom-site .banner-small-home10 * {
+    z-index: 2;
+}
+.ecom-site .banner-small-home10 h1 {
+    line-height: 63px;
+}
+.ecom-site .banner-small-home10 .box-img-banner {
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+    align-items: end;
+}
+.ecom-site .banner-small-home10 .box-img-banner img.img1 {
+    max-width: 230px;
+}
+.ecom-site .banner-small-home10 .box-img-banner img.img3 {
+    max-width: 210px;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Newsletter start ============ */
+.ecom-site .box-newsletter-home10 {
+    position: relative;
+    background-image: none;
+}
+.ecom-site .box-newsletter-home10 * {
+    z-index: 2;
+}
+.ecom-site .box-newsletter-home10::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage10/bg-newsletter1.png") no-repeat
+        bottom left;
+    background-size: contain;
+}
+.ecom-site .box-newsletter-home10::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage10/bg-newsletter2.png") no-repeat
+        bottom right;
+    background-size: contain;
+}
+/* ============ Newsletter end ============ */
+
+/* ============ Typography and visual details start ============ */
+.ecom-site .box-ads-home10 {
+    max-width: 800px;
+}
+.ecom-site .box-ads-home10 .info-ads-home10 {
+    padding-right: 20px;
+    padding-left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* ============ Typography and visual details end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .home-visual-001 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage1/banner.png");
+}
+.ecom-site .home-visual-002 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage1/banner-hero-2.png");
+}
+.ecom-site .home-visual-003 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage1/banner-hero-3.png");
+}
+.ecom-site .home-visual-005 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage2/bg-slide.png");
+}
+.ecom-site .home-visual-006 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage2/bg-slide-2.png");
+}
+.ecom-site .home-visual-007 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage2/bg-slide-3.png");
+}
+.ecom-site .home-visual-011 {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage5/banner.png") no-repeat top
+        center;
+}
+.ecom-site .home-visual-012 {
+    background: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage5/banner-2.png") no-repeat top
+        center;
+}
+.ecom-site .home-visual-013 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage6/banner2.png");
+}
+.ecom-site .home-visual-014 {
+    background-image: url("https://wp.alithemes.com/html/ecom/demo/assets/imgs/page/homepage6/banner2-2.png");
+}
+.ecom-site .banner-image {
+    min-width: 0;
+}
+.ecom-site .banner-hero h1 {
+    font-size: clamp(30px, 4.75vw, 64px);
+    line-height: 1.3;
+}
+.ecom-site .banner-hero h2 {
+    font-size: clamp(26px, 3.34vw, 45px);
+    line-height: 1.3;
+}
+.ecom-site .banner-hero.banner-1 .banner-big {
+    padding: clamp(24px, 4.5vw, 60px);
+}
+.ecom-site .banner-hero.banner-8 .banner-big {
+    padding-left: clamp(20px, 3.7vw, 50px);
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Sliders and galleries start ============ */
+.ecom-site .category-slider .slider-track {
+    --bs-gutter-x: 20px;
+}
+.ecom-site .five-product-slider .slider-track > .swiper-slide {
+    max-width: 280px;
+}
+/* ============ Sliders and galleries end ============ */
+
+/* ============ Banners and promotions start ============ */
+.ecom-site .banner-image img {
+    max-width: 100%;
+    height: auto;
+}
+/* ============ Banners and promotions end ============ */
+
+/* ============ Sliders and galleries start ============ */
+.ecom-site .five-product-slider .slider-track > .swiper-slide {
+    max-width: none;
+}
+/* ============ Sliders and galleries end ============ */

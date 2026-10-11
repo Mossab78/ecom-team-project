@@ -1,0 +1,196 @@
+/* Custom Account pages */
+:root {
+    --ec-navy: #12307b; /* لون الأزرار والروابط */
+    --ec-text: #1f2f4d; /* لون النصوص والعناوين */
+    --ec-muted: #6b7a99; /* النص الباهت */
+    --ec-line: #e1e6ef; /* لون الإطارات */
+    --ec-orange: #f7931e; /* الصفحة الفعّالة بالترقيم */
+
+    --bs-primary: #12307b;
+    --bs-primary-rgb: 18, 48, 123;
+    --bs-success: #1e9e6e;
+    --bs-success-rgb: 30, 158, 110;
+    --bs-danger: #e8244d;
+    --bs-danger-rgb: 232, 36, 77;
+    --bs-info: #b9d9f2;
+    --bs-info-rgb: 185, 217, 242;
+    --bs-secondary: #6b7a99;
+    --bs-secondary-rgb: 107, 122, 153;
+    --bs-body-color: #1f2f4d;
+    --bs-body-color-rgb: 31, 47, 77;
+    --bs-border-color: #e1e6ef;
+    --bs-link-color: #12307b;
+    --bs-link-color-rgb: 18, 48, 123;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--ec-text);
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+    --bs-btn-font-weight: 600;
+    --bs-btn-border-radius: 2px;
+}
+
+.btn-primary {
+    --bs-btn-bg: #12307b;
+    --bs-btn-border-color: #12307b;
+    --bs-btn-hover-bg: #0d2560;
+    --bs-btn-hover-border-color: #0d2560;
+    --bs-btn-active-bg: #0d2560;
+    --bs-btn-active-border-color: #0d2560;
+    --bs-btn-disabled-bg: #12307b;
+    --bs-btn-disabled-border-color: #12307b;
+}
+.btn-outline-primary {
+    --bs-btn-color: #12307b;
+    --bs-btn-border-color: #12307b;
+    --bs-btn-hover-bg: #12307b;
+    --bs-btn-hover-border-color: #12307b;
+    --bs-btn-active-bg: #12307b;
+    --bs-btn-active-border-color: #12307b;
+}
+.btn-outline-dark {
+    --bs-btn-color: #1f2f4d;
+    --bs-btn-border-color: #1f2f4d;
+    --bs-btn-hover-bg: #12307b;
+    --bs-btn-hover-border-color: #12307b;
+    --bs-btn-active-bg: #12307b;
+    --bs-btn-active-border-color: #12307b;
+}
+
+/* ---------- Tabs ---------- */
+.nav-tabs {
+    --bs-nav-tabs-border-color: var(--ec-line);
+    gap: 1.75rem;
+}
+.nav-tabs .nav-link {
+    border: 0;
+    border-bottom: 3px solid transparent;
+    background: transparent;
+    color: var(--ec-navy);
+    font-weight: 600;
+    padding: 0.75rem 0.25rem;
+}
+.nav-tabs .nav-link:hover {
+    border-bottom-color: #b9c4dc;
+}
+.nav-tabs .nav-link.active {
+    background: transparent;
+    color: var(--ec-navy);
+    border-bottom-color: var(--ec-navy);
+}
+
+/* ---------- Numbers ---------- */
+.pagination {
+    gap: 0.4rem;
+}
+.pagination .page-link {
+    border: 0;
+    border-radius: 4px;
+    background: #f1f3f6;
+    color: var(--ec-navy);
+    min-width: 2.25rem;
+    text-align: center;
+}
+.pagination .page-link[aria-label] {
+    background: transparent;
+    color: #9aa6bd;
+}
+.pagination .page-item.active .page-link {
+    background: var(--ec-orange);
+    color: #fff;
+}
+
+/* ---------- Form ---------- */
+.form-control,
+.form-select {
+    padding: 0.85rem 1rem;
+    border-color: #dfe5ee;
+    border-radius: 2px;
+}
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--ec-navy);
+    box-shadow: 0 0 0 0.2rem rgba(18, 48, 123, 0.12);
+}
+
+/* ---------- Padges ---------- */
+.badge {
+    border-radius: 50rem;
+    font-weight: 600;
+    padding: 0.5em 0.9em;
+}
+.text-bg-info {
+    color: var(--ec-navy) !important;
+}
+
+/* ---------- Orders ---------- */
+.card {
+    border-radius: 2px;
+    border-color: var(--ec-line);
+}
+.card-header {
+    border-bottom-color: var(--ec-line);
+}
+.list-group-item {
+    border-color: var(--ec-line);
+}
+
+/* ---------- Wishlist: border---------- */
+#tab-wishlist .table {
+    border-collapse: separate;
+    border-spacing: 0 0.8rem;
+}
+#tab-wishlist .table thead th {
+    border: 0;
+    color: var(--ec-muted);
+    font-weight: 600;
+}
+#tab-wishlist .table tbody td {
+    background: #fff;
+    padding: 1rem;
+    border-top: 1px solid var(--ec-line);
+    border-bottom: 1px solid var(--ec-line);
+}
+#tab-wishlist .table tbody td:first-child {
+    border-left: 1px solid var(--ec-line);
+}
+#tab-wishlist .table tbody td:last-child {
+    border-right: 1px solid var(--ec-line);
+}
+
+/* ---------- Follow Order---------- */
+.track-steps {
+    position: relative;
+}
+.track-steps::before {
+    content: "";
+    position: absolute;
+    top: 29px;
+    left: 32px;
+    right: calc(20% - 32px);
+    height: 6px;
+    background: var(--ec-navy);
+}
+.step-icon {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+@media (max-width: 767.98px) {
+    .track-steps::before {
+        display: none;
+    }
+}
